@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "generate_api_doc": "cd api; npx @redocly/cli build-docs openapi.yaml"
+  },
   "dependencies": {
     "@redocly/cli": "^1.13.0"
   }

@@ -1,0 +1,38 @@
+openapi: 3.0.0
+
+info:
+  title: VERA Item Table
+  summary: Get data about tasks and items in assessments in education.
+  license:
+    name: CC0 1.0
+    url: http://creativecommons.org/publicdomain/zero/1.0/
+  version: 1.0.0-beta
+
+paths:
+
+  /task/{task_id}:
+    get:
+      summary: get data for a task
+      tags:
+        - get task info
+      parameters:
+        - in: path
+          name: task_id
+          description: id of the task
+          example: "M0139m"
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Task data
+          content:
+            application/json:
+              schema:
+                $ref: '../data-objects/task.schema.json'
+              example:
+                id: "M0139m"
+                label: "Radiointerview"
+                title: "Ein toller Ausflug"
+        "500":
+          description: Server Error
