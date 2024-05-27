@@ -9,16 +9,21 @@ website:
   repo-url: https://github.com/iqb-berlin/item-table/
   repo-actions: [issue]
   navbar:
+    pinned: true
     search: true
     logo: IQB-klein.png
+    right:
+      - icon: github
+        href: https://github.com/iqb-berlin/item-table
+        aria-label: Source Code
   page-footer:
     background: light
     right:
       - text: "IQB 2024"
         href: https://www.iqb.hu-berlin.de
     left:
-      - icon: IQB-klein.png
-        href: index.qmd
+      - text: "{{< fa house >}}"
+        href: index.qmd    
   sidebar: 
     style: "docked"
     search: true
