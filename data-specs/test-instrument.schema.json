@@ -1,0 +1,71 @@
+{
+    "$id": "test-instrument@vera-standard@1.0",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Test-Tnstrument",
+    "description": "Data structure to describe an instrument in assessments in education (sequence of tasks/items). Can be a module, testlet or a complete booklet",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Za-z_-]+$",
+        "description": "Identifier for instrument",
+        "examples": ["V3-2024_MA-THB2", "24-V8-FR-HV-BM"]
+      },
+      "label": {
+        "type": "string"
+      },
+      "isTestPart": {
+        "type": "boolean",
+        "description": "If false, the sequence is a full bookolet. Otherwise, it is ment to be combined with other parts before testing."
+      },
+      "subject": {
+        "type": "string",
+        "enum": ["V3MA", "V3DE", "V8MA", "V8DE", "V8EN", "V8FR"],
+        "description": "Refers to VERA-Projekt (VERA3 or VERA8) and to subject (mathematics, German, English, French)",
+        "examples": ["V3MA", "V8DE"]
+      },
+      "yearOfApplication": {
+        "type": "integer"
+      },
+      "tasks": {
+        "type": "array",
+        "description": "All tasks of the instrument",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+                "type": "string"
+            },
+            "numberInInstrument": {
+                "type": "integer"
+            },
+            "items": {
+                "type": "array",
+                "description": "All items to be included in instrument",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "numberInInstrument": {
+                            "type": "integer"
+                        },
+                        "numberInTask": {
+                            "type": "integer"
+                        },
+                        "subTask": {
+                            "type": "string"
+                        }
+                    },
+                    "required": ["id", "numberInInstrument", "numberInTask"]
+                }
+            }
+          },
+          "required": ["id", "numberInInstrument"]
+        },
+        "minItems": 1
+      }
+    },
+    "required": ["id", "subject", "tasks"]
+}

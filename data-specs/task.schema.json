@@ -29,10 +29,24 @@
       },
       "metadata": {
         "type": "array",
-        "description": "Some options to change value or status",
+        "description": "List of metadata",
         "items": {
           "$ref": "metadata-entry.schema.json"
         }
+      },
+      "itemMetricsReliability": {
+        "type": "string",
+        "enum": ["FULL", "LIMITED", "NONE", "NOT_AVAILABLE"],
+        "description": "Important if the items have metrics (frequency of solution, logits etc.) and these metrics are not fully reliable."
+      },
+      "yearOfTryout": {
+        "type": "integer"
+      },
+      "yearOfPreviousApplication": {
+        "type": "integer"
+      },
+      "yearOfApplication": {
+        "type": "integer"
       }
     },
     "required": ["id", "label", "title", "subject"]

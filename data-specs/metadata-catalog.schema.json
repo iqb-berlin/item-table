@@ -9,16 +9,12 @@
         "properties": {
             "key": {
                 "type": "string",
-                "pattern": "^[A-Z_]+$",
+                "pattern": "^[A-Za-z_]+$",
                 "description": "Identifier for Metadata-Entry",
                 "examples": ["FEQUENCY_OF_SOLUTIONS", "MAIN_DOMAIN_MA8"]
             },
             "label": {
                 "type": "string"
-            },
-            "type": {
-                "type": "string",
-                "enum": ["ARRAY", "STRING", "NUMBER"]
             },
             "values": {
                 "type": "array",
@@ -31,10 +27,12 @@
                         "label": {
                             "type": "string"
                         }
-                    }
-                }
+                    },
+                    "required": ["key"]
+                },
+                "minItems": 1
             }
         },
-        "required": ["key", "type"]
+        "required": ["key", "values"]
     }
 }

@@ -1,0 +1,14 @@
+---
+title: Metadaten-Kataloge
+lang: de
+listing:
+  id: gallery
+  template: catalog-entry.ejs
+  contents: V8MA.yaml
+format:
+    html:
+        toc: false
+---
+
+::: {#gallery}
+:::

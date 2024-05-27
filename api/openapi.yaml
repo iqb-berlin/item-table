@@ -29,10 +29,64 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '../data-objects/task.schema.json'
+                $ref: '../data-specs/task.schema.json'
               example:
                 id: "M0139m"
                 label: "Radiointerview"
                 title: "Ein toller Ausflug"
+        "404":
+          description: Task Not Found
         "500":
           description: Server Error
+
+  /items/{task_id}:
+    get:
+      summary: get all items of a task
+      tags:
+        - get single object
+      parameters:
+        - in: path
+          name: task_id
+          description: id of the task
+          example: "M0139m"
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Task data
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '../data-specs/item.schema.json'
+        "404":
+          description: Task Not Found
+        "500":
+          description: Server Error
+
+  /instrument/{instrument_id}:
+    get:
+      summary: get instrument of specific id
+      tags:
+        - get single object
+      parameters:
+        - in: path
+          name: instrument_id
+          description: id of the instrument
+          example: "24-V8-FR-HV-BM"
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Instrument data
+          content:
+            application/json:
+              schema:
+                $ref: '../data-specs/test-instrument.schema.json'
+        "404":
+          description: Instrument Not Found
+        "500":
+          description: Server Error    

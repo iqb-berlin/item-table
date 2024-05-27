@@ -1,0 +1,15 @@
+
+```{=html}
+<div class="list">
+  <% for (const cat of items) { %>
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(cat) %>>
+      <div class="card-header py-1 px-2 border-bottom border-1 bg-light"><%= cat.key %> - <%= cat.label %></div>
+      <ul>
+        <% for (const catEntry of cat.values) { %>
+            <li><%= catEntry.key %> - <%= catEntry.label %></li>
+        <% } %>
+      </ul>
+   </div>
+  <% } %>
+</div>
+```

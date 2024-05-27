@@ -19,6 +19,15 @@ website:
     left:
       - icon: IQB-klein.png
         href: index.qmd
+  sidebar: 
+    style: "docked"
+    search: true
+    lang: de
+    contents:
+      - href: metadata-catalogs
+        text: Metadaten-Kataloge
+      - href: api
+        text: API-Spec
 
 format:
   html:

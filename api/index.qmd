@@ -1,0 +1,16 @@
+---
+title: API-Spezifikation
+lang: de
+format:
+    html:
+        include-after-body: redoc-static.html
+        toc: false
+        grid:
+            sidebar-width: 250px
+            body-width: 1200px
+            margin-width: 50px
+            gutter-width: 1.5rem
+---
+
+
+
