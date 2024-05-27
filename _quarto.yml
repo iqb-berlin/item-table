@@ -31,7 +31,7 @@ website:
     contents:
       - href: metadata-catalogs
         text: Metadaten-Kataloge
-      - href: api
+      - href: api/redoc-static.html
         text: API-Spec
 
 format:

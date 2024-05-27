@@ -3,6 +3,8 @@ openapi: 3.0.0
 info:
   title: VERA Item Table
   summary: Get data about tasks and items in assessments in education.
+  description: |
+    Go to [item-table](https://iqb-berlin.github.io/item-table) to learn more about VERA data structures.
   license:
     name: CC0 1.0
     url: http://creativecommons.org/publicdomain/zero/1.0/
