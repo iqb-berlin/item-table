@@ -20,7 +20,20 @@
         "type": "string",
         "description": "Use this title in booklets.",
         "examples": ["Ein toller Ausflug", "Wer ist Adalbert Schnupf?"]
+      },
+      "subject": {
+        "type": "string",
+        "enum": ["V3MA", "V3DE", "V8MA", "V8DE", "V8EN", "V8FR"],
+        "description": "Refers to VERA-Projekt (VERA3 or VERA8) and to subject (mathematics, German, English, French)",
+        "examples": ["V3MA", "V8DE"]
+      },
+      "metadata": {
+        "type": "array",
+        "description": "Some options to change value or status",
+        "items": {
+          "$ref": "metadata-entry.schema.json"
+        }
       }
     },
-    "required": ["id", "label", "title"]
+    "required": ["id", "label", "title", "subject"]
   }

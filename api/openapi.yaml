@@ -14,7 +14,7 @@ paths:
     get:
       summary: get data for a task
       tags:
-        - get task info
+        - get single object
       parameters:
         - in: path
           name: task_id
