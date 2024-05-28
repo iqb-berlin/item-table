@@ -9,7 +9,7 @@
         "type": "string",
         "pattern": "^[A-Z_]+$",
         "description": "Identifier for Metadata-Entry",
-        "examples": ["FEQUENCY_OF_SOLUTIONS", "MAIN_DOMAIN_MA8"]
+        "examples": ["d3_comp", "m3_comp_level"]
       },
       "value": {
         "anyOf": [
@@ -25,20 +25,6 @@
         ],
         "description": "Value for Metadata-Entry; can be a simple value or a reference to a vocabulary",
         "examples": ["es3", "1997", 6, ["L3", "L2"]]
-      },
-      "asText": {
-        "type": "object",
-        "description": "label and value to be listed for humans",
-        "properties": {
-          "label": {
-            "type": "string",
-            "examples": ["Lösungshäufigkeit Gymnasien", "Kompetenz"]
-          },
-          "value": {
-            "type": "string",
-            "examples": ["9,4", "1.203,84", "2.4a, 3.5c"]
-          }
-        }
       }
     }
 }

@@ -1,0 +1,10 @@
+## `subject`
+
+Der Jahrgang -- 3 oder 8 -- und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.
+
+* `V3MA`: VERA3 Mathematik
+* `V3DE`: VERA3 Deutsch
+* `V8MA`: VERA8 Mathematik
+* `V8DE`: VERA8 Deutsch
+* `V8EN`: VERA8 Englisch
+* `V8FR`: VERA8 Französisch

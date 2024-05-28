@@ -42,8 +42,7 @@ website:
           - metadata-catalogs/md-cat_V8EN.qmd
           - metadata-catalogs/md-cat_V8FR.qmd
           - metadata-catalogs/constants.qmd
-      - href: data-specs-doc/index.html
-        text: Spezifikationen
+      - data-specs-guide
 
 format:
   html:

@@ -1,0 +1,5 @@
+## `metadata`
+
+Hier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.
+
+Der `Key` kennzeichnet das Vokabular, der `Value` den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als "primär", der zweite als "sekundär" usw.

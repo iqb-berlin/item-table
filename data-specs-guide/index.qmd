@@ -1,0 +1,88 @@
+---
+lang: de
+title: Spezifikation
+format:
+  html:
+    toc-expand: 2
+---
+
+::: {.callout-note}
+## Spezifikation kompakt
+Auf [dieser Seite](../data-specs-doc/index.html) finden Sie eine kompakte Darstellung der Spezifikation.
+:::
+
+# Aufgabe
+
+## `id`
+
+Diese ID muss innerhalb der Liste aller Aufgaben eines Jahres eindeutig sein. Das IQB hat hierfür Kürzel eingeführt, z. B. `M40239`. Die Zeichenfolge kann teilweise interpretiert werden -- z. B. Zuordnung zu Fach -- dies ist aber nur eine unverbindliche Konvention.
+
+## `label`, `title`
+
+Eine Aufgabe hat im Testheft einen Titel, der für die Testperson attraktiv sein soll ("Ein wunderbarer Gedanke"). Beim Management können blumige Titel allerdings hinderlich sein, weil sie den Kern der Aufgabe verdecken. Dann hilft ein interner Kurztitel "label", die Orientierung zu behalten. Wann genau in welcher Situation der Titel oder dier Kurztitel verwendet wird, ist nicht festgelegt.
+
+{{< include _subject.qmd >}}
+
+{{< include _metadata.qmd >}}
+
+## `itemMetricsReliability`
+
+Auf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen [Ausprägungen](../metadata-catalogs/constants.qmd) `FULL`, `LIMITED`, `NONE` und `NOT_AVAILABLE` wären entsprechend zu interpretieren.
+
+## `yearOfTryout`, `yearOfPreviousApplication`, `yearOfApplication`
+
+Diese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte), einer eventuellen vorherigen Nutzung im Rahmen von VERA und dem beabsichtigten aktuellen Einsatzjahr.
+
+::: {.callout-note}
+## Items?
+
+Die Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter `taskId` eines Items hergestellt.
+:::
+
+# Item
+
+## `id`
+
+Diese ID muss innerhalb der Liste aller Items eines Jahres eindeutig sein. Üblicherweise wird die ID der Aufgabe als Präfix verwendet und dann fortlaufend weiternummeriert. Dies ist aber nur eine Konvention und nicht verlässlich.
+
+## `taskId`
+
+Mit dieser ID wird die Zugehörigkeit zur Aufgabe angezeigt. Diese Information darf nicht fehlen.
+
+::: {.callout-warning}
+## Reihenfolge der Items
+
+Die Art der Kopplung zwischen Item und Aufgabe erlaubt keinen Rückschluss auf die Reihenfolge der Items. Diese Information muss über die Modul-Daten gewonnen werden.
+:::
+
+{{< include _metadata.qmd >}}
+
+## `metrics`
+
+In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:
+
+* `key`: Eine [Konstante](../metadata-catalogs/constants.qmd) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt
+* `value`: Ein numerischer Wert (meist Gleitkommazahl)
+* `isGlobal`: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. "Mathematische Kompetenz"), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert `false`. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.
+
+# Modul
+
+## `id`, `label`
+
+Das Datenmanagement ist einfacher, wenn auch die Module eindeutige Bezeichnungen haben. In VERA ist es üblich, in dieser ID eine Reihe von Informationen zu kodieren, z. B. das Fach und die Art des Moduls ("24-V8-FR-HV-BM"). So werden dann auch Dateien benannt. Eine Kurzbezeichnung kann über die ID hinaus die Zuordnung des Moduls erleichtern.
+
+{{< include _subject.qmd >}}
+
+## `tasks`
+
+Mit `id` wird eine externe Referenz zu einer Aufgabe hergestellt, die in einer separaten Liste verfügbar sein muss. `numberInModule` kennzeichnet die Position innerhalb des Moduls. Dann folgt die Liste der `items`:
+
+* `numberInModule` kennzeichnet die Position des Items innerhalb des Moduls
+* `numberInTask` kennzeichnet die Position des Items innerhalb der Aufgabe
+* `subTask`: Gibt die Möglichkeit, eine Teilaufgabe anzugeben, zu der das Item gehört. Meist ist eine Teilaufgabe identisch mit einem Item, und die Angabe kann entfallen. Sollten aber mal mehrere Items zu einer Teilaufgabe zusammengefasst sein, wäre die Teilaufgaben-Nummer hier anzugeben. Alle Items mit dem gleichen Teilaufgaben-Eintrag werden als Teilaufgabe angesehen.
+
+::: {.callout-note}
+## Warum explizite Nennung der Items?
+
+Man könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden -- mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen.
+:::
