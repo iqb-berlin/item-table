@@ -48,7 +48,105 @@
     "href": "intro/index.html",
     "title": "Einführung",
     "section": "",
-    "text": "flowchart TD\n    I[Item] --&gt; A[Aufgabe]\n    A --&gt; M[Metadaten]\n    I --&gt; M\n    D[Module] --&gt; A\n    D --&gt; I"
+    "text": "Beteiligte\nDie hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der VERA-Tests.\n\nDas IQB entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.\nIm Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.\nDie Länder bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.\n\n\n\nStruktur\n\n\n\n\n\nflowchart LR\n    S[Konstanten] -.- A[Aufgabe]\n    style S fill:white\n    I[Item] --&gt; A\n    I -.- S\n    A --&gt; M[Metadaten]\n    style M fill:white\n    I --&gt; M\n    D[Module] --&gt; A\n    D --&gt; I\n    D -.- S\n\n\n\n\n\n\nDie Daten sind in fünf Listen geordnet:\n\nAufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.\nItems enthalten die psychometrischen Kennzahlen.\nIn Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.\nAufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).\nSpezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.\n\nKonstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe."
+  },
+  {
+    "objectID": "data-specs-guide/index.html",
+    "href": "data-specs-guide/index.html",
+    "title": "Spezifikation",
+    "section": "",
+    "text": "Spezifikation kompakt\n\n\n\nAuf dieser Seite finden Sie eine kompakte Darstellung der Spezifikation."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#id",
+    "href": "data-specs-guide/index.html#id",
+    "title": "Spezifikation",
+    "section": "id",
+    "text": "id\nDiese ID muss innerhalb der Liste aller Aufgaben eines Jahres eindeutig sein. Das IQB hat hierfür Kürzel eingeführt, z. B. M40239. Die Zeichenfolge kann teilweise interpretiert werden – z. B. Zuordnung zu Fach – dies ist aber nur eine unverbindliche Konvention."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#label-title",
+    "href": "data-specs-guide/index.html#label-title",
+    "title": "Spezifikation",
+    "section": "label, title",
+    "text": "label, title\nEine Aufgabe hat im Testheft einen Titel, der für die Testperson attraktiv sein soll (“Ein wunderbarer Gedanke”). Beim Management können blumige Titel allerdings hinderlich sein, weil sie den Kern der Aufgabe verdecken. Dann hilft ein interner Kurztitel “label”, die Orientierung zu behalten. Wann genau in welcher Situation der Titel oder dier Kurztitel verwendet wird, ist nicht festgelegt."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#subject",
+    "href": "data-specs-guide/index.html#subject",
+    "title": "Spezifikation",
+    "section": "subject",
+    "text": "subject\nDer Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.\n\nV3MA: VERA3 Mathematik\nV3DE: VERA3 Deutsch\nV8MA: VERA8 Mathematik\nV8DE: VERA8 Deutsch\nV8EN: VERA8 Englisch\nV8FR: VERA8 Französisch"
+  },
+  {
+    "objectID": "data-specs-guide/index.html#metadata",
+    "href": "data-specs-guide/index.html#metadata",
+    "title": "Spezifikation",
+    "section": "metadata",
+    "text": "metadata\nHier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.\nDer Key kennzeichnet das Vokabular, der Value den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#itemmetricsreliability",
+    "href": "data-specs-guide/index.html#itemmetricsreliability",
+    "title": "Spezifikation",
+    "section": "itemMetricsReliability",
+    "text": "itemMetricsReliability\nAuf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen FULL, LIMITED, NONE und NOT_AVAILABLE wären entsprechend zu interpretieren."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#yearoftryout-yearofpreviousapplication-yearofapplication",
+    "href": "data-specs-guide/index.html#yearoftryout-yearofpreviousapplication-yearofapplication",
+    "title": "Spezifikation",
+    "section": "yearOfTryout, yearOfPreviousApplication, yearOfApplication",
+    "text": "yearOfTryout, yearOfPreviousApplication, yearOfApplication\nDiese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte), einer eventuellen vorherigen Nutzung im Rahmen von VERA und dem beabsichtigten aktuellen Einsatzjahr.\n\n\n\n\n\n\nItems?\n\n\n\nDie Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter taskId eines Items hergestellt."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#id-1",
+    "href": "data-specs-guide/index.html#id-1",
+    "title": "Spezifikation",
+    "section": "id",
+    "text": "id\nDiese ID muss innerhalb der Liste aller Items eines Jahres eindeutig sein. Üblicherweise wird die ID der Aufgabe als Präfix verwendet und dann fortlaufend weiternummeriert. Dies ist aber nur eine Konvention und nicht verlässlich."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#taskid",
+    "href": "data-specs-guide/index.html#taskid",
+    "title": "Spezifikation",
+    "section": "taskId",
+    "text": "taskId\nMit dieser ID wird die Zugehörigkeit zur Aufgabe angezeigt. Diese Information darf nicht fehlen.\n\n\n\n\n\n\nReihenfolge der Items\n\n\n\nDie Art der Kopplung zwischen Item und Aufgabe erlaubt keinen Rückschluss auf die Reihenfolge der Items. Diese Information muss über die Modul-Daten gewonnen werden."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#metadata-1",
+    "href": "data-specs-guide/index.html#metadata-1",
+    "title": "Spezifikation",
+    "section": "metadata",
+    "text": "metadata\nHier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.\nDer Key kennzeichnet das Vokabular, der Value den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#metrics",
+    "href": "data-specs-guide/index.html#metrics",
+    "title": "Spezifikation",
+    "section": "metrics",
+    "text": "metrics\nIn dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:\n\nkey: Eine Konstante aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt\nvalue: Ein numerischer Wert (meist Gleitkommazahl)\nisGlobal: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert false. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#id-label",
+    "href": "data-specs-guide/index.html#id-label",
+    "title": "Spezifikation",
+    "section": "id, label",
+    "text": "id, label\nDas Datenmanagement ist einfacher, wenn auch die Module eindeutige Bezeichnungen haben. In VERA ist es üblich, in dieser ID eine Reihe von Informationen zu kodieren, z. B. das Fach und die Art des Moduls (“24-V8-FR-HV-BM”). So werden dann auch Dateien benannt. Eine Kurzbezeichnung kann über die ID hinaus die Zuordnung des Moduls erleichtern."
+  },
+  {
+    "objectID": "data-specs-guide/index.html#subject-1",
+    "href": "data-specs-guide/index.html#subject-1",
+    "title": "Spezifikation",
+    "section": "subject",
+    "text": "subject\nDer Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.\n\nV3MA: VERA3 Mathematik\nV3DE: VERA3 Deutsch\nV8MA: VERA8 Mathematik\nV8DE: VERA8 Deutsch\nV8EN: VERA8 Englisch\nV8FR: VERA8 Französisch"
+  },
+  {
+    "objectID": "data-specs-guide/index.html#tasks",
+    "href": "data-specs-guide/index.html#tasks",
+    "title": "Spezifikation",
+    "section": "tasks",
+    "text": "tasks\nMit id wird eine externe Referenz zu einer Aufgabe hergestellt, die in einer separaten Liste verfügbar sein muss. numberInModule kennzeichnet die Position innerhalb des Moduls. Dann folgt die Liste der items:\n\nnumberInModule kennzeichnet die Position des Items innerhalb des Moduls\nnumberInTask kennzeichnet die Position des Items innerhalb der Aufgabe\nsubTask: Gibt die Möglichkeit, eine Teilaufgabe anzugeben, zu der das Item gehört. Meist ist eine Teilaufgabe identisch mit einem Item, und die Angabe kann entfallen. Sollten aber mal mehrere Items zu einer Teilaufgabe zusammengefasst sein, wäre die Teilaufgaben-Nummer hier anzugeben. Alle Items mit dem gleichen Teilaufgaben-Eintrag werden als Teilaufgabe angesehen.\n\n\n\n\n\n\n\nWarum explizite Nennung der Items?\n\n\n\nMan könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden – mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen."
   },
   {
     "objectID": "index.html",

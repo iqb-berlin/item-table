@@ -179,19 +179,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data-specs-doc/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spezifikationen</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#beteiligte" id="toc-beteiligte" class="nav-link active" data-scroll-target="#beteiligte">Beteiligte</a></li>
+  <li><a href="#struktur" id="toc-struktur" class="nav-link" data-scroll-target="#struktur">Struktur</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -215,25 +216,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="beteiligte" class="level1">
+<h1>Beteiligte</h1>
+<p>Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der <a href="https://www.iqb.hu-berlin.de/vera">VERA</a>-Tests.</p>
+<ul>
+<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
+<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
+<li>Die <strong>Länder</strong> bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.</li>
+</ul>
+</section>
+<section id="struktur" class="level1">
+<h1>Struktur</h1>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    I[Item] --&gt; A[Aufgabe]
+<pre class="mermaid mermaid-js">flowchart LR
+    S[Konstanten] -.- A[Aufgabe]
+    style S fill:white
+    I[Item] --&gt; A
+    I -.- S
     A --&gt; M[Metadaten]
+    style M fill:white
     I --&gt; M
     D[Module] --&gt; A
     D --&gt; I
+    D -.- S
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
+<p>Die Daten sind in fünf Listen geordnet:</p>
+<ul>
+<li>Aufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.</li>
+<li>Items enthalten die psychometrischen Kennzahlen.</li>
+<li>In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.</li>
+<li>Aufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).</li>
+<li>Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.</li>
+</ul>
+<p>Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -672,7 +699,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

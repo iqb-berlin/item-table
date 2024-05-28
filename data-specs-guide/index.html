@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Item-Tabelle - V8 Englisch</title>
+<title>Item-Tabelle - Spezifikation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,11 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../metadata-catalogs/md-cat_V8FR.html" rel="next">
-<link href="../metadata-catalogs/md-cat_V8MA.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-key','listing-label','listing-values',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-key","listing-label","listing-values"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -159,7 +97,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../metadata-catalogs">Metadaten-Kataloge</a></li><li class="breadcrumb-item"><a href="../metadata-catalogs/md-cat_V8EN.html">V8 Englisch</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Spezifikation</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -220,7 +158,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V8EN.html" class="sidebar-item-text sidebar-link active">
+  <a href="../metadata-catalogs/md-cat_V8EN.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">V8 Englisch</span></a>
   </div>
 </li>
@@ -244,14 +182,41 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#aufgabe" id="toc-aufgabe" class="nav-link active" data-scroll-target="#aufgabe">Aufgabe</a>
+  <ul class="collapse">
+  <li><a href="#id" id="toc-id" class="nav-link" data-scroll-target="#id"><code>id</code></a></li>
+  <li><a href="#label-title" id="toc-label-title" class="nav-link" data-scroll-target="#label-title"><code>label</code>, <code>title</code></a></li>
+  <li><a href="#subject" id="toc-subject" class="nav-link" data-scroll-target="#subject"><code>subject</code></a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata"><code>metadata</code></a></li>
+  <li><a href="#itemmetricsreliability" id="toc-itemmetricsreliability" class="nav-link" data-scroll-target="#itemmetricsreliability"><code>itemMetricsReliability</code></a></li>
+  <li><a href="#yearoftryout-yearofpreviousapplication-yearofapplication" id="toc-yearoftryout-yearofpreviousapplication-yearofapplication" class="nav-link" data-scroll-target="#yearoftryout-yearofpreviousapplication-yearofapplication"><code>yearOfTryout</code>, <code>yearOfPreviousApplication</code>, <code>yearOfApplication</code></a></li>
+  </ul></li>
+  <li><a href="#item" id="toc-item" class="nav-link" data-scroll-target="#item">Item</a>
+  <ul class="collapse">
+  <li><a href="#id-1" id="toc-id-1" class="nav-link" data-scroll-target="#id-1"><code>id</code></a></li>
+  <li><a href="#taskid" id="toc-taskid" class="nav-link" data-scroll-target="#taskid"><code>taskId</code></a></li>
+  <li><a href="#metadata-1" id="toc-metadata-1" class="nav-link" data-scroll-target="#metadata-1"><code>metadata</code></a></li>
+  <li><a href="#metrics" id="toc-metrics" class="nav-link" data-scroll-target="#metrics"><code>metrics</code></a></li>
+  </ul></li>
+  <li><a href="#modul" id="toc-modul" class="nav-link" data-scroll-target="#modul">Modul</a>
+  <ul class="collapse">
+  <li><a href="#id-label" id="toc-id-label" class="nav-link" data-scroll-target="#id-label"><code>id</code>, <code>label</code></a></li>
+  <li><a href="#subject-1" id="toc-subject-1" class="nav-link" data-scroll-target="#subject-1"><code>subject</code></a></li>
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><code>tasks</code></a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../metadata-catalogs">Metadaten-Kataloge</a></li><li class="breadcrumb-item"><a href="../metadata-catalogs/md-cat_V8EN.html">V8 Englisch</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">V8 Englisch</h1>
+<h1 class="title">Spezifikation</h1>
 </div>
 
 
@@ -268,114 +233,149 @@ window.Quarto = {
 </header>
 
 
-<p>Metadaten-Kataloge</p>
-<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
-<div>
-<div class="list">
-  
-    <h3 class="anchored">Fremdsprachen: Lese-/Hörstil - enfr_styles</h3>
-    
-<table class="table-striped table" data-quarto-postprocess="true">
-<tbody>
-<tr class="odd">
-<td>selektiv</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>detalliert</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>inferierend</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>global</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<section id="kompetenzbereich-fremdsprachen---enfr_domains" class="level3">
-<h3 class="anchored" data-anchor-id="kompetenzbereich-fremdsprachen---enfr_domains">Kompetenzbereich Fremdsprachen - enfr_domains</h3>
-<table class="table-striped table" data-quarto-postprocess="true">
-<tbody>
-<tr class="odd">
-<td>lv</td>
-<td>Leseverstehen</td>
-</tr>
-<tr class="even">
-<td>hv</td>
-<td>Hörverstehen</td>
-</tr>
-<tr class="odd">
-<td>s</td>
-<td>Schreiben</td>
-</tr>
-<tr class="even">
-<td>hsv</td>
-<td>Hörsehverstehen</td>
-</tr>
-</tbody>
-</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Spezifikation kompakt
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Auf <a href="../data-specs-doc/index.html">dieser Seite</a> finden Sie eine kompakte Darstellung der Spezifikation.</p>
+</div>
+</div>
+<section id="aufgabe" class="level1">
+<h1>Aufgabe</h1>
+<section id="id" class="level2">
+<h2 class="anchored" data-anchor-id="id"><code>id</code></h2>
+<p>Diese ID muss innerhalb der Liste aller Aufgaben eines Jahres eindeutig sein. Das IQB hat hierfür Kürzel eingeführt, z. B. <code>M40239</code>. Die Zeichenfolge kann teilweise interpretiert werden – z. B. Zuordnung zu Fach – dies ist aber nur eine unverbindliche Konvention.</p>
 </section>
-<section id="kompetenzstufen-englisch---en_comp_level" class="level3">
-<h3 class="anchored" data-anchor-id="kompetenzstufen-englisch---en_comp_level">Kompetenzstufen Englisch - en_comp_level</h3>
-<table class="table-striped table" data-quarto-postprocess="true">
-<tbody>
-<tr class="odd">
-<td>A1.1</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>A1.2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>A2.1</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>A2.2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>B1.1</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>B1.2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>B2.1</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>B2.2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>C1.1</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>C1.2</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-  
-</section></div>
-
+<section id="label-title" class="level2">
+<h2 class="anchored" data-anchor-id="label-title"><code>label</code>, <code>title</code></h2>
+<p>Eine Aufgabe hat im Testheft einen Titel, der für die Testperson attraktiv sein soll (“Ein wunderbarer Gedanke”). Beim Management können blumige Titel allerdings hinderlich sein, weil sie den Kern der Aufgabe verdecken. Dann hilft ein interner Kurztitel “label”, die Orientierung zu behalten. Wann genau in welcher Situation der Titel oder dier Kurztitel verwendet wird, ist nicht festgelegt.</p>
+</section>
+<section id="subject" class="level2">
+<h2 class="anchored" data-anchor-id="subject"><code>subject</code></h2>
+<p>Der Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.</p>
+<ul>
+<li><code>V3MA</code>: VERA3 Mathematik</li>
+<li><code>V3DE</code>: VERA3 Deutsch</li>
+<li><code>V8MA</code>: VERA8 Mathematik</li>
+<li><code>V8DE</code>: VERA8 Deutsch</li>
+<li><code>V8EN</code>: VERA8 Englisch</li>
+<li><code>V8FR</code>: VERA8 Französisch</li>
+</ul>
+</section>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata"><code>metadata</code></h2>
+<p>Hier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.</p>
+<p>Der <code>Key</code> kennzeichnet das Vokabular, der <code>Value</code> den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d.&nbsp;h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw.</p>
+</section>
+<section id="itemmetricsreliability" class="level2">
+<h2 class="anchored" data-anchor-id="itemmetricsreliability"><code>itemMetricsReliability</code></h2>
+<p>Auf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen <a href="../metadata-catalogs/constants.html">Ausprägungen</a> <code>FULL</code>, <code>LIMITED</code>, <code>NONE</code> und <code>NOT_AVAILABLE</code> wären entsprechend zu interpretieren.</p>
+</section>
+<section id="yearoftryout-yearofpreviousapplication-yearofapplication" class="level2">
+<h2 class="anchored" data-anchor-id="yearoftryout-yearofpreviousapplication-yearofapplication"><code>yearOfTryout</code>, <code>yearOfPreviousApplication</code>, <code>yearOfApplication</code></h2>
+<p>Diese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte), einer eventuellen vorherigen Nutzung im Rahmen von VERA und dem beabsichtigten aktuellen Einsatzjahr.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="listing-no-matching d-none">
-Keine Treffer
+<div class="callout-title-container flex-fill">
+Items?
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Die Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter <code>taskId</code> eines Items hergestellt.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="item" class="level1">
+<h1>Item</h1>
+<section id="id-1" class="level2">
+<h2 class="anchored" data-anchor-id="id-1"><code>id</code></h2>
+<p>Diese ID muss innerhalb der Liste aller Items eines Jahres eindeutig sein. Üblicherweise wird die ID der Aufgabe als Präfix verwendet und dann fortlaufend weiternummeriert. Dies ist aber nur eine Konvention und nicht verlässlich.</p>
+</section>
+<section id="taskid" class="level2">
+<h2 class="anchored" data-anchor-id="taskid"><code>taskId</code></h2>
+<p>Mit dieser ID wird die Zugehörigkeit zur Aufgabe angezeigt. Diese Information darf nicht fehlen.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Reihenfolge der Items
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die Art der Kopplung zwischen Item und Aufgabe erlaubt keinen Rückschluss auf die Reihenfolge der Items. Diese Information muss über die Modul-Daten gewonnen werden.</p>
+</div>
+</div>
+</section>
+<section id="metadata-1" class="level2">
+<h2 class="anchored" data-anchor-id="metadata-1"><code>metadata</code></h2>
+<p>Hier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.</p>
+<p>Der <code>Key</code> kennzeichnet das Vokabular, der <code>Value</code> den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d.&nbsp;h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw.</p>
+</section>
+<section id="metrics" class="level2">
+<h2 class="anchored" data-anchor-id="metrics"><code>metrics</code></h2>
+<p>In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:</p>
+<ul>
+<li><code>key</code>: Eine <a href="../metadata-catalogs/constants.html">Konstante</a> aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt</li>
+<li><code>value</code>: Ein numerischer Wert (meist Gleitkommazahl)</li>
+<li><code>isGlobal</code>: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert <code>false</code>. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.</li>
+</ul>
+</section>
+</section>
+<section id="modul" class="level1">
+<h1>Modul</h1>
+<section id="id-label" class="level2">
+<h2 class="anchored" data-anchor-id="id-label"><code>id</code>, <code>label</code></h2>
+<p>Das Datenmanagement ist einfacher, wenn auch die Module eindeutige Bezeichnungen haben. In VERA ist es üblich, in dieser ID eine Reihe von Informationen zu kodieren, z. B. das Fach und die Art des Moduls (“24-V8-FR-HV-BM”). So werden dann auch Dateien benannt. Eine Kurzbezeichnung kann über die ID hinaus die Zuordnung des Moduls erleichtern.</p>
+</section>
+<section id="subject-1" class="level2">
+<h2 class="anchored" data-anchor-id="subject-1"><code>subject</code></h2>
+<p>Der Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.</p>
+<ul>
+<li><code>V3MA</code>: VERA3 Mathematik</li>
+<li><code>V3DE</code>: VERA3 Deutsch</li>
+<li><code>V8MA</code>: VERA8 Mathematik</li>
+<li><code>V8DE</code>: VERA8 Deutsch</li>
+<li><code>V8EN</code>: VERA8 Englisch</li>
+<li><code>V8FR</code>: VERA8 Französisch</li>
+</ul>
+</section>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks"><code>tasks</code></h2>
+<p>Mit <code>id</code> wird eine externe Referenz zu einer Aufgabe hergestellt, die in einer separaten Liste verfügbar sein muss. <code>numberInModule</code> kennzeichnet die Position innerhalb des Moduls. Dann folgt die Liste der <code>items</code>:</p>
+<ul>
+<li><code>numberInModule</code> kennzeichnet die Position des Items innerhalb des Moduls</li>
+<li><code>numberInTask</code> kennzeichnet die Position des Items innerhalb der Aufgabe</li>
+<li><code>subTask</code>: Gibt die Möglichkeit, eine Teilaufgabe anzugeben, zu der das Item gehört. Meist ist eine Teilaufgabe identisch mit einem Item, und die Angabe kann entfallen. Sollten aber mal mehrere Items zu einer Teilaufgabe zusammengefasst sein, wäre die Teilaufgaben-Nummer hier anzugeben. Alle Items mit dem gleichen Teilaufgaben-Eintrag werden als Teilaufgabe angesehen.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warum explizite Nennung der Items?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Man könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden – mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen.</p>
+</div>
+</div>
 
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -794,18 +794,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../metadata-catalogs/md-cat_V8MA.html" class="pagination-link" aria-label="V8 Mathematik">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">V8 Mathematik</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../metadata-catalogs/md-cat_V8FR.html" class="pagination-link" aria-label="V8 Französisch">
-        <span class="nav-page-text">V8 Französisch</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -826,7 +814,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
