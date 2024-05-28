@@ -26,8 +26,6 @@ jobs:
           git fetch origin
           git config --global user.email "mechtel@iqb.hu-berlin.de"
           git config --global user.name "Martin Mechtel"
-          git checkout gh-pages
-          git reset --hard master
       - name: Run html generation
         run: |
           npm ci
@@ -35,7 +33,7 @@ jobs:
       - name: Push changes
         run: |
           git add data-specs-doc
-          git commit -m "update gh-pages"
+          git commit -m "Update data spec doc for publishing"
           git push -f
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
