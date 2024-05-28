@@ -3,3 +3,11 @@ lang: de
 title: Einführung
 ---
 
+```{mermaid}
+flowchart TD
+    A[Aufgabe] --> I[Item]
+    A --> M[Metadaten]
+    I --> M
+    D[Instrumente] --> A
+    D[Instrumente] --> I
+```
