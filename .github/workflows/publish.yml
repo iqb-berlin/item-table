@@ -33,8 +33,10 @@ jobs:
       - name: Push changes
         run: |
           git add data-specs-doc
-          git commit -m "Update data spec doc for publishing"
-          git push -f
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Update data spec doc for publishing"
+            git push origin master
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-quarto:
