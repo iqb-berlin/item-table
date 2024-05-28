@@ -1,0 +1,12 @@
+---
+title: V3 Mathematik
+lang: de
+listing:
+  id: gallery
+  template: catalog-entry.ejs
+  contents: md-cat_V3MA.yaml
+---
+Metadaten-Kataloge
+
+::: {#gallery}
+:::

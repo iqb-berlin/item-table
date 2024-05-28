@@ -29,8 +29,18 @@ website:
     search: true
     lang: de
     contents:
-      - href: metadata-catalogs
-        text: Metadaten-Kataloge
+      - href: intro
+        text: "Einführung"
+      - section: "Metadaten-Kataloge"
+        href: metadata-catalogs
+        contents:
+          - metadata-catalogs/md-cat_V3DE.qmd
+          - metadata-catalogs/md-cat_V3MA.qmd
+          - metadata-catalogs/md-cat_V8DE.qmd
+          - metadata-catalogs/md-cat_V8MA.qmd
+          - metadata-catalogs/md-cat_V8EN.qmd
+          - metadata-catalogs/md-cat_V8FR.qmd
+          - metadata-catalogs/constants.qmd
       - href: api/redoc-static.html
         text: API-Spec
 

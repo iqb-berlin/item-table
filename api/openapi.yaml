@@ -15,8 +15,6 @@ paths:
   /task/{task_id}:
     get:
       summary: get data for a task
-      tags:
-        - get single object
       parameters:
         - in: path
           name: task_id
@@ -44,8 +42,6 @@ paths:
   /items/{task_id}:
     get:
       summary: get all items of a task
-      tags:
-        - get single object
       parameters:
         - in: path
           name: task_id
@@ -71,8 +67,6 @@ paths:
   /instrument/{instrument_id}:
     get:
       summary: get instrument of specific id
-      tags:
-        - get single object
       parameters:
         - in: path
           name: instrument_id

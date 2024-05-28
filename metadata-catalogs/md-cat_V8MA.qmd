@@ -1,0 +1,12 @@
+---
+title: V8 Mathematik
+lang: de
+listing:
+  id: gallery
+  template: catalog-entry.ejs
+  contents: md-cat_V8MA.yaml
+---
+Metadaten-Kataloge
+
+::: {#gallery}
+:::

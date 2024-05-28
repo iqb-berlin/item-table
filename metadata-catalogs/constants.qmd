@@ -1,0 +1,12 @@
+---
+title: Konstanten
+lang: de
+listing:
+  id: gallery
+  template: catalog-entry.ejs
+  contents: constants.yaml
+---
+Konstanten, die in den Daten verwendet werden
+
+::: {#gallery}
+:::

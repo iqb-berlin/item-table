@@ -1,18 +1,13 @@
 
 ```{=html}
-<% for (const subject of items) { %>
-<h1><%= subject.title %></h1>
 <div class="list">
-  <% for (const cat of subject.entries) { %>
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(cat) %>>
-      <div class="card-header py-1 px-2 border-bottom border-1 bg-light"><%= cat.label %> - <%= cat.key %></div>
-      <ul>
-        <% for (const catEntry of cat.values) { %>
-            <li><%= catEntry.label %> - <%= catEntry.key %></li>
-        <% } %>
-      </ul>
-   </div>
+  <% for (const cat of items) { %>
+    <h3><%= cat.label %> - <%= cat.key %></h3>
+    <table class="striped">
+      <% for (const catEntry of cat.values) { %>
+        <tr><td><%= catEntry.key %></td><td><%= catEntry.label %></td></tr>
+      <% } %>
+    </table>
   <% } %>
 </div>
-<% } %>
 ```

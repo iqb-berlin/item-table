@@ -1,0 +1,12 @@
+---
+title: V3 Deutsch
+lang: de
+listing:
+  id: gallery
+  template: catalog-entry.ejs
+  contents: md-cat_V3DE.yaml
+---
+Metadaten-Kataloge
+
+::: {#gallery}
+:::
