@@ -5,6 +5,7 @@ website:
   site-url: https://iqb-berlin.github.io/item-table/
   title: "Item-Tabelle"
   favicon: favicon.ico
+  resources: [./data-spec-docs]
   page-navigation: true
   repo-url: https://github.com/iqb-berlin/item-table/
   repo-actions: [issue]
