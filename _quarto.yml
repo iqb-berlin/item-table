@@ -12,10 +12,6 @@ website:
     pinned: true
     search: true
     logo: IQB-klein.png
-    right:
-      - icon: github
-        href: https://github.com/iqb-berlin/item-table
-        aria-label: Source Code
   page-footer:
     background: light
     right:
@@ -24,6 +20,9 @@ website:
     left:
       - text: "{{< fa house >}}"
         href: index.qmd    
+      - icon: github
+        href: https://github.com/iqb-berlin/item-table
+        aria-label: Source Code
   sidebar: 
     style: "docked"
     search: true
@@ -41,8 +40,8 @@ website:
           - metadata-catalogs/md-cat_V8EN.qmd
           - metadata-catalogs/md-cat_V8FR.qmd
           - metadata-catalogs/constants.qmd
-      - href: api/redoc-static.html
-        text: API-Spec
+      - href: data-specs-doc/index.html
+        text: Spezifikationen
 
 format:
   html:
