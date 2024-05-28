@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "generate_api_doc": "cd api && npx @redocly/cli build-docs openapi.yaml"
+    "generate_spec_doc": "cd data-specs && ag -o ../data-specs-doc ./asyncapi.yaml @asyncapi/html-template --force-write && cat add.css >> ../data-specs-doc/css/global.min.css"
   },
   "dependencies": {
-    "@redocly/cli": "^1.13.0"
+    "@asyncapi/cli": "^1.9.2"
   }
 }
