@@ -31,7 +31,7 @@ jobs:
       - name: Run html generation
         run: |
           npm ci
-          npm run generate_docs
+          npm run generate_spec_doc
           mv public docs
       - name: Push changes
         run: |
