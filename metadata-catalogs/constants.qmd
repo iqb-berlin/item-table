@@ -1,12 +1,14 @@
 ---
-title: Konstanten
+title: Variablen und Konstanten
 lang: de
 listing:
   id: gallery
   template: catalog-entry.ejs
   contents: constants.yaml
 ---
-Konstanten, die in den Daten verwendet werden
+
+Folgende Konstanten (also unveränderliche Werte, die einmal deklariert werden und im Laufe der Zeit sowie über alle Anwendungsfälle hinweg nicht mehr geändert werden können und sollen) und folgende Variablen (deren Ausprägungen in verschiedenen Anwendungsfällen verschiedene Werte annehmen können) werden in den Daten verwendet:
+
 
 ::: {#gallery}
 :::

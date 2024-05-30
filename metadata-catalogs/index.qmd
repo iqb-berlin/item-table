@@ -15,4 +15,4 @@ Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für ein
 
 In den Datenstrukturen sind weiterhin Konstanten in Aufzählungen verwendet. Die Art der Spezifikation (OpenAPI/JSON Schema) erlaubt nicht, diese Konstanten direkt mit einer Beschreibung zu versehen. Daher hier eine separate Dokumentation:
 
-* [Konstanten in Aufzählungen](constants.qmd) [{{< fa download >}}](constants.yaml)
+* [Konstanten und Variablennamen](constants.qmd) [{{< fa download >}}](constants.yaml)

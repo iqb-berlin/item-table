@@ -7,33 +7,37 @@ title: Einführung
 
 Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der [VERA](https://www.iqb.hu-berlin.de/vera)-Tests.
 
-* Das **IQB** entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.
-* Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
+* Das **IQB** entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.
+* Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
 * Die **Länder** bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.
 
 
 # Struktur
 
+Die Struktur der VIK ist klar hierarchisch: Kennwerte sind in Items genestet und Items sind in Aufgaben genestet und Aufgaben sind in Modulen genestet. Darüber hinaus gibt es Metadaten, die sich auf alle vier Ebenen beziehen können: Variablen und Konstanten.
+
 ```{mermaid}
 flowchart LR
-    S[Konstanten] -.- A[Aufgabe]
-    style S fill:white
-    I[Item] --> A
-    I -.- S
-    A --> M[Metadaten]
-    style M fill:white
-    I --> M
-    D[Module] --> A
-    D --> I
-    D -.- S
+   D[Modul] --> A[Aufgabe]
+   A --> I[Item]
+   M[Metadaten] -.- D
+   M -.-> V[Variablen, Keys, Labels, Konstanten]
+   style M fill:white
+   style V fill:white
+   M -.- A
+   M -.- I
+   K[Kennwerte] -.- I
+   style K fill:white
 ```
 
-Die Daten sind in fünf Listen geordnet:
+Die Daten sind in vier Listen geordnet:
 
-* Aufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.
-* Items enthalten die psychometrischen Kennzahlen.
 * In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.
-* Aufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).
-* Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.
+  + Metadaten bei Modulen sind deren Kennung, ggf. Niveau, ...
+* Aufgaben enthalten Informationen, welche Items sie beinhalten
+  + Metadaten zu Aufgaben sind Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung
+* Items enthalten die psychometrischen Kennwerte
+  + Metadaten zu Items sind Kennung, Zurodnung zu Bildungsstandards, Niveaustufen etc.
+* Metadaten-Legende: Hier werden Variablennamen, Keys, Labels, mögliche Paarungen sowie Konstanten definiert. 
 
 Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.

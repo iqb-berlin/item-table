@@ -5,7 +5,7 @@ project:
 
 website:
   site-url: https://iqb-berlin.github.io/item-table/
-  title: "Item-Tabelle"
+  title: "VERA-Item-Kennwerte (VIK)"
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-berlin/item-table/

@@ -6,7 +6,7 @@ listing:
   template: catalog-entry.ejs
   contents: md-cat_V3MA.yaml
 ---
-Metadaten-Kataloge
+Metadaten-Kataloge:
 
 ::: {#gallery}
 :::
