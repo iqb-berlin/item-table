@@ -6,7 +6,16 @@ listing:
   template: catalog-entry.ejs
   contents: md-cat_V8DE.yaml
 ---
-Metadaten-Kataloge
+Metadaten in VERA-8 Deutsch:
+
+**`Keylabel` - `Key`**
+
+`Value1` - `Valuelabel1`
+
+`Value2` - `Valuelabel2`
+
+...
+
 
 ::: {#gallery}
 :::

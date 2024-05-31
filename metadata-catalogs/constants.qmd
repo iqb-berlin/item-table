@@ -1,5 +1,5 @@
 ---
-title: Variablen und Konstanten
+title: Fächerübergreifende Keys -- Konstanten
 lang: de
 listing:
   id: gallery
@@ -7,7 +7,16 @@ listing:
   contents: constants.yaml
 ---
 
-Folgende Konstanten (also unveränderliche Werte, die einmal deklariert werden und im Laufe der Zeit sowie über alle Anwendungsfälle hinweg nicht mehr geändert werden können und sollen) und folgende Variablen (deren Ausprägungen in verschiedenen Anwendungsfällen verschiedene Werte annehmen können) werden in den Daten verwendet:
+Folgende Konstanten (also unveränderliche Key-Value-Paare, die einmal deklariert werden und im Laufe der Zeit sowie über alle Anwendungsfälle hinweg nicht mehr geändert werden können und sollen) werden in den Daten in derfolgenden Form verwendet:
+
+**`Keylabel` - `Key`**
+
+`Value1` - `Valuelabel1`
+
+`Value2` - `Valuelabel2`
+
+...
+
 
 
 ::: {#gallery}

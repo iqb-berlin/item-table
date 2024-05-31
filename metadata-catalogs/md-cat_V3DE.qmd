@@ -6,7 +6,16 @@ listing:
   template: catalog-entry.ejs
   contents: md-cat_V3DE.yaml
 ---
-Metadaten-Kataloge
+Metadaten in VERA-3 Deutsch:
+
+**`Keylabel` - `Key`**
+
+`Value1` - `Valuelabel1`
+
+`Value2` - `Valuelabel2`
+
+...
+
 
 ::: {#gallery}
 :::

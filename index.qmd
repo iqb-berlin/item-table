@@ -6,7 +6,7 @@ title: "VERA-Item-Kennwerte (VIK)"
 
 ::: {.callout-important}
 ## Achtung: Webseite in Entwicklung
-Diese Webseite ist im Aufbau. Für die hier beschriebenen Spezifikationen laufen noch Abstimmungsprozesse. ACHTUNG! Auch in diesem Branch "Suggestions" ist noch keine abgestimmte oder sinnvolle Version verfügbar. Reviewen bringt noch nichts.
+Diese Webseite ist im Aufbau. Für die hier beschriebenen Spezifikationen laufen noch Abstimmungsprozesse. 
 :::
 
 # Willkommen

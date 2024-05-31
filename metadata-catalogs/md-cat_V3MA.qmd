@@ -6,7 +6,17 @@ listing:
   template: catalog-entry.ejs
   contents: md-cat_V3MA.yaml
 ---
-Metadaten-Kataloge:
+Metadaten in VERA-3 Mathematik:
+
+
+**`Keylabel` - `Key`**
+
+`Value1` - `Valuelabel1`
+
+`Value2` - `Valuelabel2`
+
+...
+
 
 ::: {#gallery}
 :::

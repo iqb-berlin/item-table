@@ -1,10 +1,10 @@
 ---
-title: Metadaten und Konstanten
+title: Metadaten-Kataloge
 lang: de
 ---
-Die beschriebenen Datenstrukturen enthalten Metadaten. Für eine effiziente und konsistente Speicherung sind in den Aufgaben- bzw. Itemdaten jeweils nur Verweise gespeichert. Diese als `ID` bzw. `Key` hinterlegte Referenz lässt sich auflösen, wenn die entsprechenden Kataloge bzw. Wertelisten zur Verfügung stehen.
+Die beschriebenen Datenstrukturen enthalten Metadaten. Für eine effiziente und konsistente Speicherung sind in den Aufgaben- bzw. Itemdaten jeweils nur Verweise gespeichert. Diese als `Key` hinterlegte Referenz lässt sich auflösen, wenn die entsprechenden Kataloge bzw. Wertelisten zur Verfügung stehen.
 
-Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für eine Orientierung sind sie außerdem in Textform einsehbar:
+Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für eine Orientierung sind sie außerdem in Textform einsehbar. Alle fächerspezifischen Variablen mit ihren Labels sowie den Werten, die sie annehmen können und diesen Value-Labels sind hier einsehbar:
 
 * [VERA3 Mathematik](md-cat_V3MA.qmd) [{{< fa download >}}](md-cat_V3MA.yaml)
 * [VERA3 Deutsch](md-cat_V3DE.qmd) [{{< fa download >}}](md-cat_V3DE.yaml)
@@ -13,6 +13,6 @@ Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für ein
 * [VERA8 Englisch](md-cat_V8EN.qmd) [{{< fa download >}}](md-cat_V8EN.yaml)
 * [VERA8 Französisch](md-cat_V8FR.qmd) [{{< fa download >}}](md-cat_V8FR.yaml)
 
-In den Datenstrukturen sind weiterhin Konstanten in Aufzählungen verwendet. Die Art der Spezifikation (OpenAPI/JSON Schema) erlaubt nicht, diese Konstanten direkt mit einer Beschreibung zu versehen. Daher hier eine separate Dokumentation:
+In den Datenstrukturen sind weiterhin Konstanten in Aufzählungen verwendet. Diese sind übergreifende Key-Value-Paare und deren zugehörige Labels:
 
-* [Konstanten und Variablennamen](constants.qmd) [{{< fa download >}}](constants.yaml)
+* [Fächerübergreifende Keys - Konstanten](constants.qmd) [{{< fa download >}}](constants.yaml)

@@ -11,23 +11,29 @@ Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswert
 * Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
 * Die **Länder** bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.
 
+# Format
+
+Die Daten liegen zunächst in dem Dateiaustauschformat JSON vor. Es wird angestrebt, sie in R weiterzuverarbeiten und, zumindest IQB-intern, sie mit anderen psychometrischen Daten verknüpfbar in ein SQLite Datenbankformat zu konvertieren unter Nutzung von [eatGADS](https://cran.r-project.org/web/packages/eatGADS/). Im Folgenden wird zunächst nur das JSON-Format, in dem die Daten zuerst ausgegeben werden, beschrieben.
 
 # Struktur
 
-Die Struktur der VIK ist klar hierarchisch: Kennwerte sind in Items genestet und Items sind in Aufgaben genestet und Aufgaben sind in Modulen genestet. Darüber hinaus gibt es Metadaten, die sich auf alle vier Ebenen beziehen können: Variablen und Konstanten.
+Die Struktur der VIK ist schwach hierarchisch: In der Regel sind Items in Aufgaben genestet und Aufgaben sind in Modulen genestet. Aber dieselben Aufgaben können beispielsweise auch in mehreren Modulen vorkommen mit identischen oder unterschiedlichen Items. Die Item-Kennwerte sind den Items zuzuordnen.
+
+Darüber hinaus gibt es Metadaten, die sich auf alle vier Ebenen beziehen können.
 
 ```{mermaid}
 flowchart LR
    D[Modul] --> A[Aufgabe]
    A --> I[Item]
    M[Metadaten] -.- D
-   M -.-> V[Variablen, Keys, Labels, Konstanten]
+   M -.-> V[Keys - mit Values und Labels]
    style M fill:white
    style V fill:white
    M -.- A
    M -.- I
    K[Kennwerte] -.- I
    style K fill:white
+   M -.- K
 ```
 
 Die Daten sind in vier Listen geordnet:
@@ -38,6 +44,4 @@ Die Daten sind in vier Listen geordnet:
   + Metadaten zu Aufgaben sind Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung
 * Items enthalten die psychometrischen Kennwerte
   + Metadaten zu Items sind Kennung, Zurodnung zu Bildungsstandards, Niveaustufen etc.
-* Metadaten-Legende: Hier werden Variablennamen, Keys, Labels, mögliche Paarungen sowie Konstanten definiert. 
-
-Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.
+* Metadaten-Legende: Hier werden Keys, Values, Labels und vor allem mögliche Paarungen zwischen Keys und Values (und somit auch Labels) definiert. Eine besondere Rolle spielen die sogenannten "Konstanten": Diese sind unveränderliche, übergreifende Key-Value-Paare.
