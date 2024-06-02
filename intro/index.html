@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>VERA-Item-Kennwerte (VIK) - Einführung</title>
+<title>Item-Tabelle - Einführung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="../IQB-klein.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">VERA-Item-Kennwerte (VIK)</span>
+    <span class="navbar-title">Item-Tabelle</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../metadata-catalogs/constants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fächerübergreifende Keys – Konstanten</span></a>
+ <span class="menu-text">Konstanten</span></a>
   </div>
 </li>
       </ul>
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../data-specs-guide" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Einige Spezifikationen</span></a>
+ <span class="menu-text">Spezifikation</span></a>
   </div>
 </li>
     </ul>
@@ -196,7 +196,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#beteiligte" id="toc-beteiligte" class="nav-link active" data-scroll-target="#beteiligte">Beteiligte</a></li>
-  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">Format</a></li>
   <li><a href="#struktur" id="toc-struktur" class="nav-link" data-scroll-target="#struktur">Struktur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
@@ -227,58 +226,44 @@ ul.task-list li input[type="checkbox"] {
 <h1>Beteiligte</h1>
 <p>Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der <a href="https://www.iqb.hu-berlin.de/vera">VERA</a>-Tests.</p>
 <ul>
-<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
-<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
+<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
+<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
 <li>Die <strong>Länder</strong> bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.</li>
 </ul>
 </section>
-<section id="format" class="level1">
-<h1>Format</h1>
-<p>Die Daten liegen zunächst in dem Dateiaustauschformat JSON vor. Es wird angestrebt, sie in R weiterzuverarbeiten und, zumindest IQB-intern, sie mit anderen psychometrischen Daten verknüpfbar in ein SQLite Datenbankformat zu konvertieren unter Nutzung von <a href="https://cran.r-project.org/web/packages/eatGADS/">eatGADS</a>. Im Folgenden wird zunächst nur das JSON-Format, in dem die Daten zuerst ausgegeben werden, beschrieben.</p>
-</section>
 <section id="struktur" class="level1">
 <h1>Struktur</h1>
-<p>Die Struktur der VIK ist schwach hierarchisch: In der Regel sind Items in Aufgaben genestet und Aufgaben sind in Modulen genestet. Aber dieselben Aufgaben können beispielsweise auch in mehreren Modulen vorkommen mit identischen oder unterschiedlichen Items. Die Item-Kennwerte sind den Items zuzuordnen.</p>
-<p>Darüber hinaus gibt es Metadaten, die sich auf alle vier Ebenen beziehen können.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-   D[Modul] --&gt; A[Aufgabe]
-   A --&gt; I[Item]
-   M[Metadaten] -.- D
-   M -.-&gt; V[Keys - mit Values und Labels]
-   style M fill:white
-   style V fill:white
-   M -.- A
-   M -.- I
-   K[Kennwerte] -.- I
-   style K fill:white
-   M -.- K
+    S[Konstanten] -.- A[Aufgabe]
+    style S fill:white
+    I[Item] --&gt; A
+    I -.- S
+    A --&gt; M[Metadaten]
+    style M fill:white
+    I --&gt; M
+    D[Module] --&gt; A
+    D --&gt; I
+    D -.- S
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
-<p>Die Daten sind in vier Listen geordnet:</p>
+<p>Die Daten sind in fünf Listen geordnet:</p>
 <ul>
-<li>In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.
-<ul>
-<li>Metadaten bei Modulen sind deren Kennung, ggf. Niveau, …</li>
-</ul></li>
-<li>Aufgaben enthalten Informationen, welche Items sie beinhalten
-<ul>
-<li>Metadaten zu Aufgaben sind Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung</li>
-</ul></li>
-<li>Items enthalten die psychometrischen Kennwerte
-<ul>
-<li>Metadaten zu Items sind Kennung, Zurodnung zu Bildungsstandards, Niveaustufen etc.</li>
-</ul></li>
-<li>Metadaten-Legende: Hier werden Keys, Values, Labels und vor allem mögliche Paarungen zwischen Keys und Values (und somit auch Labels) definiert. Eine besondere Rolle spielen die sogenannten “Konstanten”: Diese sind unveränderliche, übergreifende Key-Value-Paare.</li>
+<li>Aufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.</li>
+<li>Items enthalten die psychometrischen Kennzahlen.</li>
+<li>In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.</li>
+<li>Aufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).</li>
+<li>Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.</li>
 </ul>
+<p>Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.</p>
 
 
 </section>

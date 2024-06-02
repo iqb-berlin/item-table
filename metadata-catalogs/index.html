@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>VERA-Item-Kennwerte (VIK) - Metadaten-Kataloge</title>
+<title>Item-Tabelle - Metadaten und Konstanten</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="../IQB-klein.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">VERA-Item-Kennwerte (VIK)</span>
+    <span class="navbar-title">Item-Tabelle</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Metadaten-Kataloge</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Metadaten und Konstanten</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../metadata-catalogs/constants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fächerübergreifende Keys – Konstanten</span></a>
+ <span class="menu-text">Konstanten</span></a>
   </div>
 </li>
       </ul>
@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../data-specs-guide" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Einige Spezifikationen</span></a>
+ <span class="menu-text">Spezifikation</span></a>
   </div>
 </li>
     </ul>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Metadaten-Kataloge</h1>
+<h1 class="title">Metadaten und Konstanten</h1>
 </div>
 
 
@@ -212,8 +212,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Die beschriebenen Datenstrukturen enthalten Metadaten. Für eine effiziente und konsistente Speicherung sind in den Aufgaben- bzw. Itemdaten jeweils nur Verweise gespeichert. Diese als <code>Key</code> hinterlegte Referenz lässt sich auflösen, wenn die entsprechenden Kataloge bzw. Wertelisten zur Verfügung stehen.</p>
-<p>Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für eine Orientierung sind sie außerdem in Textform einsehbar. Alle fächerspezifischen Variablen mit ihren Labels sowie den Werten, die sie annehmen können und diesen Value-Labels sind hier einsehbar:</p>
+<p>Die beschriebenen Datenstrukturen enthalten Metadaten. Für eine effiziente und konsistente Speicherung sind in den Aufgaben- bzw. Itemdaten jeweils nur Verweise gespeichert. Diese als <code>ID</code> bzw. <code>Key</code> hinterlegte Referenz lässt sich auflösen, wenn die entsprechenden Kataloge bzw. Wertelisten zur Verfügung stehen.</p>
+<p>Diese sog. Metadatenkataloge stehen als JSON-Datei zum Download bereit. Für eine Orientierung sind sie außerdem in Textform einsehbar:</p>
 <ul>
 <li><a href="../metadata-catalogs/md-cat_V3MA.html">VERA3 Mathematik</a> <a href="md-cat_V3MA.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
 <li><a href="../metadata-catalogs/md-cat_V3DE.html">VERA3 Deutsch</a> <a href="md-cat_V3DE.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
@@ -222,9 +222,9 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../metadata-catalogs/md-cat_V8EN.html">VERA8 Englisch</a> <a href="md-cat_V8EN.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
 <li><a href="../metadata-catalogs/md-cat_V8FR.html">VERA8 Französisch</a> <a href="md-cat_V8FR.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
 </ul>
-<p>In den Datenstrukturen sind weiterhin Konstanten in Aufzählungen verwendet. Diese sind übergreifende Key-Value-Paare und deren zugehörige Labels:</p>
+<p>In den Datenstrukturen sind weiterhin Konstanten in Aufzählungen verwendet. Die Art der Spezifikation (OpenAPI/JSON Schema) erlaubt nicht, diese Konstanten direkt mit einer Beschreibung zu versehen. Daher hier eine separate Dokumentation:</p>
 <ul>
-<li><a href="../metadata-catalogs/constants.html">Fächerübergreifende Keys - Konstanten</a> <a href="constants.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
+<li><a href="../metadata-catalogs/constants.html">Konstanten in Aufzählungen</a> <a href="constants.yaml"><i class="fa-solid fa-download" aria-label="download"></i></a></li>
 </ul>
 
 
