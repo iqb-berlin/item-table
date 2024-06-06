@@ -60,18 +60,11 @@
     "text": "metadata\nHier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.\nDer Key kennzeichnet das Vokabular, der Value den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw."
   },
   {
-    "objectID": "data-specs-guide/index.html#itemmetricsreliability",
-    "href": "data-specs-guide/index.html#itemmetricsreliability",
+    "objectID": "data-specs-guide/index.html#yearoftryout-yearofapplication",
+    "href": "data-specs-guide/index.html#yearoftryout-yearofapplication",
     "title": "Spezifikation",
-    "section": "itemMetricsReliability",
-    "text": "itemMetricsReliability\nAuf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen FULL, LIMITED, NONE und NOT_AVAILABLE wären entsprechend zu interpretieren."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#yearoftryout-yearofpreviousapplication-yearofapplication",
-    "href": "data-specs-guide/index.html#yearoftryout-yearofpreviousapplication-yearofapplication",
-    "title": "Spezifikation",
-    "section": "yearOfTryout, yearOfPreviousApplication, yearOfApplication",
-    "text": "yearOfTryout, yearOfPreviousApplication, yearOfApplication\nDiese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte), einer eventuellen vorherigen Nutzung im Rahmen von VERA und dem beabsichtigten aktuellen Einsatzjahr.\n\n\n\n\n\n\nItems?\n\n\n\nDie Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter taskId eines Items hergestellt."
+    "section": "yearOfTryout, yearOfApplication",
+    "text": "yearOfTryout, yearOfApplication\nDiese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte) und dem beabsichtigten aktuellen Einsatzjahr.\n\n\n\n\n\n\nItems?\n\n\n\nDie Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter taskId eines Items hergestellt."
   },
   {
     "objectID": "data-specs-guide/index.html#id-1",
@@ -99,7 +92,7 @@
     "href": "data-specs-guide/index.html#metrics",
     "title": "Spezifikation",
     "section": "metrics",
-    "text": "metrics\nIn dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:\n\nkey: Eine Konstante aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt\nvalue: Ein numerischer Wert (meist Gleitkommazahl)\nisGlobal: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert false. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen."
+    "text": "metrics\nIn dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:\n\nkey: Eine Konstante aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt\nvalue: Ein numerischer Wert (meist Gleitkommazahl)\nisGlobal: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert false. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.\nreliability: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen FULL, LIMITED, NONE und NOT_AVAILABLE wären entsprechend zu interpretieren."
   },
   {
     "objectID": "data-specs-guide/index.html#id-label",
