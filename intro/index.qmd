@@ -7,10 +7,9 @@ title: Einführung
 
 Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der [VERA](https://www.iqb.hu-berlin.de/vera)-Tests.
 
-* Das **IQB** entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.
-* Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
+* Das **IQB** entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.
+* Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
 * Die **Länder** bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.
-
 
 # Struktur
 
@@ -20,20 +19,20 @@ flowchart LR
     style S fill:white
     I[Item] --> A
     I -.- S
-    A --> M[Metadaten]
-    style M fill:white
+    A --> M[Vokabulare]
     I --> M
     D[Module] --> A
     D --> I
     D -.- S
+    B[Testheft] --> D
 ```
 
-Die Daten sind in fünf Listen geordnet:
+Die Daten sind in fünf Listen geordnet, die jedes Jahr pro Fach neu erzeugt werden:
 
-* Aufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.
-* Items enthalten die psychometrischen Kennzahlen.
+* Aufgaben enthalten jeweils Titel, Kennung und wenige Metadaten.
+* Items enthalten die psychometrischen Kennzahlen sowie Metadaten.
 * In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.
-* Aufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).
-* Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.
+* Testhefte enthalten einen kompletten Testablauf und bestehen aus Modulen. 
+* Die Metadaten in den Aufgaben und Items verweisen auf Vokabulare (Wertelisten), die stets neu aktualisiert beim Datenauszug mit ausgegeben werden (z. B. Bildungsstandards).
 
-Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.
+Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen. Diese werden nicht neu erzeugt, da sie fester Bestandteil der Spezifikation sind.
