@@ -1,51 +1,80 @@
 {
-    "$id": "item@vera-standard@1.0",
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Item",
-    "description": "Data structure to describe an item as part of an assessment in education.",
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "string",
-        "pattern": "^[A-Za-z_]+$",
-        "description": "Identifier for item",
-        "examples": ["M0139mli", "G38847A02a"]
-      },
-      "taskId": {
-        "type": "string",
-        "pattern": "^[A-Za-z_]+$",
-        "description": "Items are always part of a task.",
-        "examples": ["M_U_234122", "K992"]
-      },
-      "metadata": {
-        "type": "array",
-        "description": "List of metadata",
-        "items": {
-          "$ref": "metadata-entry.schema.json"
-        }
-      },
-      "metrics": {
-        "type": "array",
-        "description": "Parameters for analyses of the item if used in assessments",
-        "items": {
-          "type": "object",
-          "properties": {
-            "key": {
-                "type": "string",
-                "enum": ["FREQUENCY_PRIMARY", "FREQUENCY_GRADE9", "FREQUENCY_GRADE10", "FREQUENCY_HIGH_SCHOOL", "FREQUENCY_NON_HIGH_SCHOOL",
-                    "LOGIT", "EDUCATIONAL_STANDARD_METRIC", "EDUCATIONAL_STANDARD_LEVEL"]
-            },
-            "isGlobal": {
-                "type": "boolean",
-                "description": "There are (sometimes) two metrics: one refers to all domains (global), the other to only one domain (default: true)."
-            },
-            "value": {
-                "type": "number"
-            }
-          },
-          "required": ["key", "value"]
-        }
+  "$id": "item@vera-standard@1.0",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Item",
+  "description": "Data structure to describe an item as part of an assessment in education.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z_]+$",
+      "description": "Identifier for item",
+      "examples": [
+        "M0139mli",
+        "G38847A02a"
+      ]
+    },
+    "taskId": {
+      "type": "string",
+      "pattern": "^[A-Za-z_]+$",
+      "description": "Items are always part of a task.",
+      "examples": [
+        "M_U_234122",
+        "K992"
+      ]
+    },
+    "metadata": {
+      "type": "array",
+      "description": "List of metadata",
+      "items": {
+        "$ref": "metadata-entry.schema.json"
       }
     },
-    "required": ["id", "taskId"]
-  }
+    "metrics": {
+      "type": "array",
+      "description": "Parameters for analyses of the item if used in assessments",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "enum": [
+              "FREQUENCY_PRIMARY",
+              "FREQUENCY_GRADE9",
+              "FREQUENCY_GRADE10",
+              "FREQUENCY_HIGH_SCHOOL",
+              "FREQUENCY_NON_HIGH_SCHOOL",
+              "LOGIT",
+              "EDUCATIONAL_STANDARD_METRIC",
+              "EDUCATIONAL_STANDARD_LEVEL"
+            ]
+          },
+          "isGlobal": {
+            "type": "boolean",
+            "description": "There are (sometimes) two metrics: one refers to all domains (global), the other to only one domain (default: true)."
+          },
+          "reliability": {
+            "type": "string",
+            "enum": [
+              "FULL",
+              "LIMITED",
+              "NONE",
+              "NOT_AVAILABLE"
+            ]
+          },
+          "value": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "key",
+          "value"
+        ]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "taskId"
+  ]
+}

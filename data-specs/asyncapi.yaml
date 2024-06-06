@@ -23,13 +23,17 @@ channels:
         messageId: select_schema
 components:
   schemas:
+    dataset:
+      $ref: './item-table-dataset.schema.json'
     task:
       $ref: './task.schema.json'
     item:
       $ref: './item.schema.json'
     module:
       $ref: './test-module.schema.json'
+    booklet:
+      $ref: './booklet.schema.json'
     metadata-entry:
       $ref: './metadata-entry.schema.json'
-    metadata-catalog:
-      $ref: './metadata-catalog.schema.json'
+    vocabulary:
+      $ref: './vocab.schema.json'

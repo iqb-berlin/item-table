@@ -1,0 +1,98 @@
+{
+  "$id": "item-table-dataset@vera-standard@1.0",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Item table dataset",
+  "description": "Data structure to unite all data for a subject.",
+  "type": "object",
+  "properties": {
+    "objectType": {
+      "type": "string",
+      "pattern": "^[A-Za-z_]+$",
+      "description": "Identifier and version of the object spec",
+      "examples": [
+        "vera-item-table@1.0"
+      ]
+    },
+    "subject": {
+      "type": "string",
+      "enum": [
+        "V3MA",
+        "V3DE",
+        "V8MA",
+        "V8DE",
+        "V8EN",
+        "V8FR"
+      ],
+      "description": "Refers to VERA-Projekt (VERA3 or VERA8) and to subject (mathematics, German, English, French)",
+      "examples": [
+        "V3MA",
+        "V8DE"
+      ]
+    },
+    "yearOfApplication": {
+      "type": "integer"
+    },
+    "yearOfTryout": {
+      "type": "integer"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Instituion responsible for the content.",
+      "examples": [
+        "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"
+      ]
+    },
+    "created": {
+      "type": "string",
+      "description": "Date and time of creating these data.",
+      "examples": [
+        "06.06.2024 17:32"
+      ]
+    },
+    "tasks": {
+      "type": "array",
+      "description": "List of tasks",
+      "items": {
+        "$ref": "task.schema.json"
+      }
+    },
+    "items": {
+      "type": "array",
+      "description": "List of items",
+      "items": {
+        "$ref": "item.schema.json"
+      }
+    },
+    "modules": {
+      "type": "array",
+      "description": "List of modules",
+      "items": {
+        "$ref": "test-module.schema.json"
+      }
+    },
+    "booklets": {
+      "type": "array",
+      "description": "List of booklets",
+      "items": {
+        "$ref": "booklet.schema.json"
+      }
+    },
+    "vocabs": {
+      "type": "array",
+      "description": "List of vocabs",
+      "items": {
+        "$ref": "vocab.schema.json"
+      }
+    }
+  },
+  "required": [
+    "objectType",
+    "subject",
+    "publisher",
+    "tasks",
+    "items",
+    "modules",
+    "booklets",
+    "vocabs"
+  ]
+}
