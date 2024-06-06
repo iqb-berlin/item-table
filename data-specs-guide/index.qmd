@@ -25,13 +25,9 @@ Eine Aufgabe hat im Testheft einen Titel, der für die Testperson attraktiv sein
 
 {{< include _metadata.qmd >}}
 
-## `itemMetricsReliability`
+## `yearOfTryout`, `yearOfApplication`
 
-Auf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen [Ausprägungen](../metadata-catalogs/constants.qmd) `FULL`, `LIMITED`, `NONE` und `NOT_AVAILABLE` wären entsprechend zu interpretieren.
-
-## `yearOfTryout`, `yearOfPreviousApplication`, `yearOfApplication`
-
-Diese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte), einer eventuellen vorherigen Nutzung im Rahmen von VERA und dem beabsichtigten aktuellen Einsatzjahr.
+Diese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte) und dem beabsichtigten aktuellen Einsatzjahr.
 
 ::: {.callout-note}
 ## Items?
@@ -64,6 +60,7 @@ In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:
 * `key`: Eine [Konstante](../metadata-catalogs/constants.qmd) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt
 * `value`: Ein numerischer Wert (meist Gleitkommazahl)
 * `isGlobal`: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. "Mathematische Kompetenz"), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert `false`. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.
+* `reliability`: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen [Ausprägungen](constants.qmd) `FULL`, `LIMITED`, `NONE` und `NOT_AVAILABLE` wären entsprechend zu interpretieren.
 
 # Modul
 
