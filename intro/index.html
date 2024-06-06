@@ -190,8 +190,8 @@ ul.task-list li input[type="checkbox"] {
 <h1>Beteiligte</h1>
 <p>Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der <a href="https://www.iqb.hu-berlin.de/vera">VERA</a>-Tests.</p>
 <ul>
-<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennzahlen, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
-<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennzahlen gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
+<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
+<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
 <li>Die <strong>Länder</strong> bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.</li>
 </ul>
 </section>
@@ -207,27 +207,27 @@ ul.task-list li input[type="checkbox"] {
     style S fill:white
     I[Item] --&gt; A
     I -.- S
-    A --&gt; M[Metadaten]
-    style M fill:white
+    A --&gt; M[Vokabulare]
     I --&gt; M
     D[Module] --&gt; A
     D --&gt; I
     D -.- S
+    B[Testheft] --&gt; D
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
-<p>Die Daten sind in fünf Listen geordnet:</p>
+<p>Die Daten sind in fünf Listen geordnet, die jedes Jahr pro Fach neu erzeugt werden:</p>
 <ul>
-<li>Aufgaben enthalten jeweils Titel, Kennung und allgemeine Informationen zu Einsatz bzw. Pilotierung.</li>
-<li>Items enthalten die psychometrischen Kennzahlen.</li>
+<li>Aufgaben enthalten jeweils Titel, Kennung und wenige Metadaten.</li>
+<li>Items enthalten die psychometrischen Kennzahlen sowie Metadaten.</li>
 <li>In Modulen ist gespeichert, welche Aufgabe und welche Items nacheinander in den Testblöcken platziert sind.</li>
-<li>Aufgaben und Items enthalten Metadaten, die nach Bedarf eine Charakterisierung hergeben (z. B. Bildungsstandards).</li>
-<li>Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen.</li>
+<li>Testhefte enthalten einen kompletten Testablauf und bestehen aus Modulen.</li>
+<li>Die Metadaten in den Aufgaben und Items verweisen auf Vokabulare (Wertelisten), die stets neu aktualisiert beim Datenauszug mit ausgegeben werden (z. B. Bildungsstandards).</li>
 </ul>
-<p>Konstanten und Metadaten sind recht stabil über die Jahre. Module, Aufgaben und Items ändern sich jährlich mit jeder Abgabe.</p>
+<p>Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen. Diese werden nicht neu erzeugt, da sie fester Bestandteil der Spezifikation sind.</p>
 
 
 </section>
