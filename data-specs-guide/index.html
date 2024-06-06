@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -125,8 +125,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../metadata-catalogs" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Metadaten-Kataloge</span></a>
+            <a href="../data-specs-guide" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spezifikation</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -134,43 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V3DE.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V3 Deutsch</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V3MA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V3 Mathematik</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V8DE.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V8 Deutsch</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V8MA.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V8 Mathematik</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V8EN.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V8 Englisch</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/md-cat_V8FR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">V8 Französisch</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../metadata-catalogs/constants.html" class="sidebar-item-text sidebar-link">
+  <a href="../data-specs-guide/constants.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konstanten</span></a>
   </div>
 </li>
@@ -178,8 +142,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../data-specs-guide" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spezifikation</span></a>
+  <a href="../data" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Daten</span></a>
   </div>
 </li>
     </ul>
@@ -281,7 +245,7 @@ Spezifikation kompakt
 </section>
 <section id="itemmetricsreliability" class="level2">
 <h2 class="anchored" data-anchor-id="itemmetricsreliability"><code>itemMetricsReliability</code></h2>
-<p>Auf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen <a href="../metadata-catalogs/constants.html">Ausprägungen</a> <code>FULL</code>, <code>LIMITED</code>, <code>NONE</code> und <code>NOT_AVAILABLE</code> wären entsprechend zu interpretieren.</p>
+<p>Auf Ebene der Aufgabe zeigt dieser Indikator an, wie verlässlich die psychometrischen Kennzahlen der Items dieser Aufgabe sind. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen <a href="../metadata-catalogs/constants.qmd">Ausprägungen</a> <code>FULL</code>, <code>LIMITED</code>, <code>NONE</code> und <code>NOT_AVAILABLE</code> wären entsprechend zu interpretieren.</p>
 </section>
 <section id="yearoftryout-yearofpreviousapplication-yearofapplication" class="level2">
 <h2 class="anchored" data-anchor-id="yearoftryout-yearofpreviousapplication-yearofapplication"><code>yearOfTryout</code>, <code>yearOfPreviousApplication</code>, <code>yearOfApplication</code></h2>
@@ -333,7 +297,7 @@ Reihenfolge der Items
 <h2 class="anchored" data-anchor-id="metrics"><code>metrics</code></h2>
 <p>In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:</p>
 <ul>
-<li><code>key</code>: Eine <a href="../metadata-catalogs/constants.html">Konstante</a> aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt</li>
+<li><code>key</code>: Eine <a href="../metadata-catalogs/constants.qmd">Konstante</a> aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt</li>
 <li><code>value</code>: Ein numerischer Wert (meist Gleitkommazahl)</li>
 <li><code>isGlobal</code>: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert <code>false</code>. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.</li>
 </ul>
