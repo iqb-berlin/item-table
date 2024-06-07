@@ -5,7 +5,18 @@ execute:
   echo: false
 ---
 
-Direkt Download: [V3 Ma](V3MA_item-table.json), [V3 De](V3DE_item-table.json), [V8 Ma](V8MA_item-table.json), [V8 De](V8DE_item-table.json), [V8 En](V8EN_item-table.json), [V8 Fr](V8FR_item-table.json)
+::: {.callout-note icon=false}
+
+## {{< fa download >}} Download JSON-Dateien
+
+* VERA3: [Mathematik](V3MA_item-table.json), [Deutsch](V3DE_item-table.json),
+* VERA8: [Mathematik](V8MA_item-table.json), [Deutsch](V8DE_item-table.json), [Englisch](V8EN_item-table.json), [Französisch](V8FR_item-table.json)
+
+:::
+
+```{ojs}
+subject ? html`<p>&nbsp;</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
+```
 
 ```{ojs}
 data_V3DE = FileAttachment("V3DE_item-table.json").json()
@@ -42,7 +53,7 @@ pleaseSelect = "Bitte auswählen für Details"
 
 
 ```{ojs}
-viewof subject = Inputs.radio(["V3 Ma", "V3 De", "V8 Ma", "V8 De", "V8 En", "V8 Fr"], {label: "Fach"})
+viewof subject = Inputs.radio(["V3 Mathematik", "V3 Deutsch", "V8 Mathematik", "V8 Deutsch", "V8 Englisch", "V8 Französisch"], {label: "Fach"})
 ```
 
 ```{ojs}

@@ -23,7 +23,7 @@
     - key: "NONE"
       label: "Stark eingeschränkt - nicht verwendbar"
     - key: "NOT_AVAILABLE"
-      label: "Nicht verfügbar - nicht verwendbar"
+      label: "Verlässichkeit nicht bekannt"
 - key: "metrics"
   label: "Itemparameter"
   values:
