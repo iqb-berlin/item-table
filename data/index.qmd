@@ -15,7 +15,7 @@ execute:
 :::
 
 ```{ojs}
-subject ? html`<p>&nbsp;</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
+subject ? html`<p>${selectedData.subject} ${selectedData.yearOfApplication} (${selectedData.created})</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
 ```
 
 ```{ojs}
@@ -53,7 +53,7 @@ pleaseSelect = "Bitte auswählen für Details"
 
 
 ```{ojs}
-viewof subject = Inputs.radio(["V3 Mathematik", "V3 Deutsch", "V8 Mathematik", "V8 Deutsch", "V8 Englisch", "V8 Französisch"], {label: "Fach"})
+viewof subject = Inputs.radio(["V3 Ma", "V3 De", "V8 Ma", "V8 De", "V8 En", "V8 Fr"], {label: "Fach"})
 ```
 
 ```{ojs}
