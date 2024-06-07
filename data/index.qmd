@@ -15,7 +15,7 @@ execute:
 :::
 
 ```{ojs}
-subject ? html`<p>${selectedData.subject} ${selectedData.yearOfApplication} (${selectedData.created})</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
+subject ? html`<p>${selectedData.subject}${selectedData.yearOfApplication} (${selectedData.created})</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
 ```
 
 ```{ojs}
@@ -53,17 +53,17 @@ pleaseSelect = "Bitte auswählen für Details"
 
 
 ```{ojs}
-viewof subject = Inputs.radio(["V3 Ma", "V3 De", "V8 Ma", "V8 De", "V8 En", "V8 Fr"], {label: "Fach"})
+viewof subject = Inputs.radio(["VERA3 Mathematik", "VERA3 Deutsch", "VERA8 Mathematik", "VERA8 Deutsch", "VERA8 Englisch", "VERA8 Französisch"], {label: "Fach"})
 ```
 
 ```{ojs}
 selectedData = {
-    if (subject === "V3 De") return data_V3DE;
-    if (subject === "V3 Ma") return data_V3MA;
-    if (subject === "V8 Ma") return data_V8MA;
-    if (subject === "V8 De") return data_V8DE;
-    if (subject === "V8 Fr") return data_V8FR;
-    if (subject === "V8 En") return data_V8EN;
+    if (subject === "VERA3 Deutsch") return data_V3DE;
+    if (subject === "VERA3 Mathematik") return data_V3MA;
+    if (subject === "VERA8 Mathematik") return data_V8MA;
+    if (subject === "VERA8 Deutsch") return data_V8DE;
+    if (subject === "VERA8 Französisch") return data_V8FR;
+    if (subject === "VERA8 Englisch") return data_V8EN;
     return data_NULL
 };
 ```
