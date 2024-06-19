@@ -30,5 +30,5 @@ Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https
 
 # Kontakt
 
-Wenn Sie Probleme melden möchten, können Sie auch die Funktion "Problem melden" nutzen, die rechts auf jeder Seite zu finden ist. Sie werden dann zu GitHub weitergeleitet. Es ist ein Account bei GitHub erforderlich. Nachfragen können Sie an das IQB: [Martin Mechtel](mailto:mechtel@iqb.hu-berlin.de) oder das ISQ: [Klaus Bechtold](mailto:Klaus.Bechtold@isq-bb.de) richten.
+Nachfragen können Sie an das IQB: [Martin Mechtel](mailto:mechtel@iqb.hu-berlin.de) oder das ISQ: [Klaus Bechtold](mailto:Klaus.Bechtold@isq-bb.de) richten.
 
