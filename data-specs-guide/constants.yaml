@@ -41,5 +41,3 @@
       label: "Schwierigkeit Logit"
     - key: "EDUCATIONAL_STANDARD_METRIC"
       label: "Schwierigkeit Bildungsstandard-Metrik"
-    - key: "EDUCATIONAL_STANDARD_LEVEL"
-      label: "Kompetenzstufe numerisch"

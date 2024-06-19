@@ -12,8 +12,8 @@
                 "pattern": "^[A-Za-z_/.]+$",
                 "description": "Identifier for Metadata-Entry",
                 "examples": [
-                    "FEQUENCY_OF_SOLUTIONS",
-                    "MAIN_DOMAIN_MA8"
+                    "de8_ma8_requ",
+                    "ma3_domain"
                 ]
             },
             "label": {

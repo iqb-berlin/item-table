@@ -4,6 +4,10 @@ title: Spezifikation
 format:
   html:
     toc-expand: 2
+listing:
+  id: constants
+  template: constant-entry.ejs
+  contents: constants.yaml
 ---
 
 ::: {.callout-note}
@@ -57,10 +61,10 @@ Die Art der Kopplung zwischen Item und Aufgabe erlaubt keinen Rückschluss auf d
 
 In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:
 
-* `key`: Eine [Konstante](../metadata-catalogs/constants.qmd) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt
+* `key`: Eine Konstante (s. unten) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt
 * `value`: Ein numerischer Wert (meist Gleitkommazahl)
 * `isGlobal`: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. "Mathematische Kompetenz"), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert `false`. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.
-* `reliability`: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen [Ausprägungen](constants.qmd) `FULL`, `LIMITED`, `NONE` und `NOT_AVAILABLE` wären entsprechend zu interpretieren.
+* `reliability`: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen (s. unten) `FULL`, `LIMITED`, `NONE` und `NOT_AVAILABLE` wären entsprechend zu interpretieren.
 
 # Modul
 
@@ -82,4 +86,11 @@ Mit `id` wird eine externe Referenz zu einer Aufgabe hergestellt, die in einer s
 ## Warum explizite Nennung der Items?
 
 Man könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden -- mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen.
+:::
+
+# Konstanten
+
+In den obigen Daten werden die folgenden Konstanten verwendet. Wenn Sie eine maschinenlesbare Variante benötigen, nutzen Sie [diese YAML-Datei](constants.yaml).
+
+::: {#constants}
 :::

@@ -45,8 +45,7 @@
               "FREQUENCY_HIGH_SCHOOL",
               "FREQUENCY_NON_HIGH_SCHOOL",
               "LOGIT",
-              "EDUCATIONAL_STANDARD_METRIC",
-              "EDUCATIONAL_STANDARD_LEVEL"
+              "EDUCATIONAL_STANDARD_METRIC"
             ]
           },
           "isGlobal": {

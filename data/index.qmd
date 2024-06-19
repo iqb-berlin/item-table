@@ -1,139 +1,29 @@
 ---
-title: "VERA Itemdaten"
+title: "Daten"
 lang: de
 execute:
   echo: false
 ---
 
-::: {.callout-note icon=false}
+::: {.callout-note}
 
-## {{< fa download >}} Download JSON-Dateien
+## Wählen Sie das Jahr
 
-* VERA3: [Mathematik](V3MA_item-table.json), [Deutsch](V3DE_item-table.json),
-* VERA8: [Mathematik](V8MA_item-table.json), [Deutsch](V8DE_item-table.json), [Englisch](V8EN_item-table.json), [Französisch](V8FR_item-table.json)
-
-:::
-
-```{ojs}
-subject ? html`<p>${selectedData.subject}${selectedData.yearOfApplication} (${selectedData.created})</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
-```
-
-```{ojs}
-data_V3DE = FileAttachment("V3DE_item-table.json").json()
-```
-
-```{ojs}
-data_V3MA = FileAttachment("V3MA_item-table.json").json()
-```
-
-```{ojs}
-data_V8DE = FileAttachment("V8DE_item-table.json").json()
-```
-
-```{ojs}
-data_V8MA = FileAttachment("V8MA_item-table.json").json()
-```
-
-```{ojs}
-data_V8FR = FileAttachment("V8FR_item-table.json").json()
-```
-
-```{ojs}
-data_V8EN = FileAttachment("V8EN_item-table.json").json()
-```
-
-```{ojs}
-data_NULL = FileAttachment("NULL_item-table.json").json()
-```
-
-```{ojs}
-pleaseSelect = "Bitte auswählen für Details"
-```
-
-
-
-```{ojs}
-viewof subject = Inputs.radio(["VERA3 Mathematik", "VERA3 Deutsch", "VERA8 Mathematik", "VERA8 Deutsch", "VERA8 Englisch", "VERA8 Französisch"], {label: "Fach"})
-```
-
-```{ojs}
-selectedData = {
-    if (subject === "VERA3 Deutsch") return data_V3DE;
-    if (subject === "VERA3 Mathematik") return data_V3MA;
-    if (subject === "VERA8 Mathematik") return data_V8MA;
-    if (subject === "VERA8 Deutsch") return data_V8DE;
-    if (subject === "VERA8 Französisch") return data_V8FR;
-    if (subject === "VERA8 Englisch") return data_V8EN;
-    return data_NULL
-};
-```
-
-::: {.panel-tabset}
-
-## Aufgaben
-
-```{ojs}
-viewof selectedTask = Inputs.table(selectedData.tasks, {columns: ["id", "title"], header: {title: "Titel"}, multiple: false, required: false})
-```
-
-Metadaten
-
-```{ojs}
-selectedTask ? Inputs.table(selectedTask.metadata) : html`<i>${pleaseSelect}</i>`
-```
-
-## Items
-
-```{ojs}
-viewof selectedItem = Inputs.table(selectedData.items, {columns: ["id", "taskId"], header: {taskId: "Aufgaben-Id"}, multiple: false, required: false})
-```
-
-Metadaten
-
-```{ojs}
-selectedItem ? Inputs.table(selectedItem.metadata) : html`<i>${pleaseSelect}</i>`
-```
-
-Metriken
-
-```{ojs}
-selectedItem ? Inputs.table(selectedItem.metrics) : html`<i>${pleaseSelect}</i>`
-```
-
-## Module
-
-```{ojs}
-viewof selectedModule = Inputs.table(selectedData.modules, {columns: ["id"], multiple: false, required: false})
-```
-
-Aufgaben
-
-```{ojs}
-viewof selectedModuleTask = Inputs.table(selectedModule ? selectedModule.tasks : [], {columns: ["id", "numberInModule"], multiple: false, required: false})
-```
-
-Items
-
-```{ojs}
-selectedModuleTask ? Inputs.table(selectedModuleTask.items) : html`<i>${pleaseSelect}</i>`
-```
-
-## Testhefte
-
-```{ojs}
-viewof selectedBooklet = Inputs.table(selectedData.booklets, {columns: ["id", "modules"], header: {modules: "Module"}, multiple: false, required: false})
-```
-
-## Vokabulare
-
-```{ojs}
-viewof selectedVocab = Inputs.table(selectedData.vocabs, {columns: ["label", "key"], multiple: false, required: false})
-```
-
-Werteliste
-
-```{ojs}
-selectedVocab ? Inputs.table(selectedVocab.values) : html`<i>${pleaseSelect}</i>`
-```
+* [2024](2024)
+* [2023](2023)
 
 :::
+
+# Download
+
+Die Itemdaten werden als Download bereitgestellt. Klicken Sie hierzu im Kopf der jeweiligen Jahresdatei auf das Fach.
+
+> Einige Browser starten dann nicht den Download, sondern wechseln zu einer Ansicht der Datei im Browser. Bei Firefox z. B. können Sie dann mit der Maus durch die Daten blättern. Wenn Sie jedoch wirklich die Datei erhalten wollen, kicken Sie mit der rechten Maustaste auf den Download-Link und wählen Sie 'Ziel speichern unter...'.
+
+# Interaktiv
+
+Außerdem können Sie auf den Jahresseiten interaktiv durch die Daten gehen, um sich einen ersten Eindruck zu verschaffen oder spezifische Werte nachzuschlagen. Dazu wählen Sie zuerst das Fach und dann ggf. ein Unterobjekt wie Aufgabe oder Item.
+
+# Persistenz
+
+Die Dateien mit den Itemwerten bleiben bis auf weiteres verfügbar. Die Links können also langfristig als Quelle verwendet werden.

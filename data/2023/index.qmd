@@ -1,0 +1,45 @@
+---
+title: "VERA Itemdaten 2023"
+lang: de
+execute:
+  echo: false
+---
+
+::: {.callout-note icon=false}
+
+## {{< fa download >}} Download JSON-Dateien
+
+* VERA3: [Mathematik](V3MA-2023_item-table.json), [Deutsch](V3DE-2023_item-table.json),
+* VERA8: [Mathematik](V8MA-2023_item-table.json), [Deutsch](V8DE-2023_item-table.json), [Englisch](V8EN-2023_item-table.json), [Französisch](V8FR-2023_item-table.json)
+
+:::
+
+```{ojs}
+subject ? html`<p>${selectedData.subject}${selectedData.yearOfApplication} (${selectedData.created})</p> ` : html`<p>Blättern Sie durch die Daten - wählen Sie das Fach!</p>`
+```
+
+```{ojs}
+data_V3DE = FileAttachment("V3DE-2023_item-table.json").json()
+```
+
+```{ojs}
+data_V3MA = FileAttachment("V3MA-2023_item-table.json").json()
+```
+
+```{ojs}
+data_V8DE = FileAttachment("V8DE-2023_item-table.json").json()
+```
+
+```{ojs}
+data_V8MA = FileAttachment("V8MA-2023_item-table.json").json()
+```
+
+```{ojs}
+data_V8FR = FileAttachment("V8FR-2023_item-table.json").json()
+```
+
+```{ojs}
+data_V8EN = FileAttachment("V8EN-2023_item-table.json").json()
+```
+
+{{< include ../_item-table.qmd >}}

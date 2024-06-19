@@ -24,7 +24,7 @@
           }
         ],
         "description": "Value for Metadata-Entry; can be a simple value or a reference to a vocabulary",
-        "examples": ["es3", "1997", 6, ["L3", "L2"]]
+        "examples": ["es3", "1997", "6", ["L3", "L2"]]
       }
     }
 }
