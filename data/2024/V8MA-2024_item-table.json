@@ -4,7 +4,7 @@
   "yearOfApplication": 2024,
   "yearOfTryout": 2023,
   "publisher": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-  "created": "06.06.2024 17:33",
+  "created": "19.06.2024 15:44",
   "tasks": [
     {
       "id": "M56725",
@@ -797,6 +797,10 @@
       "taskId": "M56725",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -841,6 +845,10 @@
       "taskId": "M56725",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -884,6 +892,10 @@
       "id": "M5700802",
       "taskId": "M57008",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -933,6 +945,10 @@
       "taskId": "M57008",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K6"
         },
@@ -976,6 +992,10 @@
       "id": "M5711601",
       "taskId": "M57116",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1024,6 +1044,10 @@
       "taskId": "M56218",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -1068,6 +1092,10 @@
       "taskId": "M56218",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -1111,6 +1139,10 @@
       "id": "M5713502",
       "taskId": "M57135",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1159,6 +1191,10 @@
       "taskId": "M57115",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K4",
@@ -1205,6 +1241,10 @@
       "id": "M5711502",
       "taskId": "M57115",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1254,6 +1294,10 @@
       "taskId": "M57115",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -1301,6 +1345,10 @@
       "taskId": "M56624",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -1345,6 +1393,10 @@
       "taskId": "M57105",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K2"
         },
@@ -1388,6 +1440,10 @@
       "id": "M5661501",
       "taskId": "M56615",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1435,6 +1491,10 @@
       "id": "M5661502",
       "taskId": "M56615",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1484,6 +1544,10 @@
       "taskId": "M56307",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -1527,6 +1591,10 @@
       "id": "M5712001",
       "taskId": "M57120",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1576,6 +1644,10 @@
       "taskId": "M57005",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K5",
@@ -1622,6 +1694,10 @@
       "id": "M5700502",
       "taskId": "M57005",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1670,6 +1746,10 @@
       "taskId": "M57005",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -1717,6 +1797,10 @@
       "taskId": "M57106",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
+        {
           "key": "ma8_general",
           "value": "K6"
         },
@@ -1761,6 +1845,10 @@
       "taskId": "M16745",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K6"
         },
@@ -1804,6 +1892,10 @@
       "id": "M1674503",
       "taskId": "M16745",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1852,6 +1944,10 @@
       "taskId": "M16318",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K5"
         },
@@ -1895,6 +1991,10 @@
       "id": "M1701101",
       "taskId": "M17011",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1942,6 +2042,10 @@
       "id": "M1701102",
       "taskId": "M17011",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -1991,6 +2095,10 @@
       "taskId": "M16639",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -2038,6 +2146,10 @@
       "taskId": "M56525",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -2082,6 +2194,10 @@
       "taskId": "M56525",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -2125,6 +2241,10 @@
       "id": "M5680401",
       "taskId": "M56804",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2173,6 +2293,10 @@
       "taskId": "M56804",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -2219,6 +2343,10 @@
       "id": "M5701901",
       "taskId": "M57019",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2268,6 +2396,10 @@
       "taskId": "M57019",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -2316,6 +2448,10 @@
       "taskId": "M57003",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -2363,6 +2499,10 @@
       "taskId": "M57103",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": "K5"
         },
@@ -2406,6 +2546,10 @@
       "id": "M4611201",
       "taskId": "M46112",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2454,6 +2598,10 @@
       "taskId": "M46516",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -2501,6 +2649,10 @@
       "taskId": "M46904",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K2"
         },
@@ -2544,6 +2696,10 @@
       "id": "M4690403",
       "taskId": "M46904",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2595,6 +2751,10 @@
       "taskId": "M46425",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -2641,6 +2801,10 @@
       "id": "M4403501",
       "taskId": "M44035",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2690,6 +2854,10 @@
       "taskId": "M36907",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -2734,6 +2902,10 @@
       "taskId": "M36907",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -2777,6 +2949,10 @@
       "id": "M2673601",
       "taskId": "M26736",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2825,6 +3001,10 @@
       "taskId": "M36202",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K2",
@@ -2872,6 +3052,10 @@
       "taskId": "M27032",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K3"
         },
@@ -2915,6 +3099,10 @@
       "id": "M2703202",
       "taskId": "M27032",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -2963,6 +3151,10 @@
       "taskId": "M26107",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -3010,6 +3202,10 @@
       "id": "M1661401",
       "taskId": "M16614",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3061,6 +3257,10 @@
       "taskId": "M17138",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K4",
@@ -3107,6 +3307,10 @@
       "id": "M1712901",
       "taskId": "M17129",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3155,6 +3359,10 @@
       "taskId": "M17129",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -3202,6 +3410,10 @@
       "taskId": "M17023",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -3248,6 +3460,10 @@
       "id": "M5700302",
       "taskId": "M57003",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3297,6 +3513,10 @@
       "taskId": "M57103",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
+        {
           "key": "ma8_general",
           "value": "K1"
         },
@@ -3340,6 +3560,10 @@
       "id": "M4700601",
       "taskId": "M47006",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3388,6 +3612,10 @@
       "taskId": "M47107",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -3434,6 +3662,10 @@
       "id": "M4710702",
       "taskId": "M47107",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3483,6 +3715,10 @@
       "taskId": "M47108",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -3526,6 +3762,10 @@
       "id": "M4710803",
       "taskId": "M47108",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3574,6 +3814,10 @@
       "taskId": "M27101",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -3617,6 +3861,10 @@
       "id": "M2710102",
       "taskId": "M27101",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3712,6 +3960,10 @@
       "taskId": "M27030",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -3759,6 +4011,10 @@
       "taskId": "M27030",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -3805,6 +4061,10 @@
       "id": "M3621302",
       "taskId": "M36213",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -3857,6 +4117,10 @@
       "taskId": "M17104",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
+        {
           "key": "ma8_general",
           "value": "K5"
         },
@@ -3900,6 +4164,10 @@
       "id": "M1713301",
       "taskId": "M17133",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
         {
           "key": "ma8_general",
           "value": "K2"
@@ -3945,6 +4213,10 @@
       "taskId": "M17133",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": "K2"
         },
@@ -3989,6 +4261,10 @@
       "taskId": "M16909",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K5"
         },
@@ -4032,6 +4308,10 @@
       "id": "M1691701",
       "taskId": "M16917",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4083,6 +4363,10 @@
       "taskId": "M16917",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K1",
@@ -4132,6 +4416,10 @@
       "id": "M1711401",
       "taskId": "M17114",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1a"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4183,6 +4471,10 @@
       "taskId": "M17114",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -4229,6 +4521,10 @@
       "id": "M1611001",
       "taskId": "M16110",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4277,6 +4573,10 @@
       "taskId": "M17137",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K5",
@@ -4323,6 +4623,10 @@
       "id": "M1711901",
       "taskId": "M17119",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4374,6 +4678,10 @@
       "taskId": "M17120",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -4421,6 +4729,10 @@
       "taskId": "M17120",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -4467,6 +4779,10 @@
       "id": "M1702701",
       "taskId": "M17027",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4516,6 +4832,10 @@
       "taskId": "M17027",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K3",
@@ -4563,6 +4883,10 @@
       "id": "M1702703",
       "taskId": "M17027",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4612,6 +4936,10 @@
       "taskId": "M16607",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "2"
+        },
+        {
           "key": "ma8_general",
           "value": "K6"
         },
@@ -4655,6 +4983,10 @@
       "id": "M1660702",
       "taskId": "M16607",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "1b"
+        },
         {
           "key": "ma8_general",
           "value": "K4"
@@ -4700,6 +5032,10 @@
       "taskId": "M17140",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "3"
+        },
+        {
           "key": "ma8_general",
           "value": "K4"
         },
@@ -4744,6 +5080,10 @@
       "taskId": "M17140",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": "K5"
         },
@@ -4787,6 +5127,10 @@
       "id": "M1714003",
       "taskId": "M17140",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -4835,6 +5179,10 @@
       "taskId": "M17022",
       "metadata": [
         {
+          "key": "ma_comp_level",
+          "value": "4"
+        },
+        {
           "key": "ma8_general",
           "value": [
             "K2",
@@ -4881,6 +5229,10 @@
       "id": "M1674201",
       "taskId": "M16742",
       "metadata": [
+        {
+          "key": "ma_comp_level",
+          "value": "5"
+        },
         {
           "key": "ma8_general",
           "value": [
@@ -6009,6 +6361,36 @@
         },
         {
           "key": "Daten und Zufall (L5)",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "key": "ma_comp_level",
+      "label": "MaSek1 Kompetenzstufe",
+      "values": [
+        {
+          "key": "1a",
+          "label": ""
+        },
+        {
+          "key": "1b",
+          "label": ""
+        },
+        {
+          "key": "2",
+          "label": ""
+        },
+        {
+          "key": "3",
+          "label": ""
+        },
+        {
+          "key": "4",
+          "label": ""
+        },
+        {
+          "key": "5",
           "label": ""
         }
       ]

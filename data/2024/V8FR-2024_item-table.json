@@ -4,14 +4,19 @@
   "yearOfApplication": 2024,
   "yearOfTryout": 2023,
   "publisher": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-  "created": "06.06.2024 17:27",
+  "created": "19.06.2024 15:45",
   "tasks": [
     {
       "id": "CO23046",
       "label": "Soiree Jeux",
       "title": "Soirée jeux",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -20,7 +25,12 @@
       "label": "Quentin fait de la danse classique",
       "title": "Quentin fait de la danse classique",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -29,7 +39,12 @@
       "label": "Meteo Saint-Malo",
       "title": "Météo Saint-Malo",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -38,7 +53,12 @@
       "label": "Sniggi",
       "title": "Sniggi",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -47,7 +67,12 @@
       "label": "Maison de vacances",
       "title": "Maison de vacances",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -56,7 +81,12 @@
       "label": "Quel reseau",
       "title": "Quel réseau ?",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -65,7 +95,12 @@
       "label": " Animal perdu",
       "title": "Animal perdu",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -74,7 +109,12 @@
       "label": "La cantine",
       "title": "La cantine",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -83,7 +123,12 @@
       "label": "Lecture plaisir",
       "title": "Lecture plaisir",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -92,7 +137,12 @@
       "label": "Une fille comme il faut",
       "title": "Une fille comme il faut",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -101,7 +151,12 @@
       "label": "Commencer les cours plus tard",
       "title": "Commencer les cours plus tard ?",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -110,7 +165,12 @@
       "label": "Mon voyage a Singapour",
       "title": "Mon voyage à Singapour",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -119,7 +179,12 @@
       "label": "La Saint-Valentin",
       "title": "La Saint-Valentin",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -128,7 +193,12 @@
       "label": "Les selfies",
       "title": "Les selfies",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -137,7 +207,12 @@
       "label": "Geocaching en Alsace",
       "title": "Géocaching en Alsace",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -146,7 +221,12 @@
       "label": "Panique en maths",
       "title": "Panique en maths",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -155,7 +235,12 @@
       "label": "Blob a Paris",
       "title": "Blob à Paris",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -164,7 +249,12 @@
       "label": "Dans un restaurant en France",
       "title": "Dans un restaurant en France",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Hörverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -173,7 +263,12 @@
       "label": "Une affiche",
       "title": "Une affiche",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -182,7 +277,12 @@
       "label": "Une vieille bouteille",
       "title": "Une vieille bouteille",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -191,7 +291,12 @@
       "label": "Lintelligence artificielle est partout",
       "title": "L’intelligence artificielle est partout",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -200,7 +305,12 @@
       "label": "Aidez Ben",
       "title": "Aidez Ben",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -209,7 +319,12 @@
       "label": "Le mail dHenry",
       "title": "Le mail d’Henry",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -218,7 +333,12 @@
       "label": "Dans le metro",
       "title": "Dans le métro",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -227,7 +347,12 @@
       "label": "Le ptit dej",
       "title": "Le p’tit déj",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -236,7 +361,12 @@
       "label": "Correspondante perdue",
       "title": "Correspondante perdue",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -245,7 +375,12 @@
       "label": "Code vestimentaire",
       "title": "Code vestimentaire",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -254,7 +389,12 @@
       "label": "Les bancs de lamitie",
       "title": "Les bancs de l’amitié",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -263,7 +403,12 @@
       "label": "Zut !",
       "title": "Zut !",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -272,7 +417,12 @@
       "label": "Les cours a distance",
       "title": "Les cours à distance",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -281,7 +431,12 @@
       "label": "Regles de vie",
       "title": "Règles de vie",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -290,7 +445,12 @@
       "label": "Rencontre avec un ours",
       "title": "Rencontre avec un ours",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -299,7 +459,12 @@
       "label": "Kangourou",
       "title": "Kangourou",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -308,7 +473,12 @@
       "label": "Le stress des eleves",
       "title": "Le stress des élèves",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -317,7 +487,12 @@
       "label": "Reveil surprise",
       "title": "Réveil surprise",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -326,7 +501,12 @@
       "label": "Un mois sans portable",
       "title": "Un mois sans portable",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     },
@@ -335,7 +515,12 @@
       "label": "Dans la nuit",
       "title": "Dans la nuit",
       "subject": "V8FR",
-      "metadata": [],
+      "metadata": [
+        {
+          "key": "enfr_domain",
+          "value": "Leseverstehen"
+        }
+      ],
       "yearOfTryout": 2023,
       "yearOfApplication": 2024
     }
@@ -357,13 +542,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.80411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 312.73666855385
         },
@@ -397,13 +582,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.09011229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 369.504610129365
         },
@@ -437,13 +622,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.30511229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 272.90370114582
         },
@@ -477,13 +662,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.09011229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 369.504610129365
         },
@@ -517,13 +702,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.65611229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 324.503692858018
         },
@@ -557,13 +742,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.01546524064171
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 454.946488910309
         },
@@ -597,13 +782,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.537465240641711
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 492.950797135935
         },
@@ -637,13 +822,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.10746524064171
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 368.124931206579
         },
@@ -677,13 +862,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.0975347593582886
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 543.437691954496
         },
@@ -717,13 +902,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.97511229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 378.647906041388
         },
@@ -757,13 +942,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.74111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 397.25252554933
         },
@@ -797,13 +982,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.03011229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 453.781946361924
         },
@@ -837,13 +1022,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.07611229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 370.617707023003
         },
@@ -877,13 +1062,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.26111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 435.415847616904
         },
@@ -917,13 +1102,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.45011229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 420.389039552797
         },
@@ -957,13 +1142,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.15111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 444.161608924056
         },
@@ -997,13 +1182,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.52711229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 414.26700663779
         },
@@ -1037,13 +1222,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.24711229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 436.528944510542
         },
@@ -1077,13 +1262,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.35411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 348.5147829922
         },
@@ -1117,13 +1302,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.35411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 348.5147829922
         },
@@ -1157,13 +1342,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.00511229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 376.262698412165
         },
@@ -1197,13 +1382,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.956112299465241
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 459.665458514008
         },
@@ -1237,13 +1422,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.52211229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 414.664541242661
         },
@@ -1277,13 +1462,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.05311229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 292.939445231296
         },
@@ -1317,13 +1502,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.04999431818182
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 293.187346322796
         },
@@ -1357,13 +1542,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.59899431818182
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 408.551888656232
         },
@@ -1397,13 +1582,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.487994318181819
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 496.88407785847
         },
@@ -1437,13 +1622,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.78411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 234.81988599922
         },
@@ -1477,13 +1662,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.01111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 296.278735912208
         },
@@ -1517,13 +1702,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.06311229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 451.158217969778
         },
@@ -1557,13 +1742,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.76611229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 395.264852524978
         },
@@ -1597,13 +1782,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.09311229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 289.759168392331
         },
@@ -1637,13 +1822,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.91011229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 383.815855904705
         },
@@ -1677,13 +1862,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.86511229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 228.379825400317
         },
@@ -1717,13 +1902,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -4.00711229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 217.089842621993
         },
@@ -1757,13 +1942,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.63811229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 325.934817435552
         },
@@ -1797,13 +1982,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.69911229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 321.084895256131
         },
@@ -1837,13 +2022,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.00411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 376.342205333139
         },
@@ -1877,13 +2062,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.90511229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 384.213390509576
         },
@@ -1917,13 +2102,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.22811229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 358.532655034938
         },
@@ -1957,13 +2142,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.77111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 235.853475971883
         },
@@ -1997,13 +2182,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.41411229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 343.744367733753
         },
@@ -2037,13 +2222,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.23111229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 437.801055246127
         },
@@ -2077,13 +2262,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.263005681818181
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 556.593775510028
         },
@@ -2117,13 +2302,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.934994318181819
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 461.344484183042
         },
@@ -2157,13 +2342,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.51599431818182
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 415.150963097083
         },
@@ -2197,13 +2382,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.756994318181819
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 475.496716116434
         },
@@ -2237,13 +2422,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.974112299465241
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 458.234333936474
         },
@@ -2277,13 +2462,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.206887700534759
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 552.1320076069
         },
@@ -2317,13 +2502,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.00911229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 455.45159170238
         },
@@ -2357,13 +2542,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.27711229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 434.143736881318
         },
@@ -2397,13 +2582,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.889112299465241
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 464.992422219274
         },
@@ -2437,13 +2622,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.80211229946524
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 392.40260336991
         },
@@ -2477,13 +2662,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.129582887700535
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 525.380267137964
         },
@@ -2517,13 +2702,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.438582887700535
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 500.812628556963
         },
@@ -2557,13 +2742,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.311582887700535
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 510.910007520675
         },
@@ -2597,13 +2782,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.267582887700535
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 514.408312043536
         },
@@ -2637,13 +2822,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": 2.35000568181818
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 722.524719582999
         },
@@ -2677,13 +2862,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": 1.24100568181818
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 634.351544222709
         },
@@ -2717,13 +2902,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": -0.0559943181818188
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 531.231067719286
         },
@@ -2757,13 +2942,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": -1.06099431818182
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 451.326612140304
         },
@@ -2797,13 +2982,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.204112299465241
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 519.45466308654
         },
@@ -2837,13 +3022,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.9202
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 251.955489433788
         },
@@ -2877,13 +3062,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.09926666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 428.401015676946
         },
@@ -2917,13 +3102,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.209266666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 514.640591548154
         },
@@ -2957,13 +3142,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.3192
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 503.988227457396
         },
@@ -2997,13 +3182,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": -1.3322
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 405.830148403988
         },
@@ -3037,13 +3222,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.2832
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 410.578169996897
         },
@@ -3077,13 +3262,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.5292
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 386.741163632495
         },
@@ -3117,13 +3302,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.1532
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 423.174961978084
         },
@@ -3157,13 +3342,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.2062
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 514.937746641044
         },
@@ -3197,13 +3382,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.3352
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 502.437853059711
         },
@@ -3237,13 +3422,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.3062
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 505.247906655515
         },
@@ -3277,13 +3462,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.5698
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 590.130904928748
         },
@@ -3317,13 +3502,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.3592
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 403.213891607895
         },
@@ -3357,13 +3542,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.15056666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 423.43012776437
         },
@@ -3397,13 +3582,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.12856666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 328.663492705897
         },
@@ -3437,13 +3622,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.04556666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 336.706059893886
         },
@@ -3477,13 +3662,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.18456666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 323.237182314001
         },
@@ -3517,13 +3702,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.05956666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 432.247882151201
         },
@@ -3557,13 +3742,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.73356666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 270.039960793447
         },
@@ -3597,13 +3782,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.97356666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 246.784344828177
         },
@@ -3637,13 +3822,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.77156666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 266.357821598946
         },
@@ -3677,13 +3862,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.93956666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 346.977290278547
         },
@@ -3717,13 +3902,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.2352
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 318.330893334661
         },
@@ -3757,13 +3942,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.11156666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 330.310765503437
         },
@@ -3797,13 +3982,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.04756666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 336.512263094175
         },
@@ -3837,13 +4022,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.74456666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 365.872478250328
         },
@@ -3877,13 +4062,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.00280000000000002
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 535.189512210799
         },
@@ -3917,13 +4102,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.4722
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 489.162772279537
         },
@@ -3957,13 +4142,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.5342
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 386.256671633219
         },
@@ -3997,13 +4182,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.9932
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 438.678705954931
         },
@@ -4037,13 +4222,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.4842
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 391.101591625984
         },
@@ -4077,13 +4262,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.0152
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 339.648541302825
         },
@@ -4117,13 +4302,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -3.0092
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 243.331531846667
         },
@@ -4157,13 +4342,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.2222
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 416.488972388069
         },
@@ -4197,13 +4382,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.0202
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 436.062449158838
         },
@@ -4237,13 +4422,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.9802
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 439.93838515305
         },
@@ -4277,13 +4462,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.6862
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 371.528114855215
         },
@@ -4317,13 +4502,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.3842
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 400.791431611513
         },
@@ -4357,13 +4542,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.0202
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 339.164049303548
         },
@@ -4397,13 +4582,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.0202
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 339.164049303548
         },
@@ -4437,13 +4622,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.3382
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 308.350358149566
         },
@@ -4477,13 +4662,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -1.5572
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 384.028008436547
         },
@@ -4517,13 +4702,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.1112
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 330.346294916717
         },
@@ -4557,13 +4742,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -2.4612
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 296.431854967366
         },
@@ -4619,13 +4804,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.1892
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 516.585019438584
         },
@@ -4659,13 +4844,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.713266666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 465.803798021088
         },
@@ -4699,13 +4884,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.4202
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 494.201489072012
         },
@@ -4739,13 +4924,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.2102
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 514.550153041622
         },
@@ -4779,13 +4964,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.3152
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 504.375821056817
         },
@@ -4819,13 +5004,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.3488
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 568.716358560729
         },
@@ -4859,13 +5044,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "LIMITED",
           "value": 1.8768
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 716.777113539612
         },
@@ -4899,13 +5084,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.808733333333333
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 613.283162600839
         },
@@ -4939,13 +5124,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.105733333333333
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 545.16358750257
         },
@@ -4979,13 +5164,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.461266666666667
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 490.222194784621
         },
@@ -5019,13 +5204,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.216733333333333
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 555.919309886508
         },
@@ -5059,13 +5244,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": 0.331733333333333
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 567.062625869866
         },
@@ -5099,13 +5284,13 @@
       "metrics": [
         {
           "key": "LOGIT",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "FULL",
           "value": -0.6732
         },
         {
           "key": "EDUCATIONAL_STANDARD_METRIC",
-          "isGlobal": true,
+          "isGlobal": false,
           "reliability": "NOT_AVAILABLE",
           "value": 469.686193908623
         },
@@ -6143,6 +6328,28 @@
     }
   ],
   "vocabs": [
+    {
+      "key": "enfr_domain",
+      "label": "Kompetenzbereich Fremdsprachen",
+      "values": [
+        {
+          "key": "Leseverstehen",
+          "label": ""
+        },
+        {
+          "key": "Hörverstehen",
+          "label": ""
+        },
+        {
+          "key": "Schreiben",
+          "label": ""
+        },
+        {
+          "key": "Hörsehverstehen",
+          "label": ""
+        }
+      ]
+    },
     {
       "key": "fr_comp_level",
       "label": "Niveaustufe Frz",

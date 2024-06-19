@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iqb-berlin.github.io/item-table/intro/index.html</loc>
-    <lastmod>2024-06-07T12:20:40.253Z</lastmod>
+    <lastmod>2024-06-19T15:40:40.623Z</lastmod>
   </url>
   <url>
-    <loc>https://iqb-berlin.github.io/item-table/data-specs-guide/constants.html</loc>
-    <lastmod>2024-06-07T12:20:40.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iqb-berlin.github.io/item-table/data/index.html</loc>
-    <lastmod>2024-06-07T12:20:40.253Z</lastmod>
+    <loc>https://iqb-berlin.github.io/item-table/data/2023/index.html</loc>
+    <lastmod>2024-06-19T15:40:40.619Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-berlin.github.io/item-table/data-specs-guide/index.html</loc>
-    <lastmod>2024-06-07T12:20:40.249Z</lastmod>
+    <lastmod>2024-06-19T15:40:40.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-berlin.github.io/item-table/data/index.html</loc>
+    <lastmod>2024-06-19T15:40:40.623Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iqb-berlin.github.io/item-table/data/2024/index.html</loc>
+    <lastmod>2024-06-19T15:40:40.623Z</lastmod>
   </url>
   <url>
     <loc>https://iqb-berlin.github.io/item-table/index.html</loc>
-    <lastmod>2024-06-07T12:20:40.253Z</lastmod>
+    <lastmod>2024-06-19T15:40:40.623Z</lastmod>
   </url>
 </urlset>

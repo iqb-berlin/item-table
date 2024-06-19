@@ -1,0 +1,6276 @@
+{
+  "objectType": "vera-item-table@1.0",
+  "subject": "V3MA",
+  "yearOfApplication": 2023,
+  "yearOfTryout": 2022,
+  "publisher": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "created": "19.06.2024 15:41",
+  "tasks": [
+    {
+      "id": "MV22860",
+      "label": "Haustiere_Anzahl",
+      "title": "Haustiere_Anzahl",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22803",
+      "label": "Fische_angeln_MC",
+      "title": "Fische_angeln_MC",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22830",
+      "label": "Mensch_ärgere",
+      "title": "Mensch_ärgere",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22826",
+      "label": "Taschengeld_Kinder",
+      "title": "Taschengeld_Kinder",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22871",
+      "label": "Glücksrad_Grau",
+      "title": "Glücksrad_Grau",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22806",
+      "label": "Karten_ziehen",
+      "title": "Karten_ziehen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22844",
+      "label": "Gleiche_Münzen",
+      "title": "Gleiche_Münzen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22823",
+      "label": "Hobby_Sport",
+      "title": "Hobby_Sport",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22843",
+      "label": "Umfrage_Hobbys",
+      "title": "Umfrage_Hobbys",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22914",
+      "label": "ABC_Kugel",
+      "title": "ABC_Kugel",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22819",
+      "label": "Klassenausflug",
+      "title": "Klassenausflug",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22892",
+      "label": "Lieblingstier_Begründe",
+      "title": "Lieblingstier_Begründe",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22890",
+      "label": "Farben_Aussagen_CMC",
+      "title": "Farben_Aussagen_CMC",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22848",
+      "label": "Herz_gewinnt",
+      "title": "Herz_gewinnt",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22821",
+      "label": "Lieblingsfarben",
+      "title": "Lieblingsfarben",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22884",
+      "label": "Glücksräder_vergleichen",
+      "title": "Glücksräder_vergleichen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22831",
+      "label": "Münze_werfen",
+      "title": "Münze_werfen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22807",
+      "label": "würfeln_ein_Würfel",
+      "title": "würfeln_ein_Würfel",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22911",
+      "label": "Obstbäume",
+      "title": "Obstbäume",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22868",
+      "label": "Gewinnchance_Kugel",
+      "title": "Gewinnchance_Kugel",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22849",
+      "label": "Gewicht_Hunde",
+      "title": "Gewicht_Hunde",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22854",
+      "label": "Augenzahl_verdoppeln",
+      "title": "Augenzahl_verdoppeln",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22839",
+      "label": "Summe_10",
+      "title": "Summe_10",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22912",
+      "label": "Mensa",
+      "title": "Mensa",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV14033",
+      "label": "Stellentafel2",
+      "title": "Stellentafel2",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15046",
+      "label": "Dreiecke",
+      "title": "Dreiecke",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV19076",
+      "label": "Aufgabe_mit50",
+      "title": "Aufgabe_mit50",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15005",
+      "label": "Produkt",
+      "title": "Produkt",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV19078",
+      "label": "7Murmeln",
+      "title": "7Murmeln",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV17601",
+      "label": "Tür",
+      "title": "Tür",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "4. Größen und Messen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV16627",
+      "label": "Fahrzeit",
+      "title": "Fahrzeit",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "4. Größen und Messen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV16641",
+      "label": "Schwimmbad",
+      "title": "Schwimmbad",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "4. Größen und Messen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV12670",
+      "label": "Baukasten",
+      "title": "Baukasten",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "4. Größen und Messen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV16609",
+      "label": "BalkenwaageAnanas",
+      "title": "BalkenwaageAnanas",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "4. Größen und Messen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV13816",
+      "label": "Klassensprecherwahl",
+      "title": "Klassensprecherwahl",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV19811",
+      "label": "Zahlenfolge",
+      "title": "Zahlenfolge",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV13844",
+      "label": "Wuerfelregel1",
+      "title": "Wuerfelregel1",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV19823",
+      "label": "Bücherei_Taschen",
+      "title": "Bücherei_Taschen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "5. Daten, Häufigkeit und Wahrscheinlichkeit"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15503",
+      "label": "Aufgabenmuster",
+      "title": "Aufgabenmuster",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "3. Muster und Strukturen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15405",
+      "label": "Kreis_und_Stäbchen",
+      "title": "Kreis_und_Stäbchen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "3. Muster und Strukturen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15480",
+      "label": "Apfelsaft",
+      "title": "Apfelsaft",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "3. Muster und Strukturen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV15473",
+      "label": "Punkte_anpassen",
+      "title": "Punkte_anpassen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "3. Muster und Strukturen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV17306",
+      "label": "Würfelfalten_2",
+      "title": "Würfelfalten_2",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "2. Raum und Form"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV17310",
+      "label": "Achsenspiegelung_1",
+      "title": "Achsenspiegelung1",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "2. Raum und Form"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV13209",
+      "label": "5er_Flaeche_zeichnen",
+      "title": "5er_Flaeche_zeichnen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "2. Raum und Form"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV12222",
+      "label": "Ansicht_3",
+      "title": "Ansicht_3",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "2. Raum und Form"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22020",
+      "label": "Halb_so_alt",
+      "title": "Halb_so_alt",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22046",
+      "label": "Ziffernkarten_dreistellige_Zahl",
+      "title": "Ziffernkarten_dreistellige_Zahl",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22066",
+      "label": "Spielsachen_kaufen",
+      "title": "Spielsachen_kaufen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22078",
+      "label": "Mal_rechnen",
+      "title": "Mal_rechnen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22030",
+      "label": "Fehler erklären",
+      "title": "Fehler_erklären",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22073",
+      "label": "Kindergarten",
+      "title": "Kindergarten",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22102",
+      "label": "Subtraktion_747",
+      "title": "Subtraktion_747",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22056",
+      "label": "Ergebnis_am_nächsten",
+      "title": "Ergebnis_am_nächsten",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22070",
+      "label": "Altersvergleich",
+      "title": "Altersvergleich",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22053",
+      "label": "vorteilhafter Rechenweg",
+      "title": "vorteilhafter_Rechenweg",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22006",
+      "label": "Plättchen_Stellenwerttafel",
+      "title": "Plättchen_Stellenwerttafel",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22121",
+      "label": "Mitte",
+      "title": "Mitte",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22123",
+      "label": "Zahlenstrahl 1",
+      "title": "Zahlenstrahl_1",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22080",
+      "label": "24_Kinder_verbinden",
+      "title": "24_Kinder_verbinden",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22105",
+      "label": "Überschlag_verbinden",
+      "title": "Überschlag_verbinden",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22016",
+      "label": "Subtraktion_von_550",
+      "title": "Subtraktion_von_550",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22072",
+      "label": "Wasserhahn",
+      "title": "Wasserhahn",
+      "subject": "V3MA",
+      "metadata": [],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22091",
+      "label": "Einkauf_Schulsachen",
+      "title": "Einkauf_Schulsachen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22125",
+      "label": "Zahlenstrahl_3",
+      "title": "Zahlenstrahl_3",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22026",
+      "label": "Kaugummis_teilen",
+      "title": "Kaugummis_teilen",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22112",
+      "label": "Klein_und_groß_860",
+      "title": "Klein_und_groß_860",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22101",
+      "label": "Wie_alt",
+      "title": "Wie_alt",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    },
+    {
+      "id": "MV22040",
+      "label": "Plättchen_größtmögliche_Zahl",
+      "title": "Plättchen_größtmögliche_Zahl",
+      "subject": "V3MA",
+      "metadata": [
+        {
+          "key": "ma3_domain",
+          "value": "1. Zahlen und Operationen"
+        }
+      ],
+      "yearOfTryout": 2022,
+      "yearOfApplication": 2023
+    }
+  ],
+  "items": [
+    {
+      "id": "MV2286001",
+      "taskId": "MV22860",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "5.1.a",
+            "5.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.28
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.31
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 336.5
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 328.39
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.78
+        }
+      ]
+    },
+    {
+      "id": "MV2280301",
+      "taskId": "MV22803",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.83
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.91
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 376.35
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 364.71
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.7
+        }
+      ]
+    },
+    {
+      "id": "MV2283001",
+      "taskId": "MV22830",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "5.2.a",
+            "5.2.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.01
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.09
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 360.6
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 348.55
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.73
+        }
+      ]
+    },
+    {
+      "id": "MV2282601",
+      "taskId": "MV22826",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.12
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.21
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 350.88
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 337.51
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.76
+        }
+      ]
+    },
+    {
+      "id": "MV2287101",
+      "taskId": "MV22871",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.75
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.77
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 383.89
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 376.91
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.7
+        }
+      ]
+    },
+    {
+      "id": "MV2280601",
+      "taskId": "MV22806",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "2.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.45
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.66
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 499.0
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 478.76
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.46
+        }
+      ]
+    },
+    {
+      "id": "MV2284401",
+      "taskId": "MV22844",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.79
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.9
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 468.82
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 456.63
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.53
+        }
+      ]
+    },
+    {
+      "id": "MV2282301",
+      "taskId": "MV22823",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.2.b",
+            "5.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.14
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.26
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 526.17
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 515.43
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.39
+        }
+      ]
+    },
+    {
+      "id": "MV2284301",
+      "taskId": "MV22843",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.69
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.8
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 477.61
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 466.11
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": "MV2291401",
+      "taskId": "MV22914",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.32
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.43
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 510.87
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 499.89
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.42
+        }
+      ]
+    },
+    {
+      "id": "MV2281901",
+      "taskId": "MV22819",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 0.79
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.59
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 608.97
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 592.6
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.24
+        }
+      ]
+    },
+    {
+      "id": "MV2289201",
+      "taskId": "MV22892",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.3",
+            "4.1",
+            "5.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.85
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.97
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 463.18
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 450.4
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.52
+        }
+      ]
+    },
+    {
+      "id": "MV2289001",
+      "taskId": "MV22890",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "4.1"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.78
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.81
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 292.05
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 282.92
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.85
+        }
+      ]
+    },
+    {
+      "id": "MV2284801",
+      "taskId": "MV22848",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.05
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.17
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 445.6
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 431.91
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.56
+        }
+      ]
+    },
+    {
+      "id": "MV2282101",
+      "taskId": "MV22821",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.55
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.66
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 401.47
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 387.37
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.67
+        }
+      ]
+    },
+    {
+      "id": "MV2288401",
+      "taskId": "MV22884",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.03
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.14
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 447.14
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 434.33
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.58
+        }
+      ]
+    },
+    {
+      "id": "MV2283101",
+      "taskId": "MV22831",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "IV"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.06
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.17
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 533.55
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 523.23
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.39
+        }
+      ]
+    },
+    {
+      "id": "MV2280701",
+      "taskId": "MV22807",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.69
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.73
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 477.43
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 472.26
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.51
+        }
+      ]
+    },
+    {
+      "id": "MV2291101",
+      "taskId": "MV22911",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "IV"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.2.b",
+            "5.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 0.21
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.1
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 557.47
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 548.25
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "MV2286801",
+      "taskId": "MV22868",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": 1.26
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": 1.16
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 650.43
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 644.83
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.17
+        }
+      ]
+    },
+    {
+      "id": "MV2284901",
+      "taskId": "MV22849",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.3",
+            "5.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.14
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.25
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 526.22
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 515.86
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "MV2285401",
+      "taskId": "MV22854",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.3",
+            "2.2"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "5.2.a",
+            "1.3.e"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 1.86
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 1.76
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 703.68
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 698.82
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.11
+        }
+      ]
+    },
+    {
+      "id": "MV2283901",
+      "taskId": "MV22839",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.e"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": 1.16
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": 0.96
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 641.46
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 626.18
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.19
+        }
+      ]
+    },
+    {
+      "id": "MV2291201",
+      "taskId": "MV22912",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "5.1.a",
+            "5.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.96
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.08
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 364.77
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 348.63
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.73
+        }
+      ]
+    },
+    {
+      "id": "MV1403301",
+      "taskId": "MV14033",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.1.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -4.14
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 161.12
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.94
+        }
+      ]
+    },
+    {
+      "id": "MV1504601",
+      "taskId": "MV15046",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "1.1",
+            "5.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.28
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 330.59
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.75
+        }
+      ]
+    },
+    {
+      "id": "MV1907602",
+      "taskId": "MV19076",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.62
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 481.8
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.45
+        }
+      ]
+    },
+    {
+      "id": "MV1500501",
+      "taskId": "MV15005",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.d"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.79
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 610.89
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.23
+        }
+      ]
+    },
+    {
+      "id": "MV1907801",
+      "taskId": "MV19078",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.e"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -0.06
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 533.49
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.34
+        }
+      ]
+    },
+    {
+      "id": "MV1760101",
+      "taskId": "MV17601",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "4.1.c"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.24
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 334.7
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.76
+        }
+      ]
+    },
+    {
+      "id": "MV1662701",
+      "taskId": "MV16627",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "4.1.e"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -1.01
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 446.89
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.53
+        }
+      ]
+    },
+    {
+      "id": "MV1664101",
+      "taskId": "MV16641",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "4.2.d",
+            "5.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.54
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 489.47
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.42
+        }
+      ]
+    },
+    {
+      "id": "MV1267001",
+      "taskId": "MV12670",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "4.2.d"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.21
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 557.41
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "MV1660901",
+      "taskId": "MV16609",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "4.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.33
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 508.93
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.42
+        }
+      ]
+    },
+    {
+      "id": "MV1381601",
+      "taskId": "MV13816",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -4.21
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 155.25
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.94
+        }
+      ]
+    },
+    {
+      "id": "MV1981101",
+      "taskId": "MV19811",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "1.2",
+            "2.1"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.3.e",
+            "3.1.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.58
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 486.18
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.44
+        }
+      ]
+    },
+    {
+      "id": "MV1384401",
+      "taskId": "MV13844",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "5.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.07
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 544.76
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.32
+        }
+      ]
+    },
+    {
+      "id": "MV1982301",
+      "taskId": "MV19823",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "3.1.a",
+            "5.1.a"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.37
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 413.36
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.59
+        }
+      ]
+    },
+    {
+      "id": "MV1550301",
+      "taskId": "MV15503",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "3.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.99
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 357.14
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.72
+        }
+      ]
+    },
+    {
+      "id": "MV1540501",
+      "taskId": "MV15405",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "3.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.5
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 402.2
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.61
+        }
+      ]
+    },
+    {
+      "id": "MV1548001",
+      "taskId": "MV15480",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "3.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.77
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 608.72
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "id": "MV1547301",
+      "taskId": "MV15473",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "5.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.2.e",
+            "3.1.c"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -0.91
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 455.47
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.54
+        }
+      ]
+    },
+    {
+      "id": "MV1730601",
+      "taskId": "MV17306",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "2.1.c"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -1.09
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 439.6
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.57
+        }
+      ]
+    },
+    {
+      "id": "MV1730602",
+      "taskId": "MV17306",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "2.1.c"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -0.49
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 494.31
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.45
+        }
+      ]
+    },
+    {
+      "id": "MV1731002",
+      "taskId": "MV17310",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "2.3.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.04
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 542.02
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.33
+        }
+      ]
+    },
+    {
+      "id": "MV1320901",
+      "taskId": "MV13209",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "0"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "2.4.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "NONE",
+          "value": 1.51
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 676.57
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.14
+        }
+      ]
+    },
+    {
+      "id": "MV1222201",
+      "taskId": "MV12222",
+      "metadata": [
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "2.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.91
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 455.27
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.51
+        }
+      ]
+    },
+    {
+      "id": "MV2202001",
+      "taskId": "MV22020",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.84
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.74
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 390.52
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 379.8
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.68
+        }
+      ]
+    },
+    {
+      "id": "MV2204601",
+      "taskId": "MV22046",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "0"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.a",
+            "1.1.c"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.39
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.29
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 347.62
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 329.94
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.76
+        }
+      ]
+    },
+    {
+      "id": "MV2206601",
+      "taskId": "MV22066",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.d"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": -3.05
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -3.02
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 297.45
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 263.12
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.85
+        }
+      ]
+    },
+    {
+      "id": "MV2207801",
+      "taskId": "MV22078",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "0"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -3.73
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -3.71
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 244.88
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 200.69
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.91
+        }
+      ]
+    },
+    {
+      "id": "MV2203001",
+      "taskId": "MV22030",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "2.1",
+            "3.1",
+            "3.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.d"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.88
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.94
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 464.15
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 453.13
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.52
+        }
+      ]
+    },
+    {
+      "id": "MV2207301",
+      "taskId": "MV22073",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "4.1"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.3.a",
+            "1.2.a"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.59
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.5
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 409.33
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 402.01
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.64
+        }
+      ]
+    },
+    {
+      "id": "MV2210201",
+      "taskId": "MV22102",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.f"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.05
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.86
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 450.78
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 459.96
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.53
+        }
+      ]
+    },
+    {
+      "id": "MV2205601",
+      "taskId": "MV22056",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "3.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.g"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.79
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.81
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 470.88
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 464.59
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.48
+        }
+      ]
+    },
+    {
+      "id": "MV2207001",
+      "taskId": "MV22070",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "4.2"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.79
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.76
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 470.78
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 469.5
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.48
+        }
+      ]
+    },
+    {
+      "id": "MV2205301",
+      "taskId": "MV22053",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "1.3",
+            "2.1"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.c"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.11
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.03
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 522.6
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 536.02
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.36
+        }
+      ]
+    },
+    {
+      "id": "MV2200601",
+      "taskId": "MV22006",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.1.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": 0.96
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": 1.03
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 604.89
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 632.57
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.19
+        }
+      ]
+    },
+    {
+      "id": "MV2212102",
+      "taskId": "MV22121",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.c",
+            "1.2.b"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.96
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.02
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 457.82
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 445.67
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.53
+        }
+      ]
+    },
+    {
+      "id": "MV2212301",
+      "taskId": "MV22123",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.c",
+            "3.1.a"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": -2.66
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -2.66
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 327.53
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 296.2
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.8
+        }
+      ]
+    },
+    {
+      "id": "MV2204602",
+      "taskId": "MV22046",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "0"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.a",
+            "1.1.c"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.18
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.08
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 364.46
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 348.99
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.73
+        }
+      ]
+    },
+    {
+      "id": "MV2207802",
+      "taskId": "MV22078",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "I"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "I"
+        },
+        {
+          "key": "ma3_general",
+          "value": "0"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "I"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -2.12
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -2.09
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 368.91
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 347.68
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.72
+        }
+      ]
+    },
+    {
+      "id": "MV2208001",
+      "taskId": "MV22080",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "4.2"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.24
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.15
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 436.31
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 433.96
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.57
+        }
+      ]
+    },
+    {
+      "id": "MV2210501",
+      "taskId": "MV22105",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "II"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "II"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.g"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -1.11
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -1.17
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 446.37
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 432.34
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.56
+        }
+      ]
+    },
+    {
+      "id": "MV2201601",
+      "taskId": "MV22016",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.f"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.65
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.47
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 481.75
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 496.16
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.44
+        }
+      ]
+    },
+    {
+      "id": "MV2207201",
+      "taskId": "MV22072",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "4.2"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": -0.18
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": -0.21
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 517.44
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 519.67
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.37
+        }
+      ]
+    },
+    {
+      "id": "MV2209101",
+      "taskId": "MV22091",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "3.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.b"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.4
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.41
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 500.54
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 501.63
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.41
+        }
+      ]
+    },
+    {
+      "id": "MV2212501",
+      "taskId": "MV22125",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "IV"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.c",
+            "3.1.a"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 0.22
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.19
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 548.19
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 556.03
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "id": "MV2202601",
+      "taskId": "MV22026",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "3.1",
+            "3.3"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.a"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "III"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "LIMITED",
+          "value": 1.79
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "LIMITED",
+          "value": 1.75
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 668.68
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 698.21
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "MV2211201",
+      "taskId": "MV22112",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "III"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "III"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.3"
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.2.c"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": -0.48
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": -0.55
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 494.88
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 488.77
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.44
+        }
+      ]
+    },
+    {
+      "id": "MV2210101",
+      "taskId": "MV22101",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "IV"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "IV"
+        },
+        {
+          "key": "ma3_general",
+          "value": [
+            "1.3",
+            "4.2"
+          ]
+        },
+        {
+          "key": "ma3_comp",
+          "value": "1.3.d"
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 0.09
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 0.26
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 538.23
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 562.15
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "id": "MV2204001",
+      "taskId": "MV22040",
+      "metadata": [
+        {
+          "key": "de_comp_level",
+          "value": "V"
+        },
+        {
+          "key": "ma_comp_level_global",
+          "value": "V"
+        },
+        {
+          "key": "ma3_general",
+          "value": "1.1"
+        },
+        {
+          "key": "ma3_comp",
+          "value": [
+            "1.1.a",
+            "3.1.a"
+          ]
+        },
+        {
+          "key": "ma3_requ",
+          "value": "II"
+        }
+      ],
+      "metrics": [
+        {
+          "key": "LOGIT",
+          "isGlobal": false,
+          "reliability": "FULL",
+          "value": 1.13
+        },
+        {
+          "key": "LOGIT",
+          "isGlobal": true,
+          "reliability": "FULL",
+          "value": 1.2
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": false,
+          "reliability": "NOT_AVAILABLE",
+          "value": 618.04
+        },
+        {
+          "key": "EDUCATIONAL_STANDARD_METRIC",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 647.93
+        },
+        {
+          "key": "FREQUENCY_PRIMARY",
+          "isGlobal": true,
+          "reliability": "NOT_AVAILABLE",
+          "value": 0.17
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "23-V3-MA-DHW-EM-A",
+      "label": "23-V3-MA-DHW-EM-A",
+      "subject": "V3MA",
+      "yearOfApplication": 2023,
+      "tasks": [
+        {
+          "id": "MV22860",
+          "numberInModule": 1,
+          "items": [
+            {
+              "id": "MV2286001",
+              "numberInModule": 1,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22803",
+          "numberInModule": 2,
+          "items": [
+            {
+              "id": "MV2280301",
+              "numberInModule": 2,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22830",
+          "numberInModule": 3,
+          "items": [
+            {
+              "id": "MV2283001",
+              "numberInModule": 3,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22826",
+          "numberInModule": 4,
+          "items": [
+            {
+              "id": "MV2282601",
+              "numberInModule": 4,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22871",
+          "numberInModule": 5,
+          "items": [
+            {
+              "id": "MV2287101",
+              "numberInModule": 5,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22806",
+          "numberInModule": 6,
+          "items": [
+            {
+              "id": "MV2280601",
+              "numberInModule": 6,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22844",
+          "numberInModule": 7,
+          "items": [
+            {
+              "id": "MV2284401",
+              "numberInModule": 7,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22823",
+          "numberInModule": 8,
+          "items": [
+            {
+              "id": "MV2282301",
+              "numberInModule": 8,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22843",
+          "numberInModule": 9,
+          "items": [
+            {
+              "id": "MV2284301",
+              "numberInModule": 9,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22914",
+          "numberInModule": 10,
+          "items": [
+            {
+              "id": "MV2291401",
+              "numberInModule": 10,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22819",
+          "numberInModule": 11,
+          "items": [
+            {
+              "id": "MV2281901",
+              "numberInModule": 11,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22892",
+          "numberInModule": 12,
+          "items": [
+            {
+              "id": "MV2289201",
+              "numberInModule": 12,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23-V3-MA-DHW-EM-B",
+      "label": "23-V3-MA-DHW-EM-B",
+      "subject": "V3MA",
+      "yearOfApplication": 2023,
+      "tasks": [
+        {
+          "id": "MV22890",
+          "numberInModule": 1,
+          "items": [
+            {
+              "id": "MV2289001",
+              "numberInModule": 1,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22848",
+          "numberInModule": 2,
+          "items": [
+            {
+              "id": "MV2284801",
+              "numberInModule": 2,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22821",
+          "numberInModule": 3,
+          "items": [
+            {
+              "id": "MV2282101",
+              "numberInModule": 3,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22884",
+          "numberInModule": 4,
+          "items": [
+            {
+              "id": "MV2288401",
+              "numberInModule": 4,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22831",
+          "numberInModule": 5,
+          "items": [
+            {
+              "id": "MV2283101",
+              "numberInModule": 5,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22807",
+          "numberInModule": 6,
+          "items": [
+            {
+              "id": "MV2280701",
+              "numberInModule": 6,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22911",
+          "numberInModule": 7,
+          "items": [
+            {
+              "id": "MV2291101",
+              "numberInModule": 7,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22868",
+          "numberInModule": 8,
+          "items": [
+            {
+              "id": "MV2286801",
+              "numberInModule": 8,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22849",
+          "numberInModule": 9,
+          "items": [
+            {
+              "id": "MV2284901",
+              "numberInModule": 9,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22854",
+          "numberInModule": 10,
+          "items": [
+            {
+              "id": "MV2285401",
+              "numberInModule": 10,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22839",
+          "numberInModule": 11,
+          "items": [
+            {
+              "id": "MV2283901",
+              "numberInModule": 11,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22912",
+          "numberInModule": 12,
+          "items": [
+            {
+              "id": "MV2291201",
+              "numberInModule": 12,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23-V3-MA-GL-BM",
+      "label": "23-V3-MA-GL-BM",
+      "subject": "V3MA",
+      "yearOfApplication": 2023,
+      "tasks": [
+        {
+          "id": "MV14033",
+          "numberInModule": 1,
+          "items": [
+            {
+              "id": "MV1403301",
+              "numberInModule": 1,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV15046",
+          "numberInModule": 2,
+          "items": [
+            {
+              "id": "MV1504601",
+              "numberInModule": 2,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV19076",
+          "numberInModule": 3,
+          "items": [
+            {
+              "id": "MV1907602",
+              "numberInModule": 3,
+              "numberInTask": 1,
+              "subTask": "B"
+            }
+          ]
+        },
+        {
+          "id": "MV15005",
+          "numberInModule": 4,
+          "items": [
+            {
+              "id": "MV1500501",
+              "numberInModule": 4,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV19078",
+          "numberInModule": 5,
+          "items": [
+            {
+              "id": "MV1907801",
+              "numberInModule": 5,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV17601",
+          "numberInModule": 6,
+          "items": [
+            {
+              "id": "MV1760101",
+              "numberInModule": 6,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV16627",
+          "numberInModule": 7,
+          "items": [
+            {
+              "id": "MV1662701",
+              "numberInModule": 7,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV16641",
+          "numberInModule": 8,
+          "items": [
+            {
+              "id": "MV1664101",
+              "numberInModule": 8,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV12670",
+          "numberInModule": 9,
+          "items": [
+            {
+              "id": "MV1267001",
+              "numberInModule": 9,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV16609",
+          "numberInModule": 10,
+          "items": [
+            {
+              "id": "MV1660901",
+              "numberInModule": 10,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV13816",
+          "numberInModule": 11,
+          "items": [
+            {
+              "id": "MV1381601",
+              "numberInModule": 11,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV19811",
+          "numberInModule": 12,
+          "items": [
+            {
+              "id": "MV1981101",
+              "numberInModule": 12,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV13844",
+          "numberInModule": 13,
+          "items": [
+            {
+              "id": "MV1384401",
+              "numberInModule": 13,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV19823",
+          "numberInModule": 14,
+          "items": [
+            {
+              "id": "MV1982301",
+              "numberInModule": 14,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV15503",
+          "numberInModule": 15,
+          "items": [
+            {
+              "id": "MV1550301",
+              "numberInModule": 15,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV15405",
+          "numberInModule": 16,
+          "items": [
+            {
+              "id": "MV1540501",
+              "numberInModule": 16,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV15480",
+          "numberInModule": 17,
+          "items": [
+            {
+              "id": "MV1548001",
+              "numberInModule": 17,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV15473",
+          "numberInModule": 18,
+          "items": [
+            {
+              "id": "MV1547301",
+              "numberInModule": 18,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV17306",
+          "numberInModule": 19,
+          "items": [
+            {
+              "id": "MV1730601",
+              "numberInModule": 19,
+              "numberInTask": 1,
+              "subTask": "A"
+            },
+            {
+              "id": "MV1730602",
+              "numberInModule": 20,
+              "numberInTask": 2,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV17310",
+          "numberInModule": 20,
+          "items": [
+            {
+              "id": "MV1731002",
+              "numberInModule": 21,
+              "numberInTask": 1,
+              "subTask": "B"
+            }
+          ]
+        },
+        {
+          "id": "MV13209",
+          "numberInModule": 21,
+          "items": [
+            {
+              "id": "MV1320901",
+              "numberInModule": 22,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV12222",
+          "numberInModule": 22,
+          "items": [
+            {
+              "id": "MV1222201",
+              "numberInModule": 23,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23-V3-MA-ZO-EM-A",
+      "label": "23-V3-MA-ZO-EM-A",
+      "subject": "V3MA",
+      "yearOfApplication": 2023,
+      "tasks": [
+        {
+          "id": "MV22020",
+          "numberInModule": 1,
+          "items": [
+            {
+              "id": "MV2202001",
+              "numberInModule": 1,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22046",
+          "numberInModule": 2,
+          "items": [
+            {
+              "id": "MV2204601",
+              "numberInModule": 2,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22066",
+          "numberInModule": 3,
+          "items": [
+            {
+              "id": "MV2206601",
+              "numberInModule": 3,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22078",
+          "numberInModule": 4,
+          "items": [
+            {
+              "id": "MV2207801",
+              "numberInModule": 4,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22030",
+          "numberInModule": 5,
+          "items": [
+            {
+              "id": "MV2203001",
+              "numberInModule": 5,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22073",
+          "numberInModule": 6,
+          "items": [
+            {
+              "id": "MV2207301",
+              "numberInModule": 6,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22102",
+          "numberInModule": 7,
+          "items": [
+            {
+              "id": "MV2210201",
+              "numberInModule": 7,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22056",
+          "numberInModule": 8,
+          "items": [
+            {
+              "id": "MV2205601",
+              "numberInModule": 8,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22070",
+          "numberInModule": 9,
+          "items": [
+            {
+              "id": "MV2207001",
+              "numberInModule": 9,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22053",
+          "numberInModule": 10,
+          "items": [
+            {
+              "id": "MV2205301",
+              "numberInModule": 10,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22006",
+          "numberInModule": 11,
+          "items": [
+            {
+              "id": "MV2200601",
+              "numberInModule": 11,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22121",
+          "numberInModule": 12,
+          "items": [
+            {
+              "id": "MV2212102",
+              "numberInModule": 12,
+              "numberInTask": 1,
+              "subTask": "B"
+            }
+          ]
+        },
+        {
+          "id": "MV22123",
+          "numberInModule": 13,
+          "items": [
+            {
+              "id": "MV2212301",
+              "numberInModule": 13,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23-V3-MA-ZO-EM-B",
+      "label": "23-V3-MA-ZO-EM-B",
+      "subject": "V3MA",
+      "yearOfApplication": 2023,
+      "tasks": [
+        {
+          "id": "MV22046",
+          "numberInModule": 1,
+          "items": [
+            {
+              "id": "MV2204602",
+              "numberInModule": 1,
+              "numberInTask": 1,
+              "subTask": "B"
+            }
+          ]
+        },
+        {
+          "id": "MV22078",
+          "numberInModule": 2,
+          "items": [
+            {
+              "id": "MV2207802",
+              "numberInModule": 2,
+              "numberInTask": 1,
+              "subTask": "B"
+            }
+          ]
+        },
+        {
+          "id": "MV22080",
+          "numberInModule": 3,
+          "items": [
+            {
+              "id": "MV2208001",
+              "numberInModule": 3,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22105",
+          "numberInModule": 4,
+          "items": [
+            {
+              "id": "MV2210501",
+              "numberInModule": 4,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22016",
+          "numberInModule": 5,
+          "items": [
+            {
+              "id": "MV2201601",
+              "numberInModule": 5,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22072",
+          "numberInModule": 6,
+          "items": [
+            {
+              "id": "MV2207201",
+              "numberInModule": 6,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22091",
+          "numberInModule": 7,
+          "items": [
+            {
+              "id": "MV2209101",
+              "numberInModule": 7,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22125",
+          "numberInModule": 8,
+          "items": [
+            {
+              "id": "MV2212501",
+              "numberInModule": 8,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22026",
+          "numberInModule": 9,
+          "items": [
+            {
+              "id": "MV2202601",
+              "numberInModule": 9,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22112",
+          "numberInModule": 10,
+          "items": [
+            {
+              "id": "MV2211201",
+              "numberInModule": 10,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22101",
+          "numberInModule": 11,
+          "items": [
+            {
+              "id": "MV2210101",
+              "numberInModule": 11,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        },
+        {
+          "id": "MV22040",
+          "numberInModule": 12,
+          "items": [
+            {
+              "id": "MV2204001",
+              "numberInModule": 12,
+              "numberInTask": 1,
+              "subTask": "A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "booklets": [
+    {
+      "id": "V3-2023_MA-THA1",
+      "modules": [
+        "23-V3-MA-GL-BM",
+        "23-V3-MA-DHW-EM-A"
+      ]
+    },
+    {
+      "id": "V3-2023_MA-THA2",
+      "modules": [
+        "23-V3-MA-GL-BM",
+        "23-V3-MA-ZO-EM-A"
+      ]
+    },
+    {
+      "id": "V3-2023_MA-THB1",
+      "modules": [
+        "23-V3-MA-GL-BM",
+        "23-V3-MA-DHW-EM-B"
+      ]
+    },
+    {
+      "id": "V3-2023_MA-THB2",
+      "modules": [
+        "23-V3-MA-GL-BM",
+        "23-V3-MA-ZO-EM-B"
+      ]
+    }
+  ],
+  "vocabs": [
+    {
+      "key": "ma3_domain",
+      "label": "Kompetenzbereich MaP (Leitidee)",
+      "values": [
+        {
+          "key": "1. Zahlen und Operationen",
+          "label": ""
+        },
+        {
+          "key": "2. Raum und Form",
+          "label": ""
+        },
+        {
+          "key": "3. Muster und Strukturen",
+          "label": ""
+        },
+        {
+          "key": "4. Größen und Messen",
+          "label": ""
+        },
+        {
+          "key": "5. Daten, Häufigkeit und Wahrscheinlichkeit",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "key": "de_comp_level",
+      "label": "Kompetenzstufe",
+      "values": [
+        {
+          "key": "I",
+          "label": ""
+        },
+        {
+          "key": "Ia",
+          "label": ""
+        },
+        {
+          "key": "Ib",
+          "label": ""
+        },
+        {
+          "key": "II",
+          "label": ""
+        },
+        {
+          "key": "III",
+          "label": ""
+        },
+        {
+          "key": "IV",
+          "label": ""
+        },
+        {
+          "key": "V",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "key": "ma_comp_level_global",
+      "label": "Kompetenzstufe Global",
+      "values": [
+        {
+          "key": "I",
+          "label": ""
+        },
+        {
+          "key": "Ia",
+          "label": ""
+        },
+        {
+          "key": "Ib",
+          "label": ""
+        },
+        {
+          "key": "II",
+          "label": ""
+        },
+        {
+          "key": "III",
+          "label": ""
+        },
+        {
+          "key": "IV",
+          "label": ""
+        },
+        {
+          "key": "V",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "key": "ma3_general",
+      "label": "Bildungsstandards MaP allgemeine",
+      "values": [
+        {
+          "key": "0",
+          "label": "Grundlegende Fertigkeiten"
+        },
+        {
+          "key": "1",
+          "label": "Problemlösen"
+        },
+        {
+          "key": "1.1",
+          "label": "mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden"
+        },
+        {
+          "key": "1.2",
+          "label": "Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren)"
+        },
+        {
+          "key": "1.3",
+          "label": "Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen"
+        },
+        {
+          "key": "2",
+          "label": "Kommunizieren"
+        },
+        {
+          "key": "2.1",
+          "label": "eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren"
+        },
+        {
+          "key": "2.2",
+          "label": "mathematische Fachbegriffe und Zeichen sachgerecht verwenden"
+        },
+        {
+          "key": "2.3",
+          "label": "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten"
+        },
+        {
+          "key": "3",
+          "label": "Argumentieren"
+        },
+        {
+          "key": "3.1",
+          "label": "mathematische Aussagen hinterfragen und auf Korrektheit prüfen"
+        },
+        {
+          "key": "3.2",
+          "label": "mathematische Zusammenhänge erkennen und Vermutungen entwickeln"
+        },
+        {
+          "key": "3.3",
+          "label": "Begründungen suchen und nachvollziehen"
+        },
+        {
+          "key": "4",
+          "label": "Modellieren"
+        },
+        {
+          "key": "4.1",
+          "label": "Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen"
+        },
+        {
+          "key": "4.2",
+          "label": "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen"
+        },
+        {
+          "key": "4.3",
+          "label": "zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren"
+        },
+        {
+          "key": "5",
+          "label": "Darstellen"
+        },
+        {
+          "key": "5.1",
+          "label": "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen"
+        },
+        {
+          "key": "5.2",
+          "label": "eine Darstellung in eine andere übertragen"
+        },
+        {
+          "key": "5.3",
+          "label": "Darstellungen miteinander vergleichen und bewerten"
+        }
+      ]
+    },
+    {
+      "key": "ma3_comp",
+      "label": "Bildungsstandards MaP inhaltsbezogene",
+      "values": [
+        {
+          "key": "1",
+          "label": "Zahlen und Operationen"
+        },
+        {
+          "key": "1.1",
+          "label": "Zahldarstellungen und Zahlbeziehungen verstehen"
+        },
+        {
+          "key": "1.1.a",
+          "label": "den Aufbau des dezimalen Stellenwertsystems verstehen"
+        },
+        {
+          "key": "1.1.b",
+          "label": "Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen"
+        },
+        {
+          "key": "1.1.c",
+          "label": "sich im Zahlenraum bis 1.000.000 orientieren (z. B. Zahlen der Größe nach ordnen, runden)"
+        },
+        {
+          "key": "1.2",
+          "label": "Rechenoperationen verstehen und beherrschen"
+        },
+        {
+          "key": "1.2.a",
+          "label": "die vier Grundrechenarten und ihre Zusammenhänge verstehen"
+        },
+        {
+          "key": "1.2.b",
+          "label": "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen"
+        },
+        {
+          "key": "1.2.c",
+          "label": "mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden"
+        },
+        {
+          "key": "1.2.d",
+          "label": "verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren"
+        },
+        {
+          "key": "1.2.e",
+          "label": "Rechengesetze erkennen, erklären und benutzen"
+        },
+        {
+          "key": "1.2.f",
+          "label": "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden"
+        },
+        {
+          "key": "1.2.g",
+          "label": "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren"
+        },
+        {
+          "key": "1.3",
+          "label": "in Kontexten rechnen"
+        },
+        {
+          "key": "1.3.a",
+          "label": "Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben"
+        },
+        {
+          "key": "1.3.b",
+          "label": "das Ergebnis auf Plausibilität prüfen"
+        },
+        {
+          "key": "1.3.c",
+          "label": "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist"
+        },
+        {
+          "key": "1.3.d",
+          "label": "Sachaufgaben systematisch variieren"
+        },
+        {
+          "key": "1.3.e",
+          "label": "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen"
+        },
+        {
+          "key": "2",
+          "label": "Raum und Form"
+        },
+        {
+          "key": "2.1",
+          "label": "sich im Raum orientieren"
+        },
+        {
+          "key": "2.1.a",
+          "label": "über räumliches Vorstellungsvermögen verfügen"
+        },
+        {
+          "key": "2.1.b",
+          "label": "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten)"
+        },
+        {
+          "key": "2.1.c",
+          "label": "zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen)"
+        },
+        {
+          "key": "2.2",
+          "label": "geometrische Figuren erkennen, benennen und darstellen"
+        },
+        {
+          "key": "2.2.a",
+          "label": "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen"
+        },
+        {
+          "key": "2.2.b",
+          "label": "Körper und ebene Figuren in der Umwelt wieder erkennen"
+        },
+        {
+          "key": "2.2.c",
+          "label": "Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen, Zusammenfügen, Ausschneiden, Falten...)"
+        },
+        {
+          "key": "2.2.d",
+          "label": "Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen"
+        },
+        {
+          "key": "2.3",
+          "label": "Einfache geometrische Abbildungen erkennen, benennen und darstellen"
+        },
+        {
+          "key": "2.3.a",
+          "label": "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern)"
+        },
+        {
+          "key": "2.3.b",
+          "label": "Eigenschaften der Achsensymmetrie erkennen, beschreiben und nutzen"
+        },
+        {
+          "key": "2.3.c",
+          "label": "symmetrische Muster fortsetzen und selbst entwickeln"
+        },
+        {
+          "key": "2.4",
+          "label": "Flächen- und Rauminhalte vergleichen und messen"
+        },
+        {
+          "key": "2.4.a",
+          "label": "die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen"
+        },
+        {
+          "key": "2.4.b",
+          "label": "Umfang und Flächeninhalt von ebenen Figuren untersuchen"
+        },
+        {
+          "key": "2.4.c",
+          "label": "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen"
+        },
+        {
+          "key": "3",
+          "label": "Muster und Strukturen"
+        },
+        {
+          "key": "3.1",
+          "label": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"
+        },
+        {
+          "key": "3.1.a",
+          "label": "strukturierte Zahldarstellungen (z.B. Hunderter-Tafel) verstehen und nutzen"
+        },
+        {
+          "key": "3.1.b",
+          "label": "Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z. B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen"
+        },
+        {
+          "key": "3.1.c",
+          "label": "arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben"
+        },
+        {
+          "key": "3.2",
+          "label": "funktionale Beziehungen erkennen, beschreiben und darstellen"
+        },
+        {
+          "key": "3.2.a",
+          "label": "funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge - Preis) und entsprechende Aufgaben lösen"
+        },
+        {
+          "key": "3.2.b",
+          "label": "funktionale Beziehungen in Tabellen darstellen und untersuchen"
+        },
+        {
+          "key": "3.2.c",
+          "label": "einfache Sachaufgaben zur Proportionalität lösen"
+        },
+        {
+          "key": "4",
+          "label": "Größen und Messen"
+        },
+        {
+          "key": "4.1",
+          "label": "Größenvorstellungen besitzen"
+        },
+        {
+          "key": "4.1.a",
+          "label": "Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen"
+        },
+        {
+          "key": "4.1.b",
+          "label": "Größen vergleichen, messen und schätzen"
+        },
+        {
+          "key": "4.1.c",
+          "label": "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind"
+        },
+        {
+          "key": "4.1.d",
+          "label": "Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln)"
+        },
+        {
+          "key": "4.1.e",
+          "label": "im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen"
+        },
+        {
+          "key": "4.2",
+          "label": "mit Größen in Sachsituationen umgehen"
+        },
+        {
+          "key": "4.2.a",
+          "label": "mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen"
+        },
+        {
+          "key": "4.2.b",
+          "label": "wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen"
+        },
+        {
+          "key": "4.2.c",
+          "label": "in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen"
+        },
+        {
+          "key": "4.2.d",
+          "label": "Sachaufgaben mit Größen lösen"
+        },
+        {
+          "key": "5",
+          "label": "Daten, Häufigkeit und Wahrscheinlichkeit"
+        },
+        {
+          "key": "5.1",
+          "label": "Daten erfassen und darstellen"
+        },
+        {
+          "key": "5.1.a",
+          "label": "in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen"
+        },
+        {
+          "key": "5.1.b",
+          "label": "aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen"
+        },
+        {
+          "key": "5.2",
+          "label": "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen"
+        },
+        {
+          "key": "5.2.a",
+          "label": "Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich)"
+        },
+        {
+          "key": "5.2.b",
+          "label": "Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen"
+        }
+      ]
+    },
+    {
+      "key": "ma3_requ",
+      "label": "Anforderungsbereich MaP",
+      "values": [
+        {
+          "key": "I",
+          "label": "Reproduzieren"
+        },
+        {
+          "key": "II",
+          "label": "Zusammenhänge herstellen"
+        },
+        {
+          "key": "III",
+          "label": "Verallgemeinern und Reflektieren"
+        }
+      ]
+    }
+  ]
+}

@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,12 +70,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-constants .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-key','listing-label','listing-values',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-key","listing-label","listing-values"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-constants'] = new List('listing-constants', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,69 +147,41 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Item-Tabelle</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../intro/index.html"> 
+<span class="menu-text">Einführung</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../data-specs-guide/index.html" aria-current="page"> 
+<span class="menu-text">Spezifikation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../data/index.html"> 
+<span class="menu-text">Daten</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/iqb-berlin/item-table"> <i class="bi bi-github" role="img" aria-label="Source Code">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
 </div>
-          <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Spezifikation</li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Suchen"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../intro" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Einführung</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../data-specs-guide" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spezifikation</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data-specs-guide/constants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Konstanten</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Daten</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
@@ -177,8 +209,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#subject-1" id="toc-subject-1" class="nav-link" data-scroll-target="#subject-1"><code>subject</code></a></li>
   <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><code>tasks</code></a></li>
   </ul></li>
+  <li><a href="#konstanten" id="toc-konstanten" class="nav-link" data-scroll-target="#konstanten">Konstanten</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -292,10 +325,10 @@ Reihenfolge der Items
 <h2 class="anchored" data-anchor-id="metrics"><code>metrics</code></h2>
 <p>In dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:</p>
 <ul>
-<li><code>key</code>: Eine <a href="../metadata-catalogs/constants.qmd">Konstante</a> aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt</li>
+<li><code>key</code>: Eine Konstante (s. unten) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt</li>
 <li><code>value</code>: Ein numerischer Wert (meist Gleitkommazahl)</li>
 <li><code>isGlobal</code>: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert <code>false</code>. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.</li>
-<li><code>reliability</code>: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen <a href="../data-specs-guide/constants.html">Ausprägungen</a> <code>FULL</code>, <code>LIMITED</code>, <code>NONE</code> und <code>NOT_AVAILABLE</code> wären entsprechend zu interpretieren.</li>
+<li><code>reliability</code>: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen (s. unten) <code>FULL</code>, <code>LIMITED</code>, <code>NONE</code> und <code>NOT_AVAILABLE</code> wären entsprechend zu interpretieren.</li>
 </ul>
 </section>
 </section>
@@ -338,12 +371,116 @@ Warum explizite Nennung der Items?
 <p>Man könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden – mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen.</p>
 </div>
 </div>
-
-
 </section>
 </section>
+<section id="konstanten" class="level1">
+<h1>Konstanten</h1>
+<p>In den obigen Daten werden die folgenden Konstanten verwendet. Wenn Sie eine maschinenlesbare Variante benötigen, nutzen Sie <a href="constants.yaml">diese YAML-Datei</a>.</p>
+<div id="listing-constants" class="quarto-listing quarto-listing-container-custom">
+<div class="list">
+  
+    <h3 class="anchored" data-anchor-id="konstanten">Klassenstufe + Fach - subject</h3>
+    
+<table class="table-striped caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td>V3MA</td>
+<td>VERA3 Mathematik</td>
+</tr>
+<tr class="even">
+<td>V3DE</td>
+<td>VERA3 Deutsch</td>
+</tr>
+<tr class="odd">
+<td>V8MA</td>
+<td>VERA3 Mathematik</td>
+</tr>
+<tr class="even">
+<td>V8DE</td>
+<td>VERA8 Deutsch</td>
+</tr>
+<tr class="odd">
+<td>V8EN</td>
+<td>VERA8 Englisch</td>
+</tr>
+<tr class="even">
+<td>V8FR</td>
+<td>VERA8 Französisch</td>
+</tr>
+</tbody>
+</table>
+<section id="verlässlichkeit-der-itemparameter---itemmetricsreliability" class="level3">
+<h3 class="anchored" data-anchor-id="verlässlichkeit-der-itemparameter---itemmetricsreliability">Verlässlichkeit der Itemparameter - itemMetricsReliability</h3>
+<table class="table-striped caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td>FULL</td>
+<td>Vollständig gegeben</td>
+</tr>
+<tr class="even">
+<td>LIMITED</td>
+<td>Gering eingeschränkt - noch verwendbar</td>
+</tr>
+<tr class="odd">
+<td>NONE</td>
+<td>Stark eingeschränkt - nicht verwendbar</td>
+</tr>
+<tr class="even">
+<td>NOT_AVAILABLE</td>
+<td>Verlässlichkeit nicht bekannt</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="itemparameter---metrics" class="level3">
+<h3 class="anchored" data-anchor-id="itemparameter---metrics">Itemparameter - metrics</h3>
+<table class="table-striped caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td>FREQUENCY_PRIMARY</td>
+<td>Lösungshäufigkeit Grundschule</td>
+</tr>
+<tr class="even">
+<td>FREQUENCY_GRADE9</td>
+<td>Lösungshäufigkeit HSA</td>
+</tr>
+<tr class="odd">
+<td>FREQUENCY_GRADE10</td>
+<td>Lösungshäufigkeit MSA</td>
+</tr>
+<tr class="even">
+<td>FREQUENCY_HIGH_SCHOOL</td>
+<td>Lösungshäufigkeit Gymnasien</td>
+</tr>
+<tr class="odd">
+<td>FREQUENCY_NON_HIGH_SCHOOL</td>
+<td>Lösungshäufigkeit Nicht-Gymnasien</td>
+</tr>
+<tr class="even">
+<td>LOGIT</td>
+<td>Schwierigkeit Logit</td>
+</tr>
+<tr class="odd">
+<td>EDUCATIONAL_STANDARD_METRIC</td>
+<td>Schwierigkeit Bildungsstandard-Metrik</td>
+</tr>
+</tbody>
+</table>
 
-</main> <!-- /main -->
+  
+</section></div>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
+
+</section>
+</main></div>
+
+
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -760,7 +897,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
@@ -770,17 +907,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><i class="fa-solid fa-house" aria-label="house"></i></p>
 </a>
   </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/iqb-berlin/item-table">
-      <i class="bi bi-github" role="img" aria-label="Source Code">
-</i> 
-    </a>
-  </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/iqb-berlin/item-table/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
