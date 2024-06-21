@@ -12,7 +12,11 @@ Diese Webseite ist im Aufbau. Für die hier beschriebenen Spezifikationen laufen
 # Willkommen
 Das VERA-Projekt (in einigen Ländern anders genannt, z. B. "Lernstand" oder "KERMIT") ist Teil des nationalen Bildungsmonitorings. Sie finden ausführliche aktuelle Informationen beim [IQB](https://www.iqb.hu-berlin.de/vera/) oder bei der [KMK](https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsmonitoring/).
 
-Der Fokus dieser Seiten liegt auf der technischen Beschreibung von Datenstrukturen, die im Rahmen der Auslieferung von Testaufgaben an die Länder eine Rolle spielen. Im Rahmen der Aufgabenentwicklung werden zahlreiche Metadaten zu den Testitems erfasst und die Items sind in verschiedenen Modulen und Testheften platziert. Das IQB liefert zunehmend Daten, die diese Zusatzinformationen in maschinenlesbarer Form liefern und es damit den Ländern bzw. den auswertenden Einrichtungen erleichtern, Prozesse der Datenanalyse, Kodierung und Rückmeldung zu automatisieren.
+Der Fokus dieser Seiten liegt auf der Bereitstellung von
+
+* [Daten](data/index.qmd), die die Vorbereitung, Durchführung und Auswertung von VERA unterstützen. Diese Daten sind
+* [spezifiziert](data-specs-guide/index.qmd). Diese Spezifikationen liegen in Form von JSON-Schema-Dateien vor und sind auch Grundlage für eine automatisierte Erstellung einer standardisierten [Dokumentation](data-specs-doc/). Eine
+* [Einführung](intro/index.qmd) erläutert das Zusammenwirken der Beteiligten, um den Einstieg in das Thema zu erleichtern.
 
 # Redaktion
 Die vorliegenden Texte werden unter Federführung des [IQB](https://www.iqb.hu-berlin.de/) veröffentlicht. An der Entwicklung und Erprobung ist maßgeblich das [ISQ](https://www.isq-bb.de) -- Institut für Schulqualität der Länder Berlin und Brandenburg e.V. -- beteiligt.
@@ -26,7 +30,7 @@ Auf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekenn
 
 # Technische Realisierung
 
-Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https://markdown.de/), die anschließend in Html und CSS umgesetzt werden. Hierzu wird [Quarto](https://quarto.org/) verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen [Codeverwaltungssystem](https://github.com/iqb-berlin/item-table) gespeichert. Zur Dokumentation der API wird [Redoc](https://redocly.com/docs/redoc/) verwendet.
+Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https://markdown.de/), die anschließend in Html und CSS umgesetzt werden. Hierzu wird [Quarto](https://quarto.org/) verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen [Codeverwaltungssystem](https://github.com/iqb-berlin/item-table) gespeichert. Zur Dokumentation der API wird [@asyncapi/cli](https://www.asyncapi.com/en/tools/cli) verwendet.
 
 # Kontakt
 
