@@ -131,8 +131,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#beteiligte" id="toc-beteiligte" class="nav-link active" data-scroll-target="#beteiligte">Beteiligte</a></li>
-  <li><a href="#struktur" id="toc-struktur" class="nav-link" data-scroll-target="#struktur">Struktur</a></li>
+  <li><a href="#beteiligte" id="toc-beteiligte" class="nav-link active" data-scroll-target="#beteiligte">Beteiligte</a>
+  <ul class="collapse">
+  <li><a href="#iqb" id="toc-iqb" class="nav-link" data-scroll-target="#iqb">IQB</a></li>
+  <li><a href="#länder-bzw.-auswertende-einrichtungen" id="toc-länder-bzw.-auswertende-einrichtungen" class="nav-link" data-scroll-target="#länder-bzw.-auswertende-einrichtungen">Länder bzw. auswertende Einrichtungen</a></li>
+  </ul></li>
+  <li><a href="#datenstruktur" id="toc-datenstruktur" class="nav-link" data-scroll-target="#datenstruktur">Datenstruktur</a></li>
   <li><a href="#weiterentwicklung" id="toc-weiterentwicklung" class="nav-link" data-scroll-target="#weiterentwicklung">Weiterentwicklung</a></li>
   </ul>
 </nav>
@@ -162,14 +166,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="beteiligte" class="level1">
 <h1>Beteiligte</h1>
 <p>Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der <a href="https://www.iqb.hu-berlin.de/vera">VERA</a>-Tests.</p>
+<section id="iqb" class="level2">
+<h2 class="anchored" data-anchor-id="iqb">IQB</h2>
+<p>Das IQB entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Für die Items wurden während der Pilotierung psychometrische Kennwerte ermittelt. Diese Kennwerte beschreiben die Schwierigkeit eines Items und sind nötig für die Ermittlung der Kompetenzschätzwerte auf Personenebene.</p>
+<p>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub für die Länder.</p>
+</section>
+<section id="länder-bzw.-auswertende-einrichtungen" class="level2">
+<h2 class="anchored" data-anchor-id="länder-bzw.-auswertende-einrichtungen">Länder bzw. auswertende Einrichtungen</h2>
+<p>Die Länder bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf. Folgende Verwendungen (sog. use cases) bestimmen diese Aufbereitung:</p>
 <ul>
-<li>Das <strong>IQB</strong> entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier “Module”) fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.</li>
-<li>Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.</li>
-<li>Die <strong>Länder</strong> bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.</li>
+<li>Erstellung von Webformularen für die Antworteingabe durch Lehrkräfte: Bei VERA werden die Antworten durch die Lehrkräfte nach der Durchführung gesichtet, bewertet und an eine zentrale Stelle gemeldet. Um die dafür nötigen Webformulare zu erstellen, sind Informationen über die Items und deren Platzierung in den Modulen bzw. Testheften nötig.</li>
+<li>Schätzung der Personenparameter: Für jede Testperson wird ein Kompetenzniveau berechnet. Dies bezieht sich auf eine globale (z. B. Mathematik) oder eine Teilkompetenz (Deutsch Leseverstehen). Für diese Berechung sind die Itemparameter (Logits) sowie Transferparameter erforderlich.</li>
+<li>Rückmeldung Richtig/Falsch auf Aufgabenebene: Teil der Rückmeldung an die Lehrkräfte ist die Anzeige, welche Schülerinnen und Schüler eine Aufgabe richtig oder falsch beantwortet haben. Diese Anzeige wird gewichtet mit den Lösungshäufigkeiten der Items.</li>
+<li>Kategorisierung der Rückmeldedaten über Metadaten: Für einen genaueren Blick auf die Lösungen ist es wichtig, die Zuordnung der Items zu Metadaten (z. B. Bildungsstandards) zu kennen.</li>
 </ul>
 </section>
-<section id="struktur" class="level1">
-<h1>Struktur</h1>
+</section>
+<section id="datenstruktur" class="level1">
+<h1>Datenstruktur</h1>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
