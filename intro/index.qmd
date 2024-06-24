@@ -7,11 +7,23 @@ title: Einführung
 
 Die hier thematisierten Daten dienen der Vorbereitung, Durchführung und Auswertung der [VERA](https://www.iqb.hu-berlin.de/vera)-Tests.
 
-* Das **IQB** entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Die Items erhalten psychometrische Kennwerte, so dass beim Einsatz der Items in den Lernstandserhebungen der Länder eine qualitativ hochwertige Datenanalyse möglich ist.
-* Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank sämtliche Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub.
-* Die **Länder** bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf.
+## IQB
 
-# Struktur
+Das IQB entwickelt die Testaufgaben und legt die Abfolge der Aufgaben innerhalb von Testblöcken (hier "Module") fest. Für die Items wurden während der Pilotierung psychometrische Kennwerte ermittelt. Diese Kennwerte beschreiben die Schwierigkeit eines Items und sind nötig für die Ermittlung der Kompetenzschätzwerte auf Personenebene.
+
+Im Rahmen der Aufgabenentwicklung und -pilotierung sind in einer IQB-internen Datenbank Metadaten und Kennwerte gespeichert. Das IQB erzeugt einen Datenauszug, der im Rahmen dieser Dokumentation spezifiziert ist und veröffentlicht diese Daten an dieser Stelle bei GitHub für die Länder.
+
+## Länder bzw. auswertende Einrichtungen
+
+Die Länder bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf. Folgende Verwendungen (sog. use cases) bestimmen diese Aufbereitung:
+
+* Erstellung von Webformularen für die Antworteingabe durch Lehrkräfte: Bei VERA werden die Antworten durch die Lehrkräfte nach der Durchführung gesichtet, bewertet und an eine zentrale Stelle gemeldet. Um die dafür nötigen Webformulare zu erstellen, sind Informationen über die Items und deren Platzierung in den Modulen bzw. Testheften nötig.
+* Schätzung der Personenparameter: Für jede Testperson wird ein Kompetenzniveau berechnet. Dies bezieht sich auf eine globale (z. B. Mathematik) oder eine Teilkompetenz (Deutsch Leseverstehen). Für diese Berechung sind die Itemparameter (Logits) sowie Transferparameter erforderlich.
+* Rückmeldung Richtig/Falsch auf Aufgabenebene: Teil der Rückmeldung an die Lehrkräfte ist die Anzeige, welche Schülerinnen und Schüler eine Aufgabe richtig oder falsch beantwortet haben. Diese Anzeige wird gewichtet mit den Lösungshäufigkeiten der Items.
+* Kategorisierung der Rückmeldedaten über Metadaten: Für einen genaueren Blick auf die Lösungen ist es wichtig, die Zuordnung der Items zu Metadaten (z. B. Bildungsstandards) zu kennen.
+
+
+# Datenstruktur
 
 ```{mermaid}
 flowchart LR
