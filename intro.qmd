@@ -49,12 +49,18 @@ Die Daten sind in fünf Listen geordnet, die jedes Jahr pro Fach neu erzeugt wer
 
 Spezielle Konstanten werden genutzt, um die Datenstruktur zu vereinfachen. Diese werden nicht neu erzeugt, da sie fester Bestandteil der [Spezifikation](../data-specs-guide/index.qmd) sind.
 
-# Weiterentwicklung
+# Aktueller Stand
 
-Die vorliegenden Daten ergeben sich aus dem Datenbestand, der aktuell in der Itemdatenbank des IQB verfügbar ist. Folgende weitere Informationen werden demnächst zusätzlich bereitgestellt:
+Aktuell erfolgt die Übergabe der Daten in Form von Excel-Tabellen. Diese werden aus der Item-Datenbank des IQB erzeugt und anschließend nachbearbeitet. Die Nachbearbeitung ist erforderlich, da die Datenstrukturen in der ItemDB nicht vollständig die Anforderungen der Datenübergabe erfüllen. Beispiele: Benennungen der Items, Pilotierungsjahre und Itemparameter, die nicht aus der Skalierung stammen.
+
+Am IQB ist ein Arbeitsprozess etabliert, der mit der Erzeugung einer Xlsm startet. Die in dieser Excel-Datei hinterlegten Makro-Programmierungen formen dann die Daten so um, dass die Absprachen mit den Ländern eingehalten werden. Die Nachbearbeitung der Daten erfolgt teilweise vor und teilweise nach der Datenumformung durch die Makros.
+
+# Perspektive
+
+Die JSON-Daten dieses hier veröffentlichten Diskussionsstandes stammen aus den Jahren 2023 und 2024, ohne dass der Output aus der Itemdatenbank des IQB weiter bearbeitet wurde. Für 2025ff muss erst der Erstellungsprozess am IQB angepasst werden, damit die Nachbearbeitung des Datenbank-Outputs vollständig entfällt.
+
+Außerdem sollte geklärt werden, welche Daten eventuell zusätzlich in die Auslieferung einbezogen werden sollten:
 
 * Metadaten für Module: Bisher ist nur die ID eines Moduls verfügbar. Günstiger für die Datenverarbeitung wäre es, wenn die Art des Moduls (Basis-/Ergänzungsmodul) und weitere Metadaten bereitgestellt werden.
 * Transferparameter: Für jedes Fach und mitunter Domäne werden jedes Jahr Parameter an die Länder gegeben, die für die Transformation der empirischen Werte auf die Metrik der Bildungsstandards erforderlich sind.
 * Schwellenwerte der Kompetenzstufen: Für jedes Fach und mitunter Domäne werden jedes Jahr die Schwellenwerte für die einzelnen Kompetenzstufen des Kompetenzstufenmodells an die Länder gegeben. Diese sind zwar grundsätzlich konstant, könnten sich aber unter besonderen Umständen ändern.
-
-Außerdem sollen die vorliegenden JSON-Schema-Spezifikationen genutzt werden, um eine Datendatei nach einem Upload zu validieren. So soll sichergestellt werden, dass alle Datendateien verlässlich der Spezifikation entsprechen.

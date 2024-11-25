@@ -6,7 +6,7 @@ title: VERA Itemtabelle
 
 ::: {.callout-important}
 ## Achtung: Webseite in Entwicklung
-Diese Webseite ist im Aufbau. Für die hier beschriebenen Spezifikationen laufen noch Abstimmungsprozesse.
+Diese Webseite dient der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem [IQB](https://www.iqb.hu-berlin.de/vera/) und den Ländern. Für die Jahre 2023 und 2024 sind Beispieldaten hinterlegt.
 :::
 
 # Willkommen

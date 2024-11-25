@@ -5,6 +5,11 @@ execute:
   echo: false
 ---
 
+::: {.callout-important}
+## Achtung: Nur Demo-Daten
+Für die Jahre 2023 und 2024 sind Beispieldaten hinterlegt. Daten für den Durchgang 2025 werden hier nicht veröffentlicht.
+:::
+
 ::: {.callout-note}
 
 ## Wählen Sie das Jahr

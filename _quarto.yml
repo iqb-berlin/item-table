@@ -15,7 +15,7 @@ website:
     search: true
     logo: IQB-klein.png
     left:
-      - intro/index.qmd
+      - intro.qmd
       - data-specs-guide/index.qmd
       - data/index.qmd
     right:
