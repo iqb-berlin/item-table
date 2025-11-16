@@ -3,6 +3,13 @@ title: Seite nicht gefunden
 lang: de
 ---
 
-Sie haben einen Link aufgerufen, zu dem keine Seite existiert. Wenn dieser Fehler aufseiten der Redaktion liegt, schicken Sie uns bitte einen Hinweis:
+![](banner.jpg)
 
-[IT des IQB](mailto:iqb-tbadev@hu-berlin.de)
+::: {.callout-important}
+## Achtung: Webseite abgekündigt
+
+Diese Webseite diente der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem [IQB](https://www.iqb.hu-berlin.de) und den Ländern. Das Projekt ist beendet.
+
+:::
+
+Nachfragen können Sie an das IQB: [Martin Mechtel](mailto:mechtel@iqb.hu-berlin.de) richten.

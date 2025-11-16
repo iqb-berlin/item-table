@@ -1,7 +1,5 @@
 project:
   type: website
-  resources:
-    - "./data-specs-doc"
 
 website:
   site-url: https://iqb-berlin.github.io/item-table/
@@ -13,19 +11,11 @@ website:
     pinned: true
     background: primary
     search: true
-    logo: IQB-klein.png
-    left:
-      - intro.qmd
-      - data-specs-guide/index.qmd
-      - data/index.qmd
-    right:
-      - icon: github
-        href: https://github.com/iqb-berlin/item-table
-        aria-label: Source Code
+    logo: iqb-logo-grey.png
   page-footer:
     background: light
     right:
-      - text: "IQB 2024"
+      - text: "IQB 2025"
         href: https://www.iqb.hu-berlin.de
     left:
       - text: "{{< fa house >}}"

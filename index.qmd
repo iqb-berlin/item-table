@@ -5,34 +5,10 @@ title: VERA Itemtabelle
 ![](banner.jpg)
 
 ::: {.callout-important}
-## Achtung: Webseite in Entwicklung
-Diese Webseite dient der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem [IQB](https://www.iqb.hu-berlin.de/vera/) und den Ländern. Für die Jahre 2023 und 2024 sind Beispieldaten hinterlegt.
+## Achtung: Webseite abgekündigt
+
+Diese Webseite diente der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem [IQB](https://www.iqb.hu-berlin.de) und den Ländern. Das Projekt ist beendet.
+
 :::
 
-# Willkommen
-Das VERA-Projekt (in einigen Ländern anders genannt, z. B. "Lernstand" oder "KERMIT") ist Teil des nationalen Bildungsmonitorings. Sie finden ausführliche aktuelle Informationen beim [IQB](https://www.iqb.hu-berlin.de/vera/) oder bei der [KMK](https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsmonitoring/).
-
-Der Fokus dieser Seiten liegt auf der Bereitstellung von
-
-* [Daten](data/index.qmd), die die Vorbereitung, Durchführung und Auswertung von VERA unterstützen. Diese Daten sind
-* [spezifiziert](data-specs-guide/index.qmd). Diese Spezifikationen liegen in Form von JSON-Schema-Dateien vor und sind auch Grundlage für eine automatisierte Erstellung einer standardisierten [Dokumentation](data-specs-doc/). Eine
-* [Einführung](intro/index.qmd) erläutert das Zusammenwirken der Beteiligten, um den Einstieg in das Thema zu erleichtern.
-
-# Redaktion
-Die vorliegenden Texte werden unter Federführung des [IQB](https://www.iqb.hu-berlin.de/) veröffentlicht. An der Entwicklung und Erprobung ist maßgeblich das [ISQ](https://www.isq-bb.de) -- Institut für Schulqualität der Länder Berlin und Brandenburg e.V. -- beteiligt.
-
-# Lizenz
-Alle Texte sind unter der [Lizenz CC0](https://open-educational-resources.de/was-die-cc0-freigabe-bedeutet-und-welche-moeglichkeiten-sie-eroeffnen/) veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. [DFG-pdf](https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf)) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.
-
-# Haftungsausschluss
-
-Auf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekennzeichnet (s. oben die Links zum IQB und zur KMK). Wir prüfen diese Quellen regelmäßig, können aber für diese Seiten und die dort hinterlegten Zusatzmaterialien keine Haftung für Richtigkeit, Vollständigkeit und Aktualität übernehmen. Dafür sind ausschließlich deren Betreiber verantwortlich.
-
-# Technische Realisierung
-
-Dieser Webauftritt basiert auf Texten in einer einfachen Syntax [Markdown](https://markdown.de/), die anschließend in Html und CSS umgesetzt werden. Hierzu wird [Quarto](https://quarto.org/) verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen [Codeverwaltungssystem](https://github.com/iqb-berlin/item-table) gespeichert. Zur Dokumentation der API wird [@asyncapi/cli](https://www.asyncapi.com/en/tools/cli) verwendet.
-
-# Kontakt
-
-Nachfragen können Sie an das IQB: [Martin Mechtel](mailto:mechtel@iqb.hu-berlin.de) oder das ISQ: [Klaus Bechtold](mailto:Klaus.Bechtold@isq-bb.de) richten.
-
+Nachfragen können Sie an das IQB: [Martin Mechtel](mailto:mechtel@iqb.hu-berlin.de) richten.
