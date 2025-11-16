@@ -1,103 +1,5 @@
 [
   {
-    "objectID": "data-specs-guide/index.html",
-    "href": "data-specs-guide/index.html",
-    "title": "Spezifikation",
-    "section": "",
-    "text": "Spezifikation kompakt\n\n\n\nAuf dieser Seite finden Sie eine kompakte Darstellung der Spezifikation."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#id",
-    "href": "data-specs-guide/index.html#id",
-    "title": "Spezifikation",
-    "section": "id",
-    "text": "id\nDiese ID muss innerhalb der Liste aller Aufgaben eines Jahres eindeutig sein. Das IQB hat hierfür Kürzel eingeführt, z. B. M40239. Die Zeichenfolge kann teilweise interpretiert werden – z. B. Zuordnung zu Fach – dies ist aber nur eine unverbindliche Konvention."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#label-title",
-    "href": "data-specs-guide/index.html#label-title",
-    "title": "Spezifikation",
-    "section": "label, title",
-    "text": "label, title\nEine Aufgabe hat im Testheft einen Titel, der für die Testperson attraktiv sein soll (“Ein wunderbarer Gedanke”). Beim Management können blumige Titel allerdings hinderlich sein, weil sie den Kern der Aufgabe verdecken. Dann hilft ein interner Kurztitel “label”, die Orientierung zu behalten. Wann genau in welcher Situation der Titel oder dier Kurztitel verwendet wird, ist nicht festgelegt."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#subject",
-    "href": "data-specs-guide/index.html#subject",
-    "title": "Spezifikation",
-    "section": "subject",
-    "text": "subject\nDer Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.\n\nV3MA: VERA3 Mathematik\nV3DE: VERA3 Deutsch\nV8MA: VERA8 Mathematik\nV8DE: VERA8 Deutsch\nV8EN: VERA8 Englisch\nV8FR: VERA8 Französisch"
-  },
-  {
-    "objectID": "data-specs-guide/index.html#metadata",
-    "href": "data-specs-guide/index.html#metadata",
-    "title": "Spezifikation",
-    "section": "metadata",
-    "text": "metadata\nHier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.\nDer Key kennzeichnet das Vokabular, der Value den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#yearoftryout-yearofapplication",
-    "href": "data-specs-guide/index.html#yearoftryout-yearofapplication",
-    "title": "Spezifikation",
-    "section": "yearOfTryout, yearOfApplication",
-    "text": "yearOfTryout, yearOfApplication\nDiese vierstellige Angaben stehen für das Jahr der Pilotierung (Bezug der Itemkennwerte) und dem beabsichtigten aktuellen Einsatzjahr.\n\n\n\n\n\n\nItems?\n\n\n\nDie Datenstruktur einer Aufgabe sieht nicht vor, die Items aufzuzählen. Die Verbindung zwischen Item und Aufgabe wird durch den Parameter taskId eines Items hergestellt."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#id-1",
-    "href": "data-specs-guide/index.html#id-1",
-    "title": "Spezifikation",
-    "section": "id",
-    "text": "id\nDiese ID muss innerhalb der Liste aller Items eines Jahres eindeutig sein. Üblicherweise wird die ID der Aufgabe als Präfix verwendet und dann fortlaufend weiternummeriert. Dies ist aber nur eine Konvention und nicht verlässlich."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#taskid",
-    "href": "data-specs-guide/index.html#taskid",
-    "title": "Spezifikation",
-    "section": "taskId",
-    "text": "taskId\nMit dieser ID wird die Zugehörigkeit zur Aufgabe angezeigt. Diese Information darf nicht fehlen.\n\n\n\n\n\n\nReihenfolge der Items\n\n\n\nDie Art der Kopplung zwischen Item und Aufgabe erlaubt keinen Rückschluss auf die Reihenfolge der Items. Diese Information muss über die Modul-Daten gewonnen werden."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#metadata-1",
-    "href": "data-specs-guide/index.html#metadata-1",
-    "title": "Spezifikation",
-    "section": "metadata",
-    "text": "metadata\nHier handelt es sich um eine flexible Liste von Key-Value-Paaren. Die Bedeutung kann erst erschlossen werden, wenn man die Metadatenkataloge hinzuzieht. Über diesen Mechanismus wird die Datenstruktur von eventuell häufig geänderten Bezeichnungen entlastet.\nDer Key kennzeichnet das Vokabular, der Value den Eintrag im Vokabular. Als Wert kann auch ein Array von Strings auftreten, also mehrere Vokabular-Einträge treffen dann zu. Dann ist die Reihenfolge relevant, d. h. der erste Eintrag gilt als “primär”, der zweite als “sekundär” usw."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#metrics",
-    "href": "data-specs-guide/index.html#metrics",
-    "title": "Spezifikation",
-    "section": "metrics",
-    "text": "metrics\nIn dieser Datenstruktur sind die Schwierigkeitsparameter gespeichert:\n\nkey: Eine Konstante (s. unten) aus einer festen Auswahl, über die festgelegt wird, um welchen Parameter es sich handelt\nvalue: Ein numerischer Wert (meist Gleitkommazahl)\nisGlobal: Ein boolscher Wert, der anzeigt, auf welche Skale sich der numerische Wert bezieht. Meist ist dies die Globalskale (z. B. “Mathematische Kompetenz”), mitunter werden aber auch die Hauptdomänen separat skaliert. In Mathematik gibt es dann für jede Leitidee eine separate Skale. In diesem Fall ist der Wert false. Da sich ein Item stets nur einer Hauptdomäne zuordnen lässt, muss diese hier nicht explizit genannt sein, sondern man kann dies aus den Metadaten erschließen.\nreliability: Dieser Indikator zeigt an, wie verlässlich der psychometrische Wert ist. Die Verlässlichkeit kann schwanken, wenn es Probleme bei der Kennwert-Ermittlung gab oder wenn danach Änderungen an der Aufgabe oder an Items erforderlich waren. Die aktuellen Ausprägungen (s. unten) FULL, LIMITED, NONE und NOT_AVAILABLE wären entsprechend zu interpretieren."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#id-label",
-    "href": "data-specs-guide/index.html#id-label",
-    "title": "Spezifikation",
-    "section": "id, label",
-    "text": "id, label\nDas Datenmanagement ist einfacher, wenn auch die Module eindeutige Bezeichnungen haben. In VERA ist es üblich, in dieser ID eine Reihe von Informationen zu kodieren, z. B. das Fach und die Art des Moduls (“24-V8-FR-HV-BM”). So werden dann auch Dateien benannt. Eine Kurzbezeichnung kann über die ID hinaus die Zuordnung des Moduls erleichtern."
-  },
-  {
-    "objectID": "data-specs-guide/index.html#subject-1",
-    "href": "data-specs-guide/index.html#subject-1",
-    "title": "Spezifikation",
-    "section": "subject",
-    "text": "subject\nDer Jahrgang – 3 oder 8 – und das Fach schwanken nicht über die Jahre. Es handelt sich um feste Kategorien, die stabil die Zuordnung zahlreicher Prozesse bestimmen. Daher soll in der Datenstruktur diese Konstante verwendet werden, statt auf variable Listen zu verweisen.\n\nV3MA: VERA3 Mathematik\nV3DE: VERA3 Deutsch\nV8MA: VERA8 Mathematik\nV8DE: VERA8 Deutsch\nV8EN: VERA8 Englisch\nV8FR: VERA8 Französisch"
-  },
-  {
-    "objectID": "data-specs-guide/index.html#tasks",
-    "href": "data-specs-guide/index.html#tasks",
-    "title": "Spezifikation",
-    "section": "tasks",
-    "text": "tasks\nMit id wird eine externe Referenz zu einer Aufgabe hergestellt, die in einer separaten Liste verfügbar sein muss. numberInModule kennzeichnet die Position innerhalb des Moduls. Dann folgt die Liste der items:\n\nnumberInModule kennzeichnet die Position des Items innerhalb des Moduls\nnumberInTask kennzeichnet die Position des Items innerhalb der Aufgabe\nsubTask: Gibt die Möglichkeit, eine Teilaufgabe anzugeben, zu der das Item gehört. Meist ist eine Teilaufgabe identisch mit einem Item, und die Angabe kann entfallen. Sollten aber mal mehrere Items zu einer Teilaufgabe zusammengefasst sein, wäre die Teilaufgaben-Nummer hier anzugeben. Alle Items mit dem gleichen Teilaufgaben-Eintrag werden als Teilaufgabe angesehen.\n\n\n\n\n\n\n\nWarum explizite Nennung der Items?\n\n\n\nMan könnte annehmen, dass alle Items einer Aufgabe in einem Modul verwendet werden und sich darüber die Items definieren. Es gibt aber Fälle, in denen einzelne Items entfernt werden – mal aus Zeitgründen, mal um die Schwierigkeit eines Moduls gezielt anzupassen."
-  },
-  {
-    "objectID": "data/index.html",
-    "href": "data/index.html",
-    "title": "Daten",
-    "section": "",
-    "text": "Achtung: Nur Demo-Daten\n\n\n\nFür die Jahre 2023 und 2024 sind Beispieldaten hinterlegt. Daten für den Durchgang 2025 werden hier nicht veröffentlicht.\n\n\n\n\n\n\n\n\nWählen Sie das Jahr\n\n\n\n\n2024\n2023\n\n\n\n\nDownload\nDie Itemdaten werden als Download bereitgestellt. Klicken Sie hierzu im Kopf der jeweiligen Jahresdatei auf das Fach.\n\nEinige Browser starten dann nicht den Download, sondern wechseln zu einer Ansicht der Datei im Browser. Bei Firefox z. B. können Sie dann mit der Maus durch die Daten blättern. Wenn Sie jedoch wirklich die Datei erhalten wollen, kicken Sie mit der rechten Maustaste auf den Download-Link und wählen Sie ‘Ziel speichern unter…’.\n\n\n\nInteraktiv\nAußerdem können Sie auf den Jahresseiten interaktiv durch die Daten gehen, um sich einen ersten Eindruck zu verschaffen oder spezifische Werte nachzuschlagen. Dazu wählen Sie zuerst das Fach und dann ggf. ein Unterobjekt wie Aufgabe oder Item.\n\n\nPersistenz\nDie Dateien mit den Itemwerten bleiben bis auf weiteres verfügbar. Die Links können also langfristig als Quelle verwendet werden."
-  },
-  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "Einführung",
@@ -119,24 +21,10 @@
     "text": "Die Länder bzw. beauftragte Einrichtungen laden diese Daten herunter und bereiten sie für eigene Zwecke auf. Folgende Verwendungen (sog. use cases) bestimmen diese Aufbereitung:\n\nErstellung von Webformularen für die Antworteingabe durch Lehrkräfte: Bei VERA werden die Antworten durch die Lehrkräfte nach der Durchführung gesichtet, bewertet und an eine zentrale Stelle gemeldet. Um die dafür nötigen Webformulare zu erstellen, sind Informationen über die Items und deren Platzierung in den Modulen bzw. Testheften nötig.\nSchätzung der Personenparameter: Für jede Testperson wird ein Kompetenzniveau berechnet. Dies bezieht sich auf eine globale (z. B. Mathematik) oder eine Teilkompetenz (Deutsch Leseverstehen). Für diese Berechung sind die Itemparameter (Logits) sowie Transferparameter erforderlich.\nRückmeldung Richtig/Falsch auf Aufgabenebene: Teil der Rückmeldung an die Lehrkräfte ist die Anzeige, welche Schülerinnen und Schüler eine Aufgabe richtig oder falsch beantwortet haben. Diese Anzeige wird gewichtet mit den Lösungshäufigkeiten der Items.\nKategorisierung der Rückmeldedaten über Metadaten: Für einen genaueren Blick auf die Lösungen ist es wichtig, die Zuordnung der Items zu Metadaten (z. B. Bildungsstandards) zu kennen."
   },
   {
-    "objectID": "data/2024/index.html",
-    "href": "data/2024/index.html",
-    "title": "VERA Itemdaten 2024",
-    "section": "",
-    "text": "Download JSON-Dateien\n\n\n\n\nVERA3: Mathematik, Deutsch,\nVERA8: Mathematik, Deutsch, Englisch, Französisch\n\n\n\n\nsubject ? html`&lt;p&gt;${selectedData.subject}${selectedData.yearOfApplication} (${selectedData.created})&lt;/p&gt; ` : html`&lt;p&gt;Blättern Sie durch die Daten - wählen Sie das Fach!&lt;/p&gt;`\n\n\n\n\n\n\n\ndata_V3DE = FileAttachment(\"V3DE-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V3MA = FileAttachment(\"V3MA-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8DE = FileAttachment(\"V8DE-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8MA = FileAttachment(\"V8MA-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8FR = FileAttachment(\"V8FR-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8EN = FileAttachment(\"V8EN-2024_item-table.json\").json()\n\n\n\n\n\n\n\ndata_NULL = FileAttachment(\"../NULL_item-table.json\").json()\n\n\n\n\n\n\n\npleaseSelect = \"Bitte auswählen für Details\"\n\n\n\n\n\n\n\nviewof subject = Inputs.radio([\"VERA3 Mathematik\", \"VERA3 Deutsch\", \"VERA8 Mathematik\", \"VERA8 Deutsch\", \"VERA8 Englisch\", \"VERA8 Französisch\"], {label: \"Fach\"})\n\n\n\n\n\n\n\nselectedData = {\n    if (subject === \"VERA3 Deutsch\") return data_V3DE;\n    if (subject === \"VERA3 Mathematik\") return data_V3MA;\n    if (subject === \"VERA8 Mathematik\") return data_V8MA;\n    if (subject === \"VERA8 Deutsch\") return data_V8DE;\n    if (subject === \"VERA8 Französisch\") return data_V8FR;\n    if (subject === \"VERA8 Englisch\") return data_V8EN;\n    return data_NULL\n};\n\n\n\n\n\n\n\nAufgabenItemsModuleTesthefteVokabulare\n\n\n\nviewof selectedTask = Inputs.table(selectedData.tasks, {columns: [\"id\", \"title\"], header: {title: \"Titel\"}, multiple: false, required: false})\n\n\n\n\n\n\nMetadaten\n\nselectedTask ? Inputs.table(selectedTask.metadata) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedItem = Inputs.table(selectedData.items, {columns: [\"id\", \"taskId\"], header: {taskId: \"Aufgaben-Id\"}, multiple: false, required: false})\n\n\n\n\n\n\nMetadaten\n\nselectedItem ? Inputs.table(selectedItem.metadata) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\nMetriken\n\nselectedItem ? Inputs.table(selectedItem.metrics) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedModule = Inputs.table(selectedData.modules, {columns: [\"id\"], multiple: false, required: false})\n\n\n\n\n\n\nAufgaben\n\nviewof selectedModuleTask = Inputs.table(selectedModule ? selectedModule.tasks : [], {columns: [\"id\", \"numberInModule\"], multiple: false, required: false})\n\n\n\n\n\n\nItems\n\nselectedModuleTask ? Inputs.table(selectedModuleTask.items) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedBooklet = Inputs.table(selectedData.booklets, {columns: [\"id\", \"modules\"], header: {modules: \"Module\"}, multiple: false, required: false})\n\n\n\n\n\n\n\n\n\nviewof selectedVocab = Inputs.table(selectedData.vocabs, {columns: [\"label\", \"key\"], multiple: false, required: false})\n\n\n\n\n\n\nWerteliste\n\nselectedVocab ? Inputs.table(selectedVocab.values) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`"
-  },
-  {
-    "objectID": "data/2023/index.html",
-    "href": "data/2023/index.html",
-    "title": "VERA Itemdaten 2023",
-    "section": "",
-    "text": "Download JSON-Dateien\n\n\n\n\nVERA3: Mathematik, Deutsch,\nVERA8: Mathematik, Deutsch, Englisch, Französisch\n\n\n\n\nsubject ? html`&lt;p&gt;${selectedData.subject}${selectedData.yearOfApplication} (${selectedData.created})&lt;/p&gt; ` : html`&lt;p&gt;Blättern Sie durch die Daten - wählen Sie das Fach!&lt;/p&gt;`\n\n\n\n\n\n\n\ndata_V3DE = FileAttachment(\"V3DE-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V3MA = FileAttachment(\"V3MA-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8DE = FileAttachment(\"V8DE-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8MA = FileAttachment(\"V8MA-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8FR = FileAttachment(\"V8FR-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_V8EN = FileAttachment(\"V8EN-2023_item-table.json\").json()\n\n\n\n\n\n\n\ndata_NULL = FileAttachment(\"../NULL_item-table.json\").json()\n\n\n\n\n\n\n\npleaseSelect = \"Bitte auswählen für Details\"\n\n\n\n\n\n\n\nviewof subject = Inputs.radio([\"VERA3 Mathematik\", \"VERA3 Deutsch\", \"VERA8 Mathematik\", \"VERA8 Deutsch\", \"VERA8 Englisch\", \"VERA8 Französisch\"], {label: \"Fach\"})\n\n\n\n\n\n\n\nselectedData = {\n    if (subject === \"VERA3 Deutsch\") return data_V3DE;\n    if (subject === \"VERA3 Mathematik\") return data_V3MA;\n    if (subject === \"VERA8 Mathematik\") return data_V8MA;\n    if (subject === \"VERA8 Deutsch\") return data_V8DE;\n    if (subject === \"VERA8 Französisch\") return data_V8FR;\n    if (subject === \"VERA8 Englisch\") return data_V8EN;\n    return data_NULL\n};\n\n\n\n\n\n\n\nAufgabenItemsModuleTesthefteVokabulare\n\n\n\nviewof selectedTask = Inputs.table(selectedData.tasks, {columns: [\"id\", \"title\"], header: {title: \"Titel\"}, multiple: false, required: false})\n\n\n\n\n\n\nMetadaten\n\nselectedTask ? Inputs.table(selectedTask.metadata) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedItem = Inputs.table(selectedData.items, {columns: [\"id\", \"taskId\"], header: {taskId: \"Aufgaben-Id\"}, multiple: false, required: false})\n\n\n\n\n\n\nMetadaten\n\nselectedItem ? Inputs.table(selectedItem.metadata) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\nMetriken\n\nselectedItem ? Inputs.table(selectedItem.metrics) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedModule = Inputs.table(selectedData.modules, {columns: [\"id\"], multiple: false, required: false})\n\n\n\n\n\n\nAufgaben\n\nviewof selectedModuleTask = Inputs.table(selectedModule ? selectedModule.tasks : [], {columns: [\"id\", \"numberInModule\"], multiple: false, required: false})\n\n\n\n\n\n\nItems\n\nselectedModuleTask ? Inputs.table(selectedModuleTask.items) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`\n\n\n\n\n\n\n\n\n\nviewof selectedBooklet = Inputs.table(selectedData.booklets, {columns: [\"id\", \"modules\"], header: {modules: \"Module\"}, multiple: false, required: false})\n\n\n\n\n\n\n\n\n\nviewof selectedVocab = Inputs.table(selectedData.vocabs, {columns: [\"label\", \"key\"], multiple: false, required: false})\n\n\n\n\n\n\nWerteliste\n\nselectedVocab ? Inputs.table(selectedVocab.values) : html`&lt;i&gt;${pleaseSelect}&lt;/i&gt;`"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "VERA Itemtabelle",
     "section": "",
-    "text": "Achtung: Webseite in Entwicklung\n\n\n\nDiese Webseite dient der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem IQB und den Ländern. Für die Jahre 2023 und 2024 sind Beispieldaten hinterlegt.\n\n\n\nWillkommen\nDas VERA-Projekt (in einigen Ländern anders genannt, z. B. “Lernstand” oder “KERMIT”) ist Teil des nationalen Bildungsmonitorings. Sie finden ausführliche aktuelle Informationen beim IQB oder bei der KMK.\nDer Fokus dieser Seiten liegt auf der Bereitstellung von\n\nDaten, die die Vorbereitung, Durchführung und Auswertung von VERA unterstützen. Diese Daten sind\nspezifiziert. Diese Spezifikationen liegen in Form von JSON-Schema-Dateien vor und sind auch Grundlage für eine automatisierte Erstellung einer standardisierten Dokumentation. Eine\nEinführung erläutert das Zusammenwirken der Beteiligten, um den Einstieg in das Thema zu erleichtern.\n\n\n\nRedaktion\nDie vorliegenden Texte werden unter Federführung des IQB veröffentlicht. An der Entwicklung und Erprobung ist maßgeblich das ISQ – Institut für Schulqualität der Länder Berlin und Brandenburg e.V. – beteiligt.\n\n\nLizenz\nAlle Texte sind unter der Lizenz CC0 veröffentlicht. Die Leitlinien zur Sicherung guter wissenschaftlicher Praxis (s. z. B. DFG-pdf) gebieten gleichwohl, dass die Quellen von Informationen genannt werden sollten.\n\n\nHaftungsausschluss\nAuf diesen Webseiten sind Links auf externe Webseiten in besonderer Weise gekennzeichnet (s. oben die Links zum IQB und zur KMK). Wir prüfen diese Quellen regelmäßig, können aber für diese Seiten und die dort hinterlegten Zusatzmaterialien keine Haftung für Richtigkeit, Vollständigkeit und Aktualität übernehmen. Dafür sind ausschließlich deren Betreiber verantwortlich.\n\n\nTechnische Realisierung\nDieser Webauftritt basiert auf Texten in einer einfachen Syntax Markdown, die anschließend in Html und CSS umgesetzt werden. Hierzu wird Quarto verwendet. Sämtliche Dateien für den Inhalt und die Steuerung sind in einem öffentlich zugänglichen Codeverwaltungssystem gespeichert. Zur Dokumentation der API wird @asyncapi/cli verwendet.\n\n\nKontakt\nNachfragen können Sie an das IQB: Martin Mechtel oder das ISQ: Klaus Bechtold richten."
+    "text": "WichtigAchtung: Webseite abgekündigt\n\n\n\nDiese Webseite diente der Diskussion über die Weiterentwicklung des VERA-Datenaustausches zwischen dem IQB und den Ländern. Das Projekt ist beendet.\n\n\nNachfragen können Sie an das IQB: Martin Mechtel richten."
   }
 ]
