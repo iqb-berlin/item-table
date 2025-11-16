@@ -7,37 +7,7 @@ on:
 name: Generate Html und Publish
 
 jobs:
-  deploy-build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
-      pages: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-         node-version: 18
-      - name: Prepare repo
-        run: |
-          git fetch origin
-          git config --global user.email "mechtel@iqb.hu-berlin.de"
-          git config --global user.name "Martin Mechtel"
-      - name: Run html generation
-        run: |
-          npm ci
-          npm run generate_spec_doc
-      - name: Push changes
-        run: |
-          git add data-specs-doc
-          if ! git diff-index --quiet HEAD; then
-            git commit -m "Update data spec doc for publishing"
-            git push origin master
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run-quarto:
-    needs: [deploy-build]
     runs-on: ubuntu-latest
     permissions:
       contents: write
